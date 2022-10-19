@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unittest Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Unittest Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2022-09-26 09:30:58</p>
+                <p class='attribute'><strong>Duration: </strong>50.17 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.FirmwareUpdateTest</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_data</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>
+********************************************************************************
+Setup Function - START
+********************************************************************************
+Process CSTAppLauncher.exe is running 
+Logging in with user:  devendra.manepalli@carrier.com
+</p><p style="color:maroon;">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0127DF13+2219795]
+	Ordinal0 [0x01212841+1779777]
+	Ordinal0 [0x01124100+803072]
+	Ordinal0 [0x01119BF2+760818]
+	Ordinal0 [0x0110CD35+707893]
+	Ordinal0 [0x01111122+725282]
+	Ordinal0 [0x01115699+743065]
+	Ordinal0 [0x01125610+808464]
+	Ordinal0 [0x0117E93A+1173818]
+	Ordinal0 [0x0116E616+1107478]
+	Ordinal0 [0x01147F89+950153]
+	Ordinal0 [0x01148F56+954198]
+	GetHandleVerifier [0x01572CB2+3040210]
+	GetHandleVerifier [0x01562BB4+2974420]
+	GetHandleVerifier [0x01316A0A+565546]
+	GetHandleVerifier [0x01315680+560544]
+	Ordinal0 [0x01219A5C+1808988]
+	Ordinal0 [0x0121E3A8+1827752]
+	Ordinal0 [0x0121E495+1827989]
+	Ordinal0 [0x012280A4+1867940]
+	BaseThreadInitThunk [0x76320179+25]
+	RtlGetAppContainerNamedObjectPath [0x774F662D+237]
+	RtlGetAppContainerNamedObjectPath [0x774F65FD+189]
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "c:/E2E_HVAC_Testing/STAF/Tests/PROVIEW/test_pic6_update.py", line 48, in setUp
+    loginPage.login(0)
+  File "c:\E2E_HVAC_Testing\STAF\Lib_space\Selenium_Lib\CSTWebPages\LoginPageAPI.py", line 79, in login
+    if self.wait_until_visible(LoginPageLocatars.user_title)==0:
+  File "c:\E2E_HVAC_Testing\STAF\Lib_space\Selenium_Lib\CSTWebPages\LoginPageAPI.py", line 41, in wait_until_visible
+    WebDriverWait(driver, delay).until(EC.visibility_of_element_located((By.XPATH, element[-1])))
+  File "C:\Users\Test\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 78, in until
+    value = method(self._driver)
+  File "C:\Users\Test\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 125, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+  File "C:\Users\Test\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1253, in find_element
+    'value': value})['value']
+  File "C:\Users\Test\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Test\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0127DF13+2219795]
+	Ordinal0 [0x01212841+1779777]
+	Ordinal0 [0x01124100+803072]
+	Ordinal0 [0x01119BF2+760818]
+	Ordinal0 [0x0110CD35+707893]
+	Ordinal0 [0x01111122+725282]
+	Ordinal0 [0x01115699+743065]
+	Ordinal0 [0x01125610+808464]
+	Ordinal0 [0x0117E93A+1173818]
+	Ordinal0 [0x0116E616+1107478]
+	Ordinal0 [0x01147F89+950153]
+	Ordinal0 [0x01148F56+954198]
+	GetHandleVerifier [0x01572CB2+3040210]
+	GetHandleVerifier [0x01562BB4+2974420]
+	GetHandleVerifier [0x01316A0A+565546]
+	GetHandleVerifier [0x01315680+560544]
+	Ordinal0 [0x01219A5C+1808988]
+	Ordinal0 [0x0121E3A8+1827752]
+	Ordinal0 [0x0121E495+1827989]
+	Ordinal0 [0x012280A4+1867940]
+	BaseThreadInitThunk [0x76320179+25]
+	RtlGetAppContainerNamedObjectPath [0x774F662D+237]
+	RtlGetAppContainerNamedObjectPath [0x774F65FD+189]
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 50.17 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html

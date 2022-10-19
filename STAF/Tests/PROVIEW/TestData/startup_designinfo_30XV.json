@@ -1,0 +1,17 @@
+{
+  "TestCases1": {
+    "Data": {
+      "Address": "HRDC",
+      "Checklist index": "",
+      "CustomerName": "test30XV",
+      "FormType": "Startup Checklist",
+      "JobName": "Startup30XV",
+      "JobNumber": "2",
+      "Model": "30XV",
+      "Password": "Checklist@124",
+      "SerialNo": "123",
+      "UserID": "arunteja.yvs@utc.com",
+      "testdata": "1A2B@3457"
+    }
+  }
+}

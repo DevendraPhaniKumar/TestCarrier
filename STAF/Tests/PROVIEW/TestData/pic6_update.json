@@ -1,0 +1,20 @@
+{
+  "TestCases1": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "113",
+      "Update/file_xfer": "update",
+      "file_path": "C:\\E2E_HVAC_Testing\\STAF\\TestData\\PIC6_data\\",
+      "file_type": "",
+      "ip_addr": "169.254.1.1",
+      "keep_cfg": "yes",
+      "operation": "continue",
+      "reboot": "yes",
+      "update_erasecfg": "no",
+      "upload_path": "C:\\Uploaddata",
+      "usr_name": "factory",
+      "xfer_file": "065-ST-10D2AA073_0138"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+obj_name,obj_type,obj_inst,prop_id,access,config value
+ANALOG_VALUE,2,5001,objectName,1,0
+BINARY_VALUE,5,10001,objectName,1,0
+ANALOG_VALUE,2,5001,description,3,HRDC
+BINARY_VALUE,5,10001,description,3,ALC

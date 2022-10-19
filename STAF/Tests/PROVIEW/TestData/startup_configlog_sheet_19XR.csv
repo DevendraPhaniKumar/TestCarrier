@@ -1,0 +1,12 @@
+UserID,Password,FormType,JobName,JobNumber,CustomerName,Address,Model,SerialNo,testdata,Checklist index,SubMenu Index
+arunteja.yvs@utc.com,Checklist@123,Startup Checklist,Startup19XR,1,test19XR,HRDC,set,123,1A2B@3456*xyz78gh910X,5,0
+arunteja.yvs@utc.com,Checklist@123,Startup Checklist,Startup19XR,1,test19XR,HRDC,ismct,123,1A2B@3456*xyz78gh910X,5,1
+arunteja.yvs@utc.com,Checklist@123,Startup Checklist,Startup19XR,1,test19XR,HRDC,opti,123,1A2B@3456*xyz78gh910X,5,2
+arunteja.yvs@utc.com,Checklist@123,Startup Checklist,Startup19XR,1,test19XR,HRDC,opti2,123,1A2B@3456*xyz78gh910X,5,3
+arunteja.yvs@utc.com,Checklist@123,Startup Checklist,Startup19XR,1,test19XR,HRDC,setup1,123,1A2B@3456*xyz78gh910X,5,4
+arunteja.yvs@utc.com,Checklist@123,Startup Checklist,Startup19XR,1,test19XR,HRDC,setup2,123,1A2B@3456*xyz78gh910X,5,5
+arunteja.yvs@utc.com,Checklist@123,Startup Checklist,Startup19XR,1,test19XR,HRDC,vdosrd,123,1A2B@3456*xyz78gh910X,5,6
+arunteja.yvs@utc.com,Checklist@123,Startup Checklist,Startup19XR,1,test19XR,HRDC,leadlag,123,1A2B@3456*xyz78gh910X,5,7
+arunteja.yvs@utc.com,Checklist@123,Startup Checklist,Startup19XR,1,test19XR,HRDC,rampdem,123,1A2B@3456*xyz78gh910X,5,8
+arunteja.yvs@utc.com,Checklist@123,Startup Checklist,Startup19XR,1,test19XR,HRDC,tempctl,123,1A2B@3456*xyz78gh910X,5,9
+arunteja.yvs@utc.com,Checklist@123,Startup Checklist,Startup19XR,1,test19XR,HRDC,brodef,123,1A2B@3456*xyz78gh910X,5,10

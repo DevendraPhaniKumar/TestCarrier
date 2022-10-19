@@ -1,0 +1,178 @@
+{
+  "TestCases1": {
+    "Data": {
+      "Address": "HRDC",
+      "Checklist index": "5",
+      "CustomerName": "test19XR",
+      "FormType": "Startup Checklist",
+      "JobName": "Startup19XR",
+      "JobNumber": "1",
+      "Model": "set",
+      "Password": "Checklist@123",
+      "SerialNo": "123",
+      "SubMenu Index": "0",
+      "UserID": "arunteja.yvs@utc.com",
+      "testdata": "1A2B@3456*xyz78gh910X"
+    }
+  },
+  "TestCases10": {
+    "Data": {
+      "Address": "HRDC",
+      "Checklist index": "5",
+      "CustomerName": "test19XR",
+      "FormType": "Startup Checklist",
+      "JobName": "Startup19XR",
+      "JobNumber": "1",
+      "Model": "tempctl",
+      "Password": "Checklist@123",
+      "SerialNo": "123",
+      "SubMenu Index": "9",
+      "UserID": "arunteja.yvs@utc.com",
+      "testdata": "1A2B@3456*xyz78gh910X"
+    }
+  },
+  "TestCases11": {
+    "Data": {
+      "Address": "HRDC",
+      "Checklist index": "5",
+      "CustomerName": "test19XR",
+      "FormType": "Startup Checklist",
+      "JobName": "Startup19XR",
+      "JobNumber": "1",
+      "Model": "brodef",
+      "Password": "Checklist@123",
+      "SerialNo": "123",
+      "SubMenu Index": "10",
+      "UserID": "arunteja.yvs@utc.com",
+      "testdata": "1A2B@3456*xyz78gh910X"
+    }
+  },
+  "TestCases2": {
+    "Data": {
+      "Address": "HRDC",
+      "Checklist index": "5",
+      "CustomerName": "test19XR",
+      "FormType": "Startup Checklist",
+      "JobName": "Startup19XR",
+      "JobNumber": "1",
+      "Model": "ismct",
+      "Password": "Checklist@123",
+      "SerialNo": "123",
+      "SubMenu Index": "1",
+      "UserID": "arunteja.yvs@utc.com",
+      "testdata": "1A2B@3456*xyz78gh910X"
+    }
+  },
+  "TestCases3": {
+    "Data": {
+      "Address": "HRDC",
+      "Checklist index": "5",
+      "CustomerName": "test19XR",
+      "FormType": "Startup Checklist",
+      "JobName": "Startup19XR",
+      "JobNumber": "1",
+      "Model": "opti",
+      "Password": "Checklist@123",
+      "SerialNo": "123",
+      "SubMenu Index": "2",
+      "UserID": "arunteja.yvs@utc.com",
+      "testdata": "1A2B@3456*xyz78gh910X"
+    }
+  },
+  "TestCases4": {
+    "Data": {
+      "Address": "HRDC",
+      "Checklist index": "5",
+      "CustomerName": "test19XR",
+      "FormType": "Startup Checklist",
+      "JobName": "Startup19XR",
+      "JobNumber": "1",
+      "Model": "opti2",
+      "Password": "Checklist@123",
+      "SerialNo": "123",
+      "SubMenu Index": "3",
+      "UserID": "arunteja.yvs@utc.com",
+      "testdata": "1A2B@3456*xyz78gh910X"
+    }
+  },
+  "TestCases5": {
+    "Data": {
+      "Address": "HRDC",
+      "Checklist index": "5",
+      "CustomerName": "test19XR",
+      "FormType": "Startup Checklist",
+      "JobName": "Startup19XR",
+      "JobNumber": "1",
+      "Model": "setup1",
+      "Password": "Checklist@123",
+      "SerialNo": "123",
+      "SubMenu Index": "4",
+      "UserID": "arunteja.yvs@utc.com",
+      "testdata": "1A2B@3456*xyz78gh910X"
+    }
+  },
+  "TestCases6": {
+    "Data": {
+      "Address": "HRDC",
+      "Checklist index": "5",
+      "CustomerName": "test19XR",
+      "FormType": "Startup Checklist",
+      "JobName": "Startup19XR",
+      "JobNumber": "1",
+      "Model": "setup2",
+      "Password": "Checklist@123",
+      "SerialNo": "123",
+      "SubMenu Index": "5",
+      "UserID": "arunteja.yvs@utc.com",
+      "testdata": "1A2B@3456*xyz78gh910X"
+    }
+  },
+  "TestCases7": {
+    "Data": {
+      "Address": "HRDC",
+      "Checklist index": "5",
+      "CustomerName": "test19XR",
+      "FormType": "Startup Checklist",
+      "JobName": "Startup19XR",
+      "JobNumber": "1",
+      "Model": "vdosrd",
+      "Password": "Checklist@123",
+      "SerialNo": "123",
+      "SubMenu Index": "6",
+      "UserID": "arunteja.yvs@utc.com",
+      "testdata": "1A2B@3456*xyz78gh910X"
+    }
+  },
+  "TestCases8": {
+    "Data": {
+      "Address": "HRDC",
+      "Checklist index": "5",
+      "CustomerName": "test19XR",
+      "FormType": "Startup Checklist",
+      "JobName": "Startup19XR",
+      "JobNumber": "1",
+      "Model": "leadlag",
+      "Password": "Checklist@123",
+      "SerialNo": "123",
+      "SubMenu Index": "7",
+      "UserID": "arunteja.yvs@utc.com",
+      "testdata": "1A2B@3456*xyz78gh910X"
+    }
+  },
+  "TestCases9": {
+    "Data": {
+      "Address": "HRDC",
+      "Checklist index": "5",
+      "CustomerName": "test19XR",
+      "FormType": "Startup Checklist",
+      "JobName": "Startup19XR",
+      "JobNumber": "1",
+      "Model": "rampdem",
+      "Password": "Checklist@123",
+      "SerialNo": "123",
+      "SubMenu Index": "8",
+      "UserID": "arunteja.yvs@utc.com",
+      "testdata": "1A2B@3456*xyz78gh910X"
+    }
+  }
+}

@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unittest Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Unittest Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2022-09-26 18:21:42</p>
+                <p class='attribute'><strong>Duration: </strong>501.19 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 6, Pass: 6</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.TestCases</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_07_read_write_AV_BACnet_Points_Functionality</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Setup Function - Start
+********************************************************************************
+DCT.xml file already exists
+It is................c:\E2E_HVAC_Testing\STAF
+Connection Status :  1
+XML Loading Status : True
+BACNet - Connected
+c:\E2E_HVAC_Testing\STAF\Lib_space\BACNET\Adpater_setting.ini
+--------------------START-------------------------------
+<----Write Cooling stpt 2_Writ Value--->
+property: writeAccessDenied
+
+None
+<----Read Cooling stpt 2_Rd Value--->
+0.0
+<----Read GENUNIT_SP_SEL_rd Value--->
+0.0
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_08_read_write_BV_BACnet_Points_Functionality</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Setup Function - Start
+********************************************************************************
+DCT.xml file already exists
+It is................c:\E2E_HVAC_Testing\STAF
+Connection Status :  1
+XML Loading Status : True
+BACNet - Connected
+c:\E2E_HVAC_Testing\STAF\Lib_space\BACNET\Adpater_setting.ini
+--------------------START-------------------------------
+<----Write Chiller Command_Write Value to Active--->
+property: writeAccessDenied
+
+None
+<----Read Chiller Command_Rd Value--->
+inactive
+inactive
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_09_BACnet_AnalogValue_BinaryValue_Obj_ReadAllProp_func</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Setup Function - Start
+********************************************************************************
+DCT.xml file already exists
+It is................c:\E2E_HVAC_Testing\STAF
+Connection Status :  1
+XML Loading Status : True
+BACNet - Connected
+c:\E2E_HVAC_Testing\STAF\Lib_space\BACNET\Adpater_setting.ini
+[['75', 'objectIdentifier', 'ObjectIdentifier', 'R'], ['77', 'objectName', 'CharacterString', 'R'], ['79', 'objectType', 'ObjectType', 'R'], ['85', 'presentValue', 'Real', 'O'], ['28', 'description', 'CharacterString', 'O'], ['111', 'statusFlags', 'StatusFlags', 'R'], ['36', 'eventState', 'EventState', 'R'], ['81', 'outOfService', 'Boolean', 'O']]
+75
+Read Property of Object Name: analogValue  PropertyValue: objectIdentifier is: ('analogValue', 554)
+
+77
+Read Property of Object Name: analogValue  PropertyValue: objectName is: GENUNIT_SP_SEL_wr
+
+79
+Read Property of Object Name: analogValue  PropertyValue: objectType is: analogValue
+
+85
+Read Property of Object Name: analogValue  PropertyValue: presentValue is: 0.0
+
+28
+Read Property of Object Name: analogValue  PropertyValue: description is: Setpoint Select
+
+111
+Read Property of Object Name: analogValue  PropertyValue: statusFlags is: [0, 0, 0, 0]
+
+36
+Read Property of Object Name: analogValue  PropertyValue: eventState is: normal
+
+81
+Read Property of Object Name: analogValue  PropertyValue: outOfService is: False
+
+[['75', 'objectIdentifier', 'ObjectIdentifier', 'R'], ['77', 'objectName', 'CharacterString', 'R'], ['79', 'objectType', 'ObjectType', 'R'], ['85', 'presentValue', 'Real', 'O'], ['28', 'description', 'CharacterString', 'O'], ['111', 'statusFlags', 'StatusFlags', 'R'], ['36', 'eventState', 'EventState', 'R'], ['81', 'outOfService', 'Boolean', 'O']]
+75
+Read Property of Object Name: analogValue  PropertyValue: objectIdentifier is: ('analogValue', 546)
+
+77
+Read Property of Object Name: analogValue  PropertyValue: objectName is: SETPOINT_csp2
+
+79
+Read Property of Object Name: analogValue  PropertyValue: objectType is: analogValue
+
+85
+Read Property of Object Name: analogValue  PropertyValue: presentValue is: 44.0
+
+28
+Read Property of Object Name: analogValue  PropertyValue: description is: Cooling Setpoint 2
+
+111
+Read Property of Object Name: analogValue  PropertyValue: statusFlags is: [0, 0, 0, 0]
+
+36
+Read Property of Object Name: analogValue  PropertyValue: eventState is: normal
+
+81
+Read Property of Object Name: analogValue  PropertyValue: outOfService is: False
+
+Object Name:binaryValue :BV:123
+
+75
+Read Property of Object Name: binaryValue  PropertyValue: objectIdentifier is: ('binaryValue', 123)
+
+77
+Read Property of Object Name: binaryValue  PropertyValue: objectName is: GENUNIT_CHIL_S_S_wr
+
+79
+Read Property of Object Name: binaryValue  PropertyValue: objectType is: binaryValue
+
+85
+Read Property of Object Name: binaryValue  PropertyValue: presentValue is: inactive
+
+28
+Read Property of Object Name: binaryValue  PropertyValue: description is: Chiller Start/Stop
+
+111
+Read Property of Object Name: binaryValue  PropertyValue: statusFlags is: [0, 0, 0, 0]
+
+36
+Read Property of Object Name: binaryValue  PropertyValue: eventState is: normal
+
+81
+Read Property of Object Name: binaryValue  PropertyValue: outOfService is: False
+
+Object Name:binaryValue :BV:128
+
+75
+Read Property of Object Name: binaryValue  PropertyValue: objectIdentifier is: ('binaryValue', 128)
+
+77
+Read Property of Object Name: binaryValue  PropertyValue: objectName is: GENUNIT_SP_OCC_wr
+
+79
+Read Property of Object Name: binaryValue  PropertyValue: objectType is: binaryValue
+
+85
+Read Property of Object Name: binaryValue  PropertyValue: presentValue is: active
+
+28
+Read Property of Object Name: binaryValue  PropertyValue: description is: Setpoint Occupied?
+
+111
+Read Property of Object Name: binaryValue  PropertyValue: statusFlags is: [0, 0, 0, 0]
+
+36
+Read Property of Object Name: binaryValue  PropertyValue: eventState is: normal
+
+81
+Read Property of Object Name: binaryValue  PropertyValue: outOfService is: False
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0_Integration_Backup_Update_Restore</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Setup Function - Start
+********************************************************************************
+DCT.xml file already exists
+It is................c:\E2E_HVAC_Testing\STAF
+Connection Status :  1
+XML Loading Status : True
+BACNet - Connected
+c:\E2E_HVAC_Testing\STAF\Lib_space\BACNET\Adpater_setting.ini
+[32mStarting ProView Application
+Process CSTAppLauncher.exe is running 
+[32mPic 6 Backup Test Started
+********************************************************************************
+ Executing PIC6 upload
+
+********************************************************************************
+Setup Function - START
+********************************************************************************
+Proview test failed with exception,Error:
+ Message: unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=105.0.5195.127)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00AEDF13+2219795]
+	Ordinal0 [0x00A82841+1779777]
+	Ordinal0 [0x0099423D+803389]
+	Ordinal0 [0x00980021+720929]
+	Ordinal0 [0x0097EE74+716404]
+	Ordinal0 [0x0097DCF9+711929]
+	Ordinal0 [0x009FFBAF+1244079]
+	Ordinal0 [0x009DE7FC+1107964]
+	Ordinal0 [0x009EF192+1175954]
+	Ordinal0 [0x009DE616+1107478]
+	Ordinal0 [0x009B7F89+950153]
+	Ordinal0 [0x009B8F56+954198]
+	GetHandleVerifier [0x00DE2CB2+3040210]
+	GetHandleVerifier [0x00DD2BB4+2974420]
+	GetHandleVerifier [0x00B86A0A+565546]
+	GetHandleVerifier [0x00B85680+560544]
+	Ordinal0 [0x00A89A5C+1808988]
+	Ordinal0 [0x00A8E3A8+1827752]
+	Ordinal0 [0x00A8E495+1827989]
+	Ordinal0 [0x00A980A4+1867940]
+	BaseThreadInitThunk [0x76740419+25]
+	RtlGetAppContainerNamedObjectPath [0x773674ED+237]
+	RtlGetAppContainerNamedObjectPath [0x773674BD+189]
+
+[32mStopping ProView Application
+Proview Test Completed
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_10_BACnet_AnalogValue_Obj_ReadMul_func</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Setup Function - Start
+********************************************************************************
+DCT.xml file already exists
+It is................c:\E2E_HVAC_Testing\STAF
+Connection Status :  1
+XML Loading Status : True
+BACNet - Connected
+c:\E2E_HVAC_Testing\STAF\Lib_space\BACNET\Adpater_setting.ini
+--------------------START-------------------------------
+<----Read Analog Value of Instance :[{'2': ('554', 'presentValue')}, {'2': ('554', 'description')}]--->
+presentValue
+[0.0]
+description
+['Setpoint Select']
+I am printing op_list
+[0.0, 'Setpoint Select']
+I am priniting analog_value_obj_multiple_output_list
+[0.0, 'Setpoint Select']
+Read Value is showing correctly
+--------------------STOP--------------------------------
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_2_application</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Setup Function - Start
+********************************************************************************
+DCT.xml file already exists
+It is................c:\E2E_HVAC_Testing\STAF
+Connection Status :  1
+XML Loading Status : True
+BACNet - Connected
+c:\E2E_HVAC_Testing\STAF\Lib_space\BACNET\Adpater_setting.ini
+[32mOpeing Lock Using Factory Password
+********************************************************************************
+Clicking Home Button
+Clicking Lock Button
+Clicking Factory Login Button
+Clicking Scanner Button 
+Clicking Login Box
+Entering Password
+p 616 223
+1 195 172
+a 221 253
+l 594 257
+g 408 252
+i 526 216
+6 422 175
+5 371 170
+Clicking  Home Button
+[32mClearing Alarms
+********************************************************************************
+Clcking on Alaram Icon
+Clcking on reset Alarm
+Enabling Alaram Reset 
+Clicking on Home Button
+It is........c:\E2E_HVAC_Testing\STAF
+Successfully logged in to the Sierra router
+type <class 'str'> <class 'str'> <class 'str'>
+192.168.1.10 255.255.0.0 192.168.1.2  0.0.0.0/0 192.168.1.2  192.168.1.2 
+Sierra Router(FX30) web session is closed
+[32mChanging the IP Address of ETH0
+********************************************************************************
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+ETH0 IP & Subnet Mask Address Updated Successfully(IP Address: 169.254.1.1  SubnetMask:255.255.0.0)
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+Eath0 Gateway Address Updated Successfully(Gateway: 192.168.168.9  Dest/Mask:0.0.0.0/0)
+[32mChanging the IP Address of ETH1
+********************************************************************************
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+ETH1 IP & Subnet Mask Address Updated Successfully(IP Address:192.168.1.10  Subnet Mask:255.255.0.0
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+[32mChanging the DNS Servers
+********************************************************************************
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+DNS Server Address Updated Successfully(DNS1 :192.168.168.9 DNS2:192.168.168.9
+[32mChanging the Network Configurations
+********************************************************************************
+Performing Ping Test ********: 
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+5
+Ping Test Is Failed
+Performing Cloud Test ********:
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+5
+Cloud Test is Failed
+login in init_check
+login in init_check
+IOT Certificate is Not Present
+[32mDoing CCN Configuration 
+********************************************************************************
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+CCN Address is set as :1
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+CCN BUS is set as :0
+login in init_check
+login in init_check
+login in init_check
+login in init_check
+CCN Baudrate is set as :38400
+ CCN Configuration Completed
+[32mFactory and Service Parameters writing
+********************************************************************************
+writing Factory Values
+********************************************************************************
+Total no.of parameters: 23
+unitsize 140.0
+Written TablePoint 'unitsize'[CCN] =  140				06:29:54:09S
+voltage 460.0
+Written TablePoint 'voltage'[CCN] =  460				06:29:54:09S
+freq_60H 1.0
+Written TablePoint 'freq_60H'[CCN] =  1				06:29:55:09S
+mfg_tier 0.0
+Written TablePoint 'mfg_tier'[CCN] =  0				06:29:55:09S
+probrine 0.0
+Written TablePoint 'probrine'[CCN] =  0				06:29:55:09S
+cpass_nb 2.0
+Written TablePoint 'cpass_nb'[CCN] =  2				06:29:55:09S
+heat_sel 0.0
+Written TablePoint 'heat_sel'[CCN] =  0				06:29:55:09S
+mst_slv 1.0
+Written TablePoint 'mst_slv'[CCN] =  1				06:29:55:09S
+emm_nrcp 1.0
+Written TablePoint 'emm_nrcp'[CCN] =  1				06:29:55:09S
+loambopt 0.0
+Written TablePoint 'loambopt'[CCN] =  0				06:29:56:09S
+leak_chk 0.0
+Written TablePoint 'leak_chk'[CCN] =  0				06:29:56:09S
+fMaxEnA 0.0
+Written TablePoint 'fMaxEnA'[CCN] =  0				06:29:56:09S
+fMaxEnB 0.0
+Written TablePoint 'fMaxEnB'[CCN] =  0				06:29:56:09S
+fMaxOvrA 75.0
+Written TablePoint 'fMaxOvrA'[CCN] =  75				06:29:56:09S
+fMaxOvrB 75.0
+Written TablePoint 'fMaxOvrB'[CCN] =  75				06:29:56:09S
+fan_fact 1.0
+Written TablePoint 'fan_fact'[CCN] =  1				06:29:56:09S
+fMinOvr 26.0
+Written TablePoint 'fMinOvr'[CCN] =  26				06:29:56:09S
+lastspda 40.0
+Written TablePoint 'lastspda'[CCN] =  40				06:29:57:09S
+lastspdb 40.0
+Written TablePoint 'lastspdb'[CCN] =  40				06:29:57:09S
+ECM_fans 0.0
+Written TablePoint 'ECM_fans'[CCN] =  0				06:29:57:09S
+PM_Motor 1.0
+row getting error ***********************PM_Motor21
+CondCoil 0.0
+Written TablePoint 'CondCoil'[CCN] =  0				06:29:57:09S
+writing Service Values
+********************************************************************************
+Total no.of parameters: 35
+flui_typ 1.0
+Written TablePoint 'flui_typ'[CCN] =  1				06:29:57:09S
+ewt_opt 0.0
+Written TablePoint 'ewt_opt'[CCN] =  0				06:29:57:09S
+freezesp 34.0
+Written TablePoint 'freezesp'[CCN] =  34				06:29:58:09S
+mini_lwt 38.0
+Written TablePoint 'mini_lwt'[CCN] =  38				06:29:58:09S
+fastcapr 0.0
+Written TablePoint 'fastcapr'[CCN] =  0				06:29:58:09S
+ewt_cirA 1.0
+Written TablePoint 'ewt_cirA'[CCN] =  1				06:29:58:09S
+leak_thr 2.5
+Written TablePoint 'leak_thr'[CCN] =  2.5				06:29:58:09S
+leak_tmr 60.0
+Written TablePoint 'leak_tmr'[CCN] =  60				06:29:58:09S
+ecodgt 0.0
+Written TablePoint 'ecodgt'[CCN] =  0				06:29:59:09S
+RFI_conf 1.0
+Written TablePoint 'RFI_conf'[CCN] =  1				06:29:59:09S
+metric 0.0
+Written TablePoint 'metric'[CCN] =  0				06:29:59:09S
+fdrv_cfg 1.0
+Written TablePoint 'fdrv_cfg'[CCN] =  1				06:29:59:09S
+cdrv_cfg 1.0
+Written TablePoint 'cdrv_cfg'[CCN] =  1				06:29:59:09S
+heatersp 2.0
+Written TablePoint 'heatersp'[CCN] =  2				06:30:00:09S
+freez_ov 0.0
+Written TablePoint 'freez_ov'[CCN] =  0				06:30:00:09S
+auto_sm 0.0
+Written TablePoint 'auto_sm'[CCN] =  0				06:30:00:09S
+ViPwrChk 1.15
+Written TablePoint 'ViPwrChk'[CCN] =  1.15				06:30:00:09S
+ViChkEn 0.0
+Written TablePoint 'ViChkEn'[CCN] =  0				06:30:00:09S
+AntiFrz 1.0
+Written TablePoint 'AntiFrz'[CCN] =  1				06:30:00:09S
+odtrspd 5.0
+Written TablePoint 'odtrspd'[CCN] =  5				06:30:01:09S
+otrigtim 3600.0
+Written TablePoint 'otrigtim'[CCN] =  3600				06:30:01:09S
+odrecspd 5.0
+Written TablePoint 'odrecspd'[CCN] =  5				06:30:01:09S
+orectim 60.0
+Written TablePoint 'orectim'[CCN] =  60				06:30:01:09S
+wateesys 0.9
+Written TablePoint 'wateesys'[CCN] =  0.9				06:30:01:09S
+vistrtdt 900.0
+Written TablePoint 'vistrtdt'[CCN] =  900				06:30:02:09S
+vistrten 1.0
+Written TablePoint 'vistrten'[CCN] =  1				06:30:02:09S
+apr_en 1.0
+Written TablePoint 'apr_en'[CCN] =  1				06:30:02:09S
+cmpapr 30.0
+Written TablePoint 'cmpapr'[CCN] =  30				06:30:02:09S
+cmpsst 20.0
+Written TablePoint 'cmpsst'[CCN] =  20				06:30:02:09S
+cmpdsst -18.0
+Written TablePoint 'cmpdsst'[CCN] =  -18				06:30:03:09S
+cmpdgt 185.0
+Written TablePoint 'cmpdgt'[CCN] =  185				06:30:03:09S
+cmpddgt 13.5
+Written TablePoint 'cmpddgt'[CCN] =  13.5				06:30:03:09S
+cmptmr 60.0
+Written TablePoint 'cmptmr'[CCN] =  60				06:30:03:09S
+SnsrSwp 0.0
+row getting error ***********************SnsrSwp34
+[32mPerforming the Quick Test
+********************************************************************************
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 6, Pass: 6 -- Duration: 501.19 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html

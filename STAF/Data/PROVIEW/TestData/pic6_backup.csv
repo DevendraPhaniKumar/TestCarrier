@@ -1,0 +1,10 @@
+Controller,ip_addr,usr_name,Pass_wd,Update/file_xfer,file_path,file_type,keep_cfg,operation,Lang,reboot,xfer_file,upload_path
+PIC 6,169.254.1.1,factory,wz53qd86,upload,,all files upload,,,,,,C:\End to End\Python3_app\TestCases-EtoE\TestData\PIC6_data
+PIC 6,169.254.1.1,factory,wz53qd86,upload,,Retrieve Trends,,,,,,C:\End to End\Python3_app\TestCases-EtoE\TestData\PIC6_data
+PIC 6,169.254.1.1,factory,wz53qd86,upload,,Retrieve Configuration Data Backup,,,,,,C:\End to End\Python3_app\TestCases-EtoE\TestData\PIC6_data
+PIC 6,169.254.1.1,factory,wz53qd86,upload,,Retrieve Application Logs,,,,,,C:\End to End\Python3_app\TestCases-EtoE\TestData\PIC6_data
+PIC 6,169.254.1.1,factory,wz53qd86,upload,,Retrieve Platform Log Files,,,,,,C:\End to End\Python3_app\TestCases-EtoE\TestData\PIC6_data
+PIC 6,169.254.1.1,factory,wz53qd86,upload,,Retrieve IOT Log Files,,,,,,C:\End to End\Python3_app\TestCases-EtoE\TestData\PIC6_data
+PIC 6,169.254.1.1,factory,wz53qd86,upload,,Retrieve Equipment Data Recorder,,upload,,,,C:\End to End\Python3_app\TestCases-EtoE\TestData\PIC6_data
+PIC 6,169.254.1.1,factory,wz53qd86,upload,,Retrieve Equipment Data Recorder,,delete,,,,C:\End to End\Python3_app\TestCases-EtoE\TestData\PIC6_data
+

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unittest Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Unittest Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2022-09-24 21:48:18</p>
+                <p class='attribute'><strong>Duration: </strong>296.36 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 1, Pass: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.FirmwareUpdateTest</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_data</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>
+********************************************************************************
+Setup Function - START
+********************************************************************************
+Process CSTAppLauncher.exe is running 
+Logging in with user:  devendra.manepalli@carrier.com
+************ Login is successful ************
+********************************************************************************
+Setup Function - END
+********************************************************************************
+c:\E2E_HVAC_Testing\STAF\Tests\PROVIEW\TestData\
+ License warning:  
+User:   Devendra 
+App details:  Title: Carrier ProView Release Yrs: 2021 Release  Version:   Version: 1.4.0.000
+**** User Profile Test **********
+2022-09-24 21:48 :  Profile Information
+Role :  Service Technician
+************ Firwmare update/File Transfer Content*********
+2022-09-24 21:49 :  Firmware Update button is present
+
+
+Test Data:  TestCases1 {'Controller': 'PIC 6', 'Lang': ' English', 'Pass_wd': '113', 'Update/file_xfer': 'update', 'file_path': 'C:\\E2E_HVAC_Testing\\STAF\\TestData\\PIC6_data\\', 'file_type': '', 'ip_addr': '169.254.1.1', 'keep_cfg': 'yes', 'operation': 'continue', 'reboot': 'yes', 'update_erasecfg': 'no', 'upload_path': 'C:\\Uploaddata', 'usr_name': 'factory', 'xfer_file': '065-ST-10D2AA073_0138'}
+**** PIC6 login*****
+
+2022-09-24 21:49  Login clicked 
+Waiting for PIC6 home screen
+2022-09-24 21:49 :  Login Successful with PIC6
+***** PIC6 current status *****
+2022-09-24 21:49  PIC6 status:
+  Firmware Version: 1.38.3.50
+Application Version: 065
+IoT certificate is: Not Present
+2022-09-24 21:49  PIC6 status after refresh:
+  Firmware Version: 1.38.3.50
+Application Version: 065
+IoT certificate is: Not Present
+**** PIC6 update*****
+FilePath:  C:\E2E_HVAC_Testing\STAF\TestData\PIC6_data\ 065-ST-10D2AA073_0138
+******File selection********
+C:\E2E_HVAC_Testing\STAF\Utility\FileUpload.exe C:\E2E_HVAC_Testing\STAF\TestData\PIC6_data\065-ST-10D2AA073_0138
+File Selected..
+Selected file:  065-ST-10D2AA073_0138
+2022-09-24 21:49 :  File contents:
+ File Contents
+package_ver:0138
+app.tar.gz:065
+rootfs.tar.gz:1.38.1.12
+iot.tar.gz:4.0.3
+sdk.tar.gz:1.38.3.50
+supported_target:7_10
+module_ids:app, sdk, iot, rootfs
+Erase all configurations in target (including FACTORY)
+warning Note:
+1. Device will reboot after package upgrade is complete.
+2. Please make sure PIC6 controller date and time matches with system date/time along with timezone before initiating the update.
+Update
+Cancel
+ Configuration will be intact
+2022-09-24 21:49:34 :  Downloading Firmware
+2022-09-24 21:49:34 	 Download duration  Software update may take 2-3 min to complete the process
+2022-09-24 21:49:34 :  update progress 
+2022-09-24 21:49:36 :  update progress 
+2022-09-24 21:49:38 :  update progress 
+2022-09-24 21:49:40 :  update progress 
+2022-09-24 21:49:42 :  update progress 
+2022-09-24 21:49:44 :  update progress 
+2022-09-24 21:49:46 :  update progress 
+2022-09-24 21:49:48 :  update progress 
+2022-09-24 21:49:50 :  update progress 
+2022-09-24 21:49:52 :  update progress 
+2022-09-24 21:49:54 :  update progress 0
+2022-09-24 21:49:56 :  update progress 0
+2022-09-24 21:49:58 :  update progress 0
+2022-09-24 21:50:00 :  update progress 0
+2022-09-24 21:50:02 :  update progress 0
+2022-09-24 21:50:04 :  update progress 25
+2022-09-24 21:50:06 :  update progress 25
+2022-09-24 21:50:08 :  update progress 25
+2022-09-24 21:50:10 :  update progress 25
+2022-09-24 21:50:12 :  update progress 25
+2022-09-24 21:50:14 :  update progress 25
+2022-09-24 21:50:16 :  update progress 25
+2022-09-24 21:50:18 :  update progress 25
+2022-09-24 21:50:20 :  update progress 25
+2022-09-24 21:50:22 :  update progress 25
+2022-09-24 21:50:24 :  update progress 50
+2022-09-24 21:50:26 :  update progress 50
+2022-09-24 21:50:29 :  update progress 50
+2022-09-24 21:50:31 :  update progress 50
+2022-09-24 21:50:33 :  update progress 50
+2022-09-24 21:50:35 :  update progress 75
+2022-09-24 21:50:37 :  update progress 75
+2022-09-24 21:50:39 :  update progress 75
+2022-09-24 21:50:41 :  update progress 75
+2022-09-24 21:50:43 :  update progress 75
+2022-09-24 21:50:45 :  update progress 75
+2022-09-24 21:50:47 :  update progress 75
+2022-09-24 21:50:49 :  update progress 75
+2022-09-24 21:50:51 :  update progress 75
+2022-09-24 21:50:53 :  update progress 75
+2022-09-24 21:50:55 :  update progress 75
+2022-09-24 21:50:57 :  update progress 75
+2022-09-24 21:50:59 :  update progress 75
+2022-09-24 21:51:01 :  update progress 75
+2022-09-24 21:51:03 :  update progress 75
+2022-09-24 21:51:05 :  update progress 75
+2022-09-24 21:51:07 :  update progress 75
+2022-09-24 21:51:09 :  update progress 75
+2022-09-24 21:51:11 :  update progress 75
+2022-09-24 21:51:13 :  update progress 75
+2022-09-24 21:51:15 :  update progress 75
+2022-09-24 21:51:17 :  update progress 75
+2022-09-24 21:51:19 :  update progress 75
+2022-09-24 21:51:21 :  update progress 75
+2022-09-24 21:51:23 :  update progress 75
+2022-09-24 21:51:25 :  update progress 75
+2022-09-24 21:51:27 :  update progress 75
+2022-09-24 21:51:29 :  update progress 75
+2022-09-24 21:51:31 :  update progress 75
+2022-09-24 21:51:33 :  update progress 75
+FIle update exception :
+ Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="collapseThree"]/div/div/div/div/div[1]/div[4]/div[2]/div"}
+  (Session info: chrome=105.0.5195.127)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00D0DF13+2219795]
+	Ordinal0 [0x00CA2841+1779777]
+	Ordinal0 [0x00BB423D+803389]
+	Ordinal0 [0x00BE3025+995365]
+	Ordinal0 [0x00BE31EB+995819]
+	Ordinal0 [0x00C10F52+1183570]
+	Ordinal0 [0x00BFE844+1108036]
+	Ordinal0 [0x00C0F192+1175954]
+	Ordinal0 [0x00BFE616+1107478]
+	Ordinal0 [0x00BD7F89+950153]
+	Ordinal0 [0x00BD8F56+954198]
+	GetHandleVerifier [0x01002CB2+3040210]
+	GetHandleVerifier [0x00FF2BB4+2974420]
+	GetHandleVerifier [0x00DA6A0A+565546]
+	GetHandleVerifier [0x00DA5680+560544]
+	Ordinal0 [0x00CA9A5C+1808988]
+	Ordinal0 [0x00CAE3A8+1827752]
+	Ordinal0 [0x00CAE495+1827989]
+	Ordinal0 [0x00CB80A4+1867940]
+	BaseThreadInitThunk [0x74880179+25]
+	RtlGetAppContainerNamedObjectPath [0x7723662D+237]
+	RtlGetAppContainerNamedObjectPath [0x772365FD+189]
+
+2022-09-24 21:51 : Update success Firmware update successfully done. Please wait while we re-initialize the session upon controller reboot
+founded
+Build finished in 203.9294 seconds
+The Status is: 0
+********************************************************************************
+Teardown Function - START
+********************************************************************************
+Logout blocker:  BACNET device connected. Do you still want to logout?
+2022-09-24 21:53 :  Logout exception
+ Message: no such alert
+  (Session info: chrome=105.0.5195.127)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00D0DF13+2219795]
+	Ordinal0 [0x00CA2841+1779777]
+	Ordinal0 [0x00BB4100+803072]
+	Ordinal0 [0x00BAD648+775752]
+	Ordinal0 [0x00BC6078+876664]
+	Ordinal0 [0x00BFE874+1108084]
+	Ordinal0 [0x00BC5EA2+876194]
+	Ordinal0 [0x00BFE616+1107478]
+	Ordinal0 [0x00BD7F89+950153]
+	Ordinal0 [0x00BD8F56+954198]
+	GetHandleVerifier [0x01002CB2+3040210]
+	GetHandleVerifier [0x00FF2BB4+2974420]
+	GetHandleVerifier [0x00DA6A0A+565546]
+	GetHandleVerifier [0x00DA5680+560544]
+	Ordinal0 [0x00CA9A5C+1808988]
+	Ordinal0 [0x00CAE3A8+1827752]
+	Ordinal0 [0x00CAE495+1827989]
+	Ordinal0 [0x00CB80A4+1867940]
+	BaseThreadInitThunk [0x74880179+25]
+	RtlGetAppContainerNamedObjectPath [0x7723662D+237]
+	RtlGetAppContainerNamedObjectPath [0x772365FD+189]
+
+********************************************************************************
+Teardown Function - END
+********************************************************************************
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 1 -- Duration: 296.36 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html

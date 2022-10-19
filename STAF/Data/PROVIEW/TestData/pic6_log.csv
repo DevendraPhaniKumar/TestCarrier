@@ -1,0 +1,41 @@
+Controller,ip_addr,usr_name,Pass_wd,Update/file_xfer,file_path,file_type,keep_cfg,operation,Lang,reboot,xfer_file,upload_path
+PIC 6, 169.254.1.12, service,3ja7brvr,upload,,all files upload,,,,,,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,upload,,Retrieve Trends,,,,,,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,upload,,Retrieve Application Logs,,,,,,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,upload,,Retrieve Platform Log Files,,,,,,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,upload,,Retrieve IOT Log Files,,,,,,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,upload,,Retrieve Configuration Data Backup,,,,,,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,download,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\,nvm_restore, yes, continue, English,yes,BACKUP.nvmcfg,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr, update,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\, ssl_download, yes, continue, English,yes, 001-ST-20W4D100-43,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr, update,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\,,no, continue,,yes,002-FT-10D2AA063,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr, update,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\,,yes, continue,,yes,002-FT-10D2AA063,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,upload,,Retrieve Language file,,, English,,,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,upload,,all files upload,,,,,,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,upload,,Retrieve Equipment Data Recorder,,upload,,,,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,upload,,Retrieve Equipment Data Recorder,,delete,,,,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,upload,,Retrieve License Information,,,,,,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,upload,,Retrieve Platform Configuration,,,,,,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,upload,,Retrieve Platform Log Files,,,,,,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,download,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\,language_download, yes, continue, English,yes,BACKUP.nvmcfg,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,download,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\,soft_key download, yes, continue, English,yes,english.csv,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,download,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\,ssl_download, yes, continue, English,yes,server-169.254.1.1.pem,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,download,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\,soft_key download, yes, continue, English,yes,softprotect_options.txt,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,download,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\,language_download, yes, continue, English,yes,english.csv,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,download,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\,soft_key download, yes, continue, English,yes,softprotect_options.txt,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,download,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\,ssl_download, yes, continue, English,yes,server-169.254.1.1.pem,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,download,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\,soft_key download, yes, continue, English,yes,softprotect_options - Copy.txt,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,download,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\,ssl_download, yes, continue, English,yes,server-169.254.1.1 - Corrupted.pem,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,download,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\,nvm_restore, yes,cancel, English,no,BACKUP.nvmcfg,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,download,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\,language_download, yes,cancel, English,no,english.csv,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,download,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\,soft_key download, yes,cancel, English,no,softprotect_options.txt,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.12, service,3ja7brvr,download,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\,ssl_download, yes,cancel, English,no,server-169.254.1.1.pem,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, , , ,upload,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\, ssl_download, yes, continue, English,yes, 001-ST-20W4D100-43,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6,169.254.1.12,, ,upload,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\, ssl_download, yes, continue, English,yes, 001-ST-20W4D100-43,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6,169.254,, ,upload,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\, ssl_download, yes, continue, English,yes, 001-ST-20W4D100-43,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6,169.254.1.12,servic2, ,upload,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\, ssl_download, yes, continue, English,yes, 001-ST-20W4D100-43,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6,169.254.1.12,service, ,upload,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\, ssl_download, yes, continue, English,yes, 001-ST-20W4D100-43,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6,169.254.1.12,factory, ,upload,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\, ssl_download, yes, continue, English,yes, 001-ST-20W4D100-43,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6,169.254.1.12,service,2434,upload,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\, ssl_download, yes, continue, English,yes, 001-ST-20W4D100-43,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6,169.254.1.12,factory,23424,upload,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\, ssl_download, yes, continue, English,yes, 001-ST-20W4D100-43,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6,169.254.1.12,service,3ja7brvr,upload,C:\Users\Documents\Carrier\UPload\, ssl_download, yes, continue, English,yes, 001-ST-20W4D100-43,C:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6,169.254.1.12,factory,ee9vl65h,upload,C:\Selenium_POM\Test_Cases\TestData\PIC6_data\, ssl_download, yes, continue, English,yes, 001-ST-20W4D100-43,C:\Selenium_POM\Test_Cases\TestData\PIC6_data

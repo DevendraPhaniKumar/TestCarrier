@@ -1,0 +1,138 @@
+{
+  "TestCases1": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "wz53qd86",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "all files upload",
+      "ip_addr": "169.254.1.1",
+      "keep_cfg": "",
+      "operation": "",
+      "reboot": "",
+      "upload_path": "C:\\End to End\\Python3_app\\TestCases-EtoE\\TestData\\PIC6_data",
+      "usr_name": "factory",
+      "xfer_file": ""
+    }
+  },
+  "TestCases2": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "wz53qd86",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "Retrieve Trends",
+      "ip_addr": "169.254.1.1",
+      "keep_cfg": "",
+      "operation": "",
+      "reboot": "",
+      "upload_path": "C:\\End to End\\Python3_app\\TestCases-EtoE\\TestData\\PIC6_data",
+      "usr_name": "factory",
+      "xfer_file": ""
+    }
+  },
+  "TestCases3": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "wz53qd86",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "Retrieve Configuration Data Backup",
+      "ip_addr": "169.254.1.1",
+      "keep_cfg": "",
+      "operation": "",
+      "reboot": "",
+      "upload_path": "C:\\End to End\\Python3_app\\TestCases-EtoE\\TestData\\PIC6_data",
+      "usr_name": "factory",
+      "xfer_file": ""
+    }
+  },
+  "TestCases4": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "wz53qd86",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "Retrieve Application Logs",
+      "ip_addr": "169.254.1.1",
+      "keep_cfg": "",
+      "operation": "",
+      "reboot": "",
+      "upload_path": "C:\\End to End\\Python3_app\\TestCases-EtoE\\TestData\\PIC6_data",
+      "usr_name": "factory",
+      "xfer_file": ""
+    }
+  },
+  "TestCases5": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "wz53qd86",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "Retrieve Platform Log Files",
+      "ip_addr": "169.254.1.1",
+      "keep_cfg": "",
+      "operation": "",
+      "reboot": "",
+      "upload_path": "C:\\End to End\\Python3_app\\TestCases-EtoE\\TestData\\PIC6_data",
+      "usr_name": "factory",
+      "xfer_file": ""
+    }
+  },
+  "TestCases6": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "wz53qd86",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "Retrieve IOT Log Files",
+      "ip_addr": "169.254.1.1",
+      "keep_cfg": "",
+      "operation": "",
+      "reboot": "",
+      "upload_path": "C:\\End to End\\Python3_app\\TestCases-EtoE\\TestData\\PIC6_data",
+      "usr_name": "factory",
+      "xfer_file": ""
+    }
+  },
+  "TestCases7": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "wz53qd86",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "Retrieve Equipment Data Recorder",
+      "ip_addr": "169.254.1.1",
+      "keep_cfg": "",
+      "operation": "upload",
+      "reboot": "",
+      "upload_path": "C:\\End to End\\Python3_app\\TestCases-EtoE\\TestData\\PIC6_data",
+      "usr_name": "factory",
+      "xfer_file": ""
+    }
+  },
+  "TestCases8": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "wz53qd86",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "Retrieve Equipment Data Recorder",
+      "ip_addr": "169.254.1.1",
+      "keep_cfg": "",
+      "operation": "delete",
+      "reboot": "",
+      "upload_path": "C:\\End to End\\Python3_app\\TestCases-EtoE\\TestData\\PIC6_data",
+      "usr_name": "factory",
+      "xfer_file": ""
+    }
+  }
+}

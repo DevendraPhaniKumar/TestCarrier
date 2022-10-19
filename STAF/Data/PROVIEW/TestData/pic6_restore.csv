@@ -1,0 +1,5 @@
+Controller,ip_addr,usr_name,Pass_wd,Update/file_xfer,file_path,file_type,keep_cfg,operation,Lang,reboot,xfer_file,upload_path
+PIC 6,169.254.1.1,factory,113,download,C:\End to End\Python3_app\TestCases-EtoE\TestData\PIC6_data\,nvm_restore, yes, continue, English,yes,BACKUP.nvmcfg,C:\End to End\Python3_app\TestCases-EtoE\TestData\PIC6_data
+PIC 6,169.254.1.1,factory,113,download,C:\End to End\Python3_app\TestCases-EtoE\TestData\PIC6_data\,nvm_restore, yes,cancel, English,no,BACKUP.nvmcfg,C:\End to End\Python3_app\TestCases-EtoE\TestData\PIC6_data
+PIC 6,169.254.1.1,factory,113,download,C:\End to End\Python3_app\TestCases-EtoE\TestData\PIC6_data\,nvm_restore, yes,continue, English,no,simplifiedChinese.csv,C:\End to End\Python3_app\TestCases-EtoE\TestData\PIC6_data
+

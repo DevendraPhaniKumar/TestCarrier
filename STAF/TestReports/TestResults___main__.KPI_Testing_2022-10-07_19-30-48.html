@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unittest Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Unittest Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2022-10-07 19:30:48</p>
+                <p class='attribute'><strong>Duration: </strong>781.78 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 1, Pass: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.KPI_Testing</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_01_ScreenTransistions</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>*************************
+K1_HomeToAny Screen Transistion 
+
+Clicked Home Button 
+
+Clicked Menu Button 
+
+ 1814626: Screen transition complete.  It took 1019 ms
+
+*************************
+K2_MainToAutoTable Screen Transistion 
+
+Clicked Menu Button 
+
+Clicked Alarm Button 
+
+ 1814626: Screen transition complete.  It took 1019 ms
+
+*************************
+K3_AutoTable backbutton To Main Screen Transistion 
+
+Clicked Menu Button 
+
+Clicked Alarm Button 
+
+Clicked Back Button from Alarm Table Screen 
+
+ 1814626: Screen transition complete.  It took 1019 ms
+
+*************************
+K4_HomeToAlarm Screen Transistion 
+
+Clicked Home Button 
+
+Clicked Alarm Button 
+
+ 1814626: Screen transition complete.  It took 1019 ms
+
+*************************
+K5_AlarmToHome Screen Transistion 
+
+Clicked Alarm Button 
+
+Clicked Home Button 
+
+ 1814626: Screen transition complete.  It took 1019 ms
+
+*************************
+K6_HomeToStartStop Screen Transistion 
+
+Clicked Home Button 
+
+Clicked StartStop Button 
+
+ 1814626: Screen transition complete.  It took 1019 ms
+
+*************************
+K7_HomeToLogin Screen Transistion 
+
+Clicked Home Button 
+
+Clicked Loginscreen Button 
+
+ 1814626: Screen transition complete.  It took 1019 ms
+
+*************************
+K8_Login To PasswordOK Screen Transistion 
+
+Clicked Loginscreen Button 
+
+ 1814626: Screen transition complete.  It took 1019 ms
+
+Clicked Done Button 
+
+ 1814626: Screen transition complete.  It took 1019 ms
+
+*************************
+K9_Alarm To Reset Alarm Screen Transistion 
+
+Clicked Alarm Button 
+
+Clicked ResetAlarm Button 
+
+ 1814626: Screen transition complete.  It took 1019 ms
+
+*************************
+K10_HomeToCircuitA Screen Transistion 
+
+Clicked Home Button 
+
+Clicked CircuitA Button 
+
+ 1814626: Screen transition complete.  It took 1019 ms
+
+*************************
+K11_CircuitAToHome Screen Transistion 
+
+Clicked CircuitA Button 
+
+Clicked Home Button 
+
+ 1814626: Screen transition complete.  It took 1019 ms
+
+*************************
+K12_Configuration Menu To Factory Configuration Screen Transistion 
+
+Clicked Configuration Menu Button 
+
+Clicked Factory Configuration Button 
+
+ 1814626: Screen transition complete.  It took 1019 ms
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 1 -- Duration: 781.78 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html

@@ -1,0 +1,1057 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DCAT SoftwareId="failed to connect CCN. Err: -1">
+  <Table Name="GENCONF">
+    <Variable Name="prio_cir" Offset="0" Block6Offset="0" Size="1" Format="1" PointUnit="" Description="Cir Priority Sequence" />
+    <Variable Name="ramp_sel" Offset="3" Block6Offset="3" Size="1" Format="1" PointUnit="" Description="Ramp Loading Enable" />
+    <Variable Name="off_on_d" Offset="4" Block6Offset="4" Size="1" Format="1" PointUnit="Min" Description="Unit Off to On Delay" />
+    <Variable Name="lim_sel" Offset="5" Block6Offset="5" Size="1" Format="1" PointUnit="" Description="Demand Limit Type Select" />
+    <Variable Name="nh_start" Offset="9" Block6Offset="9" Size="2" Format="12" PointUnit="" Description="Night Mode Start Hour" />
+    <Variable Name="nh_end" Offset="11" Block6Offset="10" Size="2" Format="12" PointUnit="" Description="Night Mode End Hour" />
+    <Variable Name="nh_limit" Offset="13" Block6Offset="11" Size="2" Format="2" PointUnit="%" Description="Night Capacity Limit" />
+    <Variable Name="ice_cnfg" Offset="15" Block6Offset="12" Size="2" Format="2" PointUnit="" Description="Ice Mode Enable" />
+    <Variable Name="shortcyc" Offset="17" Block6Offset="13" Size="2" Format="2" PointUnit="" Description="Short Cycle Management" />
+  </Table>
+  <Table Name="PUMPCONF">
+    <Variable Name="cpumpseq" Offset="0" Block6Offset="0" Size="2" Format="2" PointUnit="" Description="Evap Pumps Sequence" />
+    <Variable Name="pump_del" Offset="7" Block6Offset="6" Size="2" Format="2" PointUnit="Hours" Description="Pump Auto Rotation Delay" />
+    <Variable Name="pump_per" Offset="9" Block6Offset="7" Size="1" Format="1" PointUnit="" Description="Pump Sticking Protection" />
+    <Variable Name="pump_loc" Offset="10" Block6Offset="8" Size="1" Format="1" PointUnit="" Description="Flow Checked If Pump Off" />
+  </Table>
+  <Table Name="USERCONF">
+    <Variable Name="use_pass" Offset="0" Block6Offset="0" Size="2" Format="2" PointUnit="" Description="User Password" />
+  </Table>
+  <Table Name="RESETCFG">
+    <Variable Name="cr_sel" Offset="0" Block6Offset="0" Size="2" Format="2" PointUnit="" Description="Cooling Reset Select" />
+    <Variable Name="oat_crno" Offset="7" Block6Offset="6" Size="4" Format="7" PointUnit="dF" Description="OAT No Reset Value" />
+    <Variable Name="oat_crfu" Offset="11" Block6Offset="7" Size="4" Format="7" PointUnit="dF" Description="OAT Full Reset Value" />
+    <Variable Name="dt_cr_no" Offset="15" Block6Offset="8" Size="4" Format="7" PointUnit="^F" Description="Delta T No Reset Value" />
+    <Variable Name="dt_cr_fu" Offset="19" Block6Offset="9" Size="4" Format="7" PointUnit="^F" Description="Delta T Full Reset Value" />
+    <Variable Name="v_cr_no" Offset="23" Block6Offset="10" Size="4" Format="7" PointUnit="mA" Description="Current No Reset Value" />
+    <Variable Name="v_cr_fu" Offset="27" Block6Offset="11" Size="4" Format="7" PointUnit="mA" Description="Current Full Reset Value" />
+    <Variable Name="spacr_no" Offset="31" Block6Offset="12" Size="4" Format="7" PointUnit="dF" Description="Space T No Reset Value" />
+    <Variable Name="spacr_fu" Offset="35" Block6Offset="13" Size="4" Format="7" PointUnit="dF" Description="Space T Full Reset Value" />
+    <Variable Name="cr_deg" Offset="39" Block6Offset="14" Size="4" Format="7" PointUnit="^F" Description="Cooling Reset Deg. Value" />
+  </Table>
+  <Table Name="GENUNIT">
+    <Variable Name="CTRL_TYP" Offset="0" Block6Offset="0" Size="2" Format="2" PointUnit="" Description="Local=0 Net.=1 Remote=2" />
+    <Variable Name="STATUS" Offset="2" Block6Offset="1" Size="8" Format="16" PointUnit="" Description="Run Status" />
+    <Variable Name="CHIL_S_S" Offset="10" Block6Offset="2" Size="1" Format="1" PointUnit="" Description="Net.: Cmd Start/Stop" />
+    <Variable Name="CHIL_OCC" Offset="11" Block6Offset="3" Size="1" Format="1" PointUnit="" Description="Net.: Cmd Occupied" />
+    <Variable Name="min_left" Offset="12" Block6Offset="4" Size="4" Format="7" PointUnit="Min" Description="Minutes Left for Start" />
+    <Variable Name="SP_SEL" Offset="16" Block6Offset="5" Size="2" Format="2" PointUnit="" Description="Setpoint Select" />
+    <Variable Name="SP_OCC" Offset="19" Block6Offset="7" Size="2" Format="2" PointUnit="" Description="Setpoint Occupied?" />
+    <Variable Name="CAP_T" Offset="21" Block6Offset="8" Size="2" Format="2" PointUnit="%" Description="Percent Total Capacity" />
+    <Variable Name="SP" Offset="23" Block6Offset="9" Size="4" Format="7" PointUnit="dF" Description="Current Setpoint" />
+    <Variable Name="CTRL_PNT" Offset="27" Block6Offset="10" Size="4" Format="7" PointUnit="dF" Description="Control Point" />
+    <Variable Name="EMSTOP" Offset="31" Block6Offset="11" Size="1" Format="1" PointUnit="" Description="Emergency Stop" />
+    <Variable Name="DEM_LIM" Offset="32" Block6Offset="12" Size="1" Format="1" PointUnit="%" Description="Active Demand Limit Val" />
+    <Variable Name="min_lim" Offset="33" Block6Offset="13" Size="2" Format="2" PointUnit="%" Description="Demand Limit Minimum" />
+    <Variable Name="VERS_ID" Offset="35" Block6Offset="14" Size="24" Format="34" PointUnit="" Description="SW Version" />
+  </Table>
+  <Table Name="TEMP">
+    <Variable Name="COOL_EWT" Offset="0" Block6Offset="0" Size="4" Format="7" PointUnit="dF" Description="Evap Entering Fluid" />
+    <Variable Name="COOL_LWT" Offset="4" Block6Offset="1" Size="4" Format="7" PointUnit="dF" Description="Evap Leaving Fluid" />
+    <Variable Name="COOL_DLT" Offset="8" Block6Offset="2" Size="4" Format="7" PointUnit="^F" Description="Evap Delta T" />
+    <Variable Name="OAT" Offset="12" Block6Offset="3" Size="4" Format="7" PointUnit="dF" Description="Outdoor Air Temperature" />
+    <Variable Name="SCT_A" Offset="16" Block6Offset="4" Size="4" Format="7" PointUnit="dF" Description="Saturated Cond Tmp Cir A" />
+    <Variable Name="SST_A" Offset="20" Block6Offset="5" Size="4" Format="7" PointUnit="dF" Description="Saturated Suction Temp A" />
+    <Variable Name="SLT_A" Offset="24" Block6Offset="6" Size="4" Format="7" PointUnit="dF" Description="Saturated Liquid Temp A" />
+    <Variable Name="SUCT_A" Offset="28" Block6Offset="7" Size="4" Format="7" PointUnit="dF" Description="Compressor Suction Tmp A" />
+    <Variable Name="DGT_A" Offset="32" Block6Offset="8" Size="4" Format="7" PointUnit="dF" Description="Discharge Gas Temp Cir A" />
+    <Variable Name="CP_TMP_A" Offset="36" Block6Offset="9" Size="4" Format="7" PointUnit="dF" Description="Motor Temperature Cir A" />
+    <Variable Name="ECO_T_A" Offset="40" Block6Offset="10" Size="4" Format="7" PointUnit="dF" Description="EXV Eco. Tmp Cir A" />
+    <Variable Name="ECO_SATA" Offset="44" Block6Offset="11" Size="4" Format="7" PointUnit="dF" Description="Eco. Saturated Tmp A" />
+    <Variable Name="LIQ_T_A" Offset="48" Block6Offset="12" Size="4" Format="7" PointUnit="dF" Description="Liquid Temperature A" />
+    <Variable Name="SCT_B" Offset="52" Block6Offset="13" Size="4" Format="7" PointUnit="dF" Description="Saturated Cond Tmp Cir B" />
+    <Variable Name="SST_B" Offset="56" Block6Offset="14" Size="4" Format="7" PointUnit="dF" Description="Saturated Suction Temp B" />
+    <Variable Name="SLT_B" Offset="60" Block6Offset="15" Size="4" Format="7" PointUnit="dF" Description="Saturated Liquid Temp B" />
+    <Variable Name="SUCT_B" Offset="64" Block6Offset="16" Size="4" Format="7" PointUnit="dF" Description="Compressor Suction Tmp B" />
+    <Variable Name="DGT_B" Offset="68" Block6Offset="17" Size="4" Format="7" PointUnit="dF" Description="Discharge Gas Temp Cir B" />
+    <Variable Name="CP_TMP_B" Offset="72" Block6Offset="18" Size="4" Format="7" PointUnit="dF" Description="Motor Temperature Cir B" />
+    <Variable Name="ECO_T_B" Offset="76" Block6Offset="19" Size="4" Format="7" PointUnit="dF" Description="EXV Eco. Tmp Cir B" />
+    <Variable Name="ECO_SATB" Offset="80" Block6Offset="20" Size="4" Format="7" PointUnit="dF" Description="Eco. Saturated Tmp B" />
+    <Variable Name="LIQ_T_B" Offset="84" Block6Offset="21" Size="4" Format="7" PointUnit="dF" Description="Liquid Temperature B" />
+    <Variable Name="SPACETMP" Offset="88" Block6Offset="22" Size="4" Format="7" PointUnit="dF" Description="Space Temp (Opt.)" />
+    <Variable Name="CHWSTEMP" Offset="92" Block6Offset="23" Size="4" Format="7" PointUnit="dF" Description="Chill Water Temp (Opt.)" />
+  </Table>
+  <Table Name="PRESSURE">
+    <Variable Name="DP_A" Offset="0" Block6Offset="0" Size="4" Format="7" PointUnit="PSI" Description="Discharge Pressure A" />
+    <Variable Name="SP_A" Offset="4" Block6Offset="1" Size="4" Format="7" PointUnit="PSI" Description="Main Suction Pressure A" />
+    <Variable Name="OP_A" Offset="8" Block6Offset="2" Size="4" Format="7" PointUnit="PSI" Description="Oil Pressure A" />
+    <Variable Name="DOP_A" Offset="12" Block6Offset="3" Size="4" Format="7" PointUnit="PSI" Description="Delta Oil Pressure A" />
+    <Variable Name="OFDP_A" Offset="16" Block6Offset="4" Size="4" Format="7" PointUnit="PSI" Description="Oil Filter Press. Drop A" />
+    <Variable Name="ECO_P_A" Offset="20" Block6Offset="5" Size="4" Format="7" PointUnit="PSI" Description="Economizer Pressure A" />
+    <Variable Name="LIQ_P_A" Offset="24" Block6Offset="6" Size="4" Format="7" PointUnit="PSI" Description="Liquid Pressure A" />
+    <Variable Name="DP_B" Offset="28" Block6Offset="7" Size="4" Format="7" PointUnit="PSI" Description="Discharge Pressure B" />
+    <Variable Name="SP_B" Offset="32" Block6Offset="8" Size="4" Format="7" PointUnit="PSI" Description="Main Suction Pressure B" />
+    <Variable Name="OP_B" Offset="36" Block6Offset="9" Size="4" Format="7" PointUnit="PSI" Description="Oil Pressure B" />
+    <Variable Name="DOP_B" Offset="40" Block6Offset="10" Size="4" Format="7" PointUnit="PSI" Description="Delta Oil Pressure B" />
+    <Variable Name="OFDP_B" Offset="44" Block6Offset="11" Size="4" Format="7" PointUnit="PSI" Description="Oil Filter Press. Drop B" />
+    <Variable Name="ECO_P_B" Offset="48" Block6Offset="12" Size="4" Format="7" PointUnit="PSI" Description="Economizer Pressure B" />
+    <Variable Name="LIQ_P_B" Offset="52" Block6Offset="13" Size="4" Format="7" PointUnit="PSI" Description="Liquid Pressure B" />
+  </Table>
+  <Table Name="INPUTS">
+    <Variable Name="ONOFF_SW" Offset="0" Block6Offset="0" Size="2" Format="2" PointUnit="" Description="Remote On/Off Switch" />
+    <Variable Name="SETP_SW" Offset="2" Block6Offset="1" Size="2" Format="2" PointUnit="" Description="Remote Setpoint Switch" />
+    <Variable Name="LIM_SW1" Offset="4" Block6Offset="2" Size="1" Format="1" PointUnit="" Description="Limit Switch 1" />
+    <Variable Name="LIM_SW2" Offset="5" Block6Offset="3" Size="1" Format="1" PointUnit="" Description="Limit Switch 2" />
+    <Variable Name="OIL_L_A" Offset="6" Block6Offset="4" Size="1" Format="1" PointUnit="" Description="Oil Level Input A" />
+    <Variable Name="OIL_L_B" Offset="7" Block6Offset="5" Size="1" Format="1" PointUnit="" Description="Oil Level Input B" />
+    <Variable Name="SP_RESET" Offset="8" Block6Offset="6" Size="4" Format="7" PointUnit="" Description="Remote Reset Setpoint" />
+    <Variable Name="LIM_ANAL" Offset="12" Block6Offset="7" Size="4" Format="7" PointUnit="" Description="Remote Dem. Limit" />
+    <Variable Name="leak_v" Offset="16" Block6Offset="8" Size="4" Format="7" PointUnit="" Description="Leakage Detector 1" />
+    <Variable Name="leak_2_v" Offset="20" Block6Offset="9" Size="4" Format="7" PointUnit="" Description="Leakage Detector 2" />
+    <Variable Name="REM_LOCK" Offset="24" Block6Offset="10" Size="1" Format="1" PointUnit="" Description="Customer Interlock" />
+    <Variable Name="ICE_SW" Offset="25" Block6Offset="11" Size="1" Format="1" PointUnit="" Description="Ice Done Storage Switch" />
+    <Variable Name="OCC_OVSW" Offset="26" Block6Offset="12" Size="1" Format="1" PointUnit="" Description="Occupied Override Switch" />
+    <Variable Name="HEATR_SW" Offset="27" Block6Offset="13" Size="1" Format="1" PointUnit="" Description="Evap Heater Detector" />
+    <Variable Name="bacdongl" Offset="28" Block6Offset="14" Size="1" Format="1" PointUnit="" Description="BACnet Dongle" />
+  </Table>
+  <Table Name="OUTPUTS">
+    <Variable Name="LABEL_A" Offset="0" Block6Offset="0" Size="1" Format="1" PointUnit="" Description="CIRCUIT A" />
+    <Variable Name="CP_A" Offset="1" Block6Offset="1" Size="1" Format="1" PointUnit="" Description="Compressor A" />
+    <Variable Name="OIL_SL_A" Offset="2" Block6Offset="2" Size="1" Format="1" PointUnit="" Description="Oil Solenoid Output A" />
+    <Variable Name="VI_A" Offset="3" Block6Offset="3" Size="1" Format="1" PointUnit="" Description="VI Solenoid Output A" />
+    <Variable Name="CAPT010A" Offset="4" Block6Offset="4" Size="4" Format="7" PointUnit="Volts" Description="Capacity Signal Cir A" />
+    <Variable Name="VFAN_A" Offset="8" Block6Offset="5" Size="4" Format="7" PointUnit="%" Description="VariFan Speed A" />
+    <Variable Name="ISO_OP_A" Offset="12" Block6Offset="6" Size="1" Format="1" PointUnit="" Description="Ref Iso Relay Energize A" />
+    <Variable Name="ISO_POSA" Offset="13" Block6Offset="7" Size="1" Format="1" PointUnit="" Description="Ref Iso Valve State A" />
+    <Variable Name="OIL_HT_A" Offset="14" Block6Offset="8" Size="1" Format="1" PointUnit="" Description="Oil Heater Output A" />
+    <Variable Name="LABEL_B" Offset="15" Block6Offset="9" Size="1" Format="1" PointUnit="" Description="CIRCUIT B" />
+    <Variable Name="CAPT010B" Offset="16" Block6Offset="10" Size="4" Format="7" PointUnit="Volts" Description="Capacity Signal Cir B" />
+    <Variable Name="VFAN_B" Offset="20" Block6Offset="11" Size="4" Format="7" PointUnit="%" Description="VariFan Speed B" />
+    <Variable Name="CP_B" Offset="24" Block6Offset="12" Size="1" Format="1" PointUnit="" Description="Compressor B" />
+    <Variable Name="OIL_SL_B" Offset="25" Block6Offset="13" Size="1" Format="1" PointUnit="" Description="Oil Solenoid Output B" />
+    <Variable Name="VI_B" Offset="26" Block6Offset="14" Size="1" Format="1" PointUnit="" Description="VI Solenoid Output B" />
+    <Variable Name="ISO_OP_B" Offset="27" Block6Offset="15" Size="1" Format="1" PointUnit="" Description="Ref Iso Relay Energize B" />
+    <Variable Name="ISO_POSB" Offset="28" Block6Offset="16" Size="1" Format="1" PointUnit="" Description="Ref Iso Valve State B" />
+    <Variable Name="OIL_HT_B" Offset="29" Block6Offset="17" Size="1" Format="1" PointUnit="" Description="Oil Heater Output B" />
+    <Variable Name="ALARM" Offset="30" Block6Offset="18" Size="1" Format="1" PointUnit="" Description="Alarm Relay Status" />
+    <Variable Name="RUNNING" Offset="31" Block6Offset="19" Size="1" Format="1" PointUnit="" Description="Running Relay Status" />
+    <Variable Name="CAPT_010" Offset="32" Block6Offset="20" Size="4" Format="7" PointUnit="Volts" Description="Chiller Capacity Signal" />
+    <Variable Name="ALERT" Offset="36" Block6Offset="21" Size="1" Format="1" PointUnit="" Description="Alert Relay State" />
+    <Variable Name="SHUTDOWN" Offset="37" Block6Offset="22" Size="1" Format="1" PointUnit="" Description="Shutdown Indicator State" />
+    <Variable Name="C_HEATER" Offset="38" Block6Offset="23" Size="1" Format="1" PointUnit="" Description="Evap Heater Output" />
+    <Variable Name="FCA1" Offset="39" Block6Offset="24" Size="1" Format="1" PointUnit="" Description="Fan Contactor 1A" />
+    <Variable Name="FCA2" Offset="40" Block6Offset="25" Size="1" Format="1" PointUnit="" Description="Fan Contactor 2A" />
+    <Variable Name="FCA3" Offset="41" Block6Offset="26" Size="1" Format="1" PointUnit="" Description="Fan Contactor 3A" />
+    <Variable Name="FCA4" Offset="42" Block6Offset="27" Size="1" Format="1" PointUnit="" Description="Fan Contactor 4A" />
+    <Variable Name="FCA5" Offset="43" Block6Offset="28" Size="1" Format="1" PointUnit="" Description="Fan Contactor 5A" />
+    <Variable Name="FCA6" Offset="44" Block6Offset="29" Size="1" Format="1" PointUnit="" Description="Fan Contactor 6A" />
+    <Variable Name="FCA7" Offset="45" Block6Offset="30" Size="1" Format="1" PointUnit="" Description="Fan Contactor 7A" />
+    <Variable Name="FCA8" Offset="46" Block6Offset="31" Size="1" Format="1" PointUnit="" Description="Fan Contactor 8A" />
+    <Variable Name="FCB1" Offset="47" Block6Offset="32" Size="1" Format="1" PointUnit="" Description="Fan Contactor 1B" />
+    <Variable Name="FCB2" Offset="48" Block6Offset="33" Size="1" Format="1" PointUnit="" Description="Fan Contactor 2B" />
+    <Variable Name="FCB3" Offset="49" Block6Offset="34" Size="1" Format="1" PointUnit="" Description="Fan Contactor 3B" />
+    <Variable Name="FCB4" Offset="50" Block6Offset="35" Size="1" Format="1" PointUnit="" Description="Fan Contactor 4B" />
+    <Variable Name="FCB5" Offset="51" Block6Offset="36" Size="1" Format="1" PointUnit="" Description="Fan Contactor 5B" />
+    <Variable Name="FCB6" Offset="52" Block6Offset="37" Size="1" Format="1" PointUnit="" Description="Fan Contactor 6B" />
+    <Variable Name="FCB7" Offset="53" Block6Offset="38" Size="1" Format="1" PointUnit="" Description="Fan Contactor 7B" />
+    <Variable Name="FCB8" Offset="54" Block6Offset="39" Size="1" Format="1" PointUnit="" Description="Fan Contactor 8B" />
+    <Variable Name="VFD_EN_A" Offset="55" Block6Offset="40" Size="1" Format="1" PointUnit="" Description="Comp. HW Enable A" />
+    <Variable Name="VFD_EN_B" Offset="56" Block6Offset="41" Size="1" Format="1" PointUnit="" Description="Comp. HW Enable B" />
+    <Variable Name="BOX_HTR" Offset="57" Block6Offset="42" Size="1" Format="1" PointUnit="" Description="Control Box Heater" />
+  </Table>
+  <Table Name="PUMPSTAT">
+    <Variable Name="CPUMP_1" Offset="0" Block6Offset="0" Size="1" Format="1" PointUnit="" Description="Evap Pump #1 Command" />
+    <Variable Name="CPUMP_2" Offset="1" Block6Offset="1" Size="1" Format="1" PointUnit="" Description="Evap Pump #2 Command" />
+    <Variable Name="ROTCPUMP" Offset="2" Block6Offset="2" Size="1" Format="1" PointUnit="" Description="Rotate Evap Pumps ?" />
+    <Variable Name="FLOW_SW" Offset="3" Block6Offset="3" Size="1" Format="1" PointUnit="" Description="Evap Flow Switch #1" />
+    <Variable Name="FLOW_SWB" Offset="4" Block6Offset="4" Size="1" Format="1" PointUnit="" Description="Evap Flow Switch #2" />
+    <Variable Name="ROTCNTDN" Offset="5" Block6Offset="5" Size="2" Format="2" PointUnit="Hours" Description="Countdown to Rotate" />
+  </Table>
+  <Table Name="RUNTIME">
+    <Variable Name="HR_MACH" Offset="0" Block6Offset="0" Size="4" Format="7" PointUnit="Hours" Description="Machine Operating Hours" />
+    <Variable Name="st_mach" Offset="4" Block6Offset="1" Size="4" Format="7" PointUnit="" Description="Machine Starts" />
+    <Variable Name="HR_CP_A" Offset="8" Block6Offset="2" Size="4" Format="7" PointUnit="Hours" Description="Compressor A Hours" />
+    <Variable Name="st_cp_a" Offset="12" Block6Offset="3" Size="4" Format="7" PointUnit="" Description="Compressor A Starts" />
+    <Variable Name="HR_CP_B" Offset="16" Block6Offset="4" Size="4" Format="7" PointUnit="Hours" Description="Compressor B Hours" />
+    <Variable Name="st_cp_b" Offset="20" Block6Offset="5" Size="4" Format="7" PointUnit="" Description="Compressor B Starts" />
+    <Variable Name="hr_cpum1" Offset="24" Block6Offset="6" Size="4" Format="7" PointUnit="Hours" Description="Evap Pump #1 Hours" />
+    <Variable Name="hr_cpum2" Offset="28" Block6Offset="7" Size="4" Format="7" PointUnit="Hours" Description="Evap Pump #2 Hours" />
+    <Variable Name="VIctA" Offset="32" Block6Offset="8" Size="4" Format="7" PointUnit="Cycles" Description="VI Cycle Count A" />
+    <Variable Name="VIctB" Offset="36" Block6Offset="9" Size="4" Format="7" PointUnit="Cycles" Description="VI Cycle Count B" />
+    <Variable Name="hrfana01" Offset="40" Block6Offset="10" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #1 Hours" />
+    <Variable Name="hrfana02" Offset="44" Block6Offset="11" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #2 Hours" />
+    <Variable Name="hrfana03" Offset="48" Block6Offset="12" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #3 Hours" />
+    <Variable Name="hrfana04" Offset="52" Block6Offset="13" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #4 Hours" />
+    <Variable Name="hrfana05" Offset="56" Block6Offset="14" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #5 Hours" />
+    <Variable Name="hrfana06" Offset="60" Block6Offset="15" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #6 Hours" />
+    <Variable Name="hrfana07" Offset="64" Block6Offset="16" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #7 Hours" />
+    <Variable Name="hrfana08" Offset="68" Block6Offset="17" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #8 Hours" />
+    <Variable Name="hrfana09" Offset="72" Block6Offset="18" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #9 Hours" />
+    <Variable Name="hrfana10" Offset="76" Block6Offset="19" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #10 Hours" />
+    <Variable Name="hrfana11" Offset="80" Block6Offset="20" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #11 Hours" />
+    <Variable Name="hrfana12" Offset="84" Block6Offset="21" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #12 Hours" />
+    <Variable Name="hrfana13" Offset="88" Block6Offset="22" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #13 Hours" />
+    <Variable Name="hrfana14" Offset="92" Block6Offset="23" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #14 Hours" />
+    <Variable Name="hrfanb01" Offset="96" Block6Offset="24" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #1 Hours" />
+    <Variable Name="hrfanb02" Offset="100" Block6Offset="25" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #2 Hours" />
+    <Variable Name="hrfanb03" Offset="104" Block6Offset="26" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #3 Hours" />
+    <Variable Name="hrfanb04" Offset="108" Block6Offset="27" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #4 Hours" />
+    <Variable Name="hrfanb05" Offset="112" Block6Offset="28" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #5 Hours" />
+    <Variable Name="hrfanb06" Offset="116" Block6Offset="29" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #6 Hours" />
+    <Variable Name="hrfanb07" Offset="120" Block6Offset="30" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #7 Hours" />
+    <Variable Name="hrfanb08" Offset="124" Block6Offset="31" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #8 Hours" />
+    <Variable Name="hrfanb09" Offset="128" Block6Offset="32" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #9 Hours" />
+    <Variable Name="hrfanb10" Offset="132" Block6Offset="33" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #10 Hours" />
+    <Variable Name="hrfanb11" Offset="136" Block6Offset="34" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #11 Hours" />
+    <Variable Name="hrfanb12" Offset="140" Block6Offset="35" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #12 Hours" />
+    <Variable Name="hrfanb13" Offset="144" Block6Offset="36" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #13 Hours" />
+    <Variable Name="hrfanb14" Offset="148" Block6Offset="37" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #14 Hours" />
+  </Table>
+  <Table Name="MODES">
+    <Variable Name="m_delay" Offset="0" Block6Offset="0" Size="1" Format="1" PointUnit="" Description="Start Up Delay In Effect" />
+    <Variable Name="m_2stpt" Offset="1" Block6Offset="1" Size="1" Format="1" PointUnit="" Description="Second Setpoint In Use" />
+    <Variable Name="m_reset" Offset="2" Block6Offset="2" Size="1" Format="1" PointUnit="" Description="Reset In Effect" />
+    <Variable Name="m_demlim" Offset="3" Block6Offset="3" Size="1" Format="1" PointUnit="" Description="Demand Limit Active" />
+    <Variable Name="m_pmprot" Offset="4" Block6Offset="4" Size="1" Format="1" PointUnit="" Description="Evaporator Pump Rotation" />
+    <Variable Name="m_pmpper" Offset="5" Block6Offset="5" Size="1" Format="1" PointUnit="" Description="Pump Periodic Start" />
+    <Variable Name="m_night" Offset="6" Block6Offset="6" Size="1" Format="1" PointUnit="" Description="Night Low Noise Active" />
+    <Variable Name="m_slave" Offset="7" Block6Offset="7" Size="1" Format="1" PointUnit="" Description="Master Slave Active" />
+    <Variable Name="m_ice" Offset="8" Block6Offset="8" Size="1" Format="1" PointUnit="" Description="Ice Mode In Effect" />
+  </Table>
+  <Table Name="ALARMRST">
+    <Variable Name="RST_ALM" Offset="0" Block6Offset="0" Size="2" Format="2" PointUnit="" Description="Alarm Reset" />
+    <Variable Name="ALM" Offset="2" Block6Offset="1" Size="8" Format="16" PointUnit="" Description="Alarm State" />
+    <Variable Name="alarm_1c" Offset="10" Block6Offset="2" Size="2" Format="2" PointUnit="" Description="Current Alarm 1" />
+    <Variable Name="alarm_2c" Offset="12" Block6Offset="3" Size="2" Format="2" PointUnit="" Description="Current Alarm 2" />
+    <Variable Name="alarm_3c" Offset="14" Block6Offset="4" Size="2" Format="2" PointUnit="" Description="Current Alarm 3" />
+    <Variable Name="alarm_4c" Offset="16" Block6Offset="5" Size="2" Format="2" PointUnit="" Description="Current Alarm 4" />
+    <Variable Name="alarm_5c" Offset="18" Block6Offset="6" Size="2" Format="2" PointUnit="" Description="Current Alarm 5" />
+    <Variable Name="alarm_1" Offset="20" Block6Offset="7" Size="2" Format="2" PointUnit="" Description="Jbus Current Alarm 1" />
+    <Variable Name="alarm_2" Offset="22" Block6Offset="8" Size="2" Format="2" PointUnit="" Description="Jbus Current Alarm 2" />
+    <Variable Name="alarm_3" Offset="24" Block6Offset="9" Size="2" Format="2" PointUnit="" Description="Jbus Current Alarm 3" />
+    <Variable Name="alarm_4" Offset="26" Block6Offset="10" Size="2" Format="2" PointUnit="" Description="Jbus Current Alarm 4" />
+    <Variable Name="alarm_5" Offset="28" Block6Offset="11" Size="2" Format="2" PointUnit="" Description="Jbus Current Alarm 5" />
+  </Table>
+  <Table Name="VLT_DRV">
+    <Variable Name="drv_pwra" Offset="0" Block6Offset="0" Size="4" Format="7" PointUnit="KW" Description="Cir A Drive Power" />
+    <Variable Name="drv_pwPa" Offset="4" Block6Offset="1" Size="4" Format="7" PointUnit="%" Description="Cir A Drive Power %" />
+    <Variable Name="drv_Ia" Offset="8" Block6Offset="2" Size="4" Format="7" PointUnit="%AMPS" Description="Cir A Drive Amps" />
+    <Variable Name="drv_IPa" Offset="12" Block6Offset="3" Size="4" Format="7" PointUnit="%" Description="Comp A Amperage %" />
+    <Variable Name="drv_Va" Offset="16" Block6Offset="4" Size="4" Format="7" PointUnit="Volts" Description="Cir A Drive Voltage" />
+    <Variable Name="drv_VPa" Offset="20" Block6Offset="5" Size="4" Format="7" PointUnit="%" Description="Comp A  Line voltage %" />
+    <Variable Name="drv_Sa" Offset="24" Block6Offset="6" Size="4" Format="7" PointUnit="RPM" Description="Cir A Drive Speed" />
+    <Variable Name="drv_SPa" Offset="28" Block6Offset="7" Size="4" Format="7" PointUnit="%" Description="Comp A Speed%" />
+    <Variable Name="drv_Fa" Offset="32" Block6Offset="8" Size="4" Format="7" PointUnit="Hz" Description="Cir A Drive Frequency" />
+    <Variable Name="drv_FPa" Offset="36" Block6Offset="9" Size="4" Format="7" PointUnit="%" Description="Comp A Frequency %" />
+    <Variable Name="drv_Ta" Offset="40" Block6Offset="10" Size="4" Format="7" PointUnit="" Description="Cir A Drive Torque" />
+    <Variable Name="drv_TPa" Offset="44" Block6Offset="11" Size="2" Format="2" PointUnit="%" Description="Circ A Drive Torque %" />
+    <Variable Name="drv_DCVa" Offset="46" Block6Offset="12" Size="4" Format="7" PointUnit="Volts" Description="Cir A Drive DC Link Volt" />
+    <Variable Name="drv_DCPa" Offset="50" Block6Offset="13" Size="4" Format="7" PointUnit="%" Description="Comp A DC Link Voltage %" />
+    <Variable Name="drv_HSTa" Offset="54" Block6Offset="14" Size="4" Format="7" PointUnit="dF" Description="Cir A Drive Heat Sink T" />
+    <Variable Name="drv_HSPa" Offset="58" Block6Offset="15" Size="4" Format="7" PointUnit="%" Description="Comp A Heat Sink Temp %" />
+    <Variable Name="drv_CCTa" Offset="62" Block6Offset="16" Size="4" Format="7" PointUnit="dF" Description="Cir A Drive Ctrl Card T" />
+    <Variable Name="drv_HTRa" Offset="66" Block6Offset="17" Size="4" Format="7" PointUnit="" Description="Cir A Drive Heater" />
+    <Variable Name="drv_pwrb" Offset="70" Block6Offset="18" Size="4" Format="7" PointUnit="KW" Description="Cir B Drive Power" />
+    <Variable Name="drv_pwPb" Offset="74" Block6Offset="19" Size="4" Format="7" PointUnit="%" Description="Cir B Drive Power %" />
+    <Variable Name="drv_Ib" Offset="78" Block6Offset="20" Size="4" Format="7" PointUnit="%AMPS" Description="Cir B Drive Amps" />
+    <Variable Name="drv_IPb" Offset="82" Block6Offset="21" Size="4" Format="7" PointUnit="%" Description="Comp B Amperage %" />
+    <Variable Name="drv_Vb" Offset="86" Block6Offset="22" Size="4" Format="7" PointUnit="Volts" Description="Cir B Drive Voltage" />
+    <Variable Name="drv_VPb" Offset="90" Block6Offset="23" Size="4" Format="7" PointUnit="%" Description="Comp B  Line voltage %" />
+    <Variable Name="drv_Sb" Offset="94" Block6Offset="24" Size="4" Format="7" PointUnit="RPM" Description="Cir B Drive Speed" />
+    <Variable Name="drv_SPb" Offset="98" Block6Offset="25" Size="4" Format="7" PointUnit="%" Description="Comp B Speed%" />
+    <Variable Name="drv_Fb" Offset="102" Block6Offset="26" Size="4" Format="7" PointUnit="Hz" Description="Cir B Drive Frequency" />
+    <Variable Name="drv_FPb" Offset="106" Block6Offset="27" Size="4" Format="7" PointUnit="%" Description="Comp B Frequency %" />
+    <Variable Name="drv_Tb" Offset="110" Block6Offset="28" Size="4" Format="7" PointUnit="" Description="Cir B Drive Torque" />
+    <Variable Name="drv_TPb" Offset="114" Block6Offset="29" Size="2" Format="2" PointUnit="%" Description="Circ B Drive Torque %" />
+    <Variable Name="drv_DCVb" Offset="116" Block6Offset="30" Size="4" Format="7" PointUnit="Volts" Description="Cir B Drive DC Link Volt" />
+    <Variable Name="drv_DCPb" Offset="120" Block6Offset="31" Size="4" Format="7" PointUnit="%" Description="Comp B DC Link Voltage %" />
+    <Variable Name="drv_HSTb" Offset="124" Block6Offset="32" Size="4" Format="7" PointUnit="dF" Description="Cir B Drive Heat Sink T" />
+    <Variable Name="drv_HSPb" Offset="128" Block6Offset="33" Size="4" Format="7" PointUnit="%" Description="Comp B Heat Sink Temp %" />
+    <Variable Name="drv_CCTb" Offset="132" Block6Offset="34" Size="4" Format="7" PointUnit="dF" Description="Cir B Drive Ctrl Card T" />
+    <Variable Name="drv_HTRb" Offset="136" Block6Offset="35" Size="4" Format="7" PointUnit="" Description="Cir B Drive Heater" />
+    <Variable Name="SET_DRVA" Offset="140" Block6Offset="36" Size="1" Format="1" PointUnit="" Description="Drive A Attach" />
+    <Variable Name="SET_DRVB" Offset="141" Block6Offset="37" Size="1" Format="1" PointUnit="" Description="Drive B Attach" />
+    <Variable Name="VLT_COMA" Offset="142" Block6Offset="38" Size="1" Format="1" PointUnit="" Description="Comm with Drive A Ok" />
+    <Variable Name="VLT_COMB" Offset="143" Block6Offset="39" Size="1" Format="1" PointUnit="" Description="Comm with Drive B Ok" />
+    <Variable Name="CnfgDrva" Offset="144" Block6Offset="40" Size="1" Format="1" PointUnit="" Description="Force Comp Drv A Config" />
+    <Variable Name="CnfgDrvb" Offset="145" Block6Offset="41" Size="1" Format="1" PointUnit="" Description="Force Comp Drv B Config" />
+  </Table>
+  <Table Name="LAST_POR">
+    <Variable Name="date_on1" Offset="0" Block6Offset="0" Size="4" Format="7" PointUnit="" Description="Power On 1 :day-mon-year" />
+    <Variable Name="time_on1" Offset="4" Block6Offset="1" Size="4" Format="7" PointUnit="" Description="Power On 1 :hour-minute" />
+    <Variable Name="date_of1" Offset="8" Block6Offset="2" Size="4" Format="7" PointUnit="" Description="PowerDown 1:day-mon-year" />
+    <Variable Name="time_of1" Offset="12" Block6Offset="3" Size="4" Format="7" PointUnit="" Description="PowerDown 1:hour-minute" />
+    <Variable Name="date_on2" Offset="16" Block6Offset="4" Size="4" Format="7" PointUnit="" Description="Power On 2 :day-mon-year" />
+    <Variable Name="time_on2" Offset="20" Block6Offset="5" Size="4" Format="7" PointUnit="" Description="Power On 2 :hour-minute" />
+    <Variable Name="date_of2" Offset="24" Block6Offset="6" Size="4" Format="7" PointUnit="" Description="PowerDown 2:day-mon-year" />
+    <Variable Name="time_of2" Offset="28" Block6Offset="7" Size="4" Format="7" PointUnit="" Description="PowerDown 2:hour-minute" />
+    <Variable Name="date_on3" Offset="32" Block6Offset="8" Size="4" Format="7" PointUnit="" Description="Power On 3 :day-mon-year" />
+    <Variable Name="time_on3" Offset="36" Block6Offset="9" Size="4" Format="7" PointUnit="" Description="Power On 3 :hour-minute" />
+    <Variable Name="date_of3" Offset="40" Block6Offset="10" Size="4" Format="7" PointUnit="" Description="PowerDown 3:day-mon-year" />
+    <Variable Name="time_of3" Offset="44" Block6Offset="11" Size="4" Format="7" PointUnit="" Description="PowerDown 3:hour-minute" />
+    <Variable Name="date_on4" Offset="48" Block6Offset="12" Size="4" Format="7" PointUnit="" Description="Power On 4 :day-mon-year" />
+    <Variable Name="time_on4" Offset="52" Block6Offset="13" Size="4" Format="7" PointUnit="" Description="Power On 4 :hour-minute" />
+    <Variable Name="date_of4" Offset="56" Block6Offset="14" Size="4" Format="7" PointUnit="" Description="PowerDown 4:day-mon-year" />
+    <Variable Name="time_of4" Offset="60" Block6Offset="15" Size="4" Format="7" PointUnit="" Description="PowerDown 4:hour-minute" />
+    <Variable Name="date_on5" Offset="64" Block6Offset="16" Size="4" Format="7" PointUnit="" Description="Power On 5 :day-mon-year" />
+    <Variable Name="time_on5" Offset="68" Block6Offset="17" Size="4" Format="7" PointUnit="" Description="Power On 5 :hour-minute" />
+    <Variable Name="date_of5" Offset="72" Block6Offset="18" Size="4" Format="7" PointUnit="" Description="PowerDown 5:day-mon-year" />
+    <Variable Name="time_of5" Offset="76" Block6Offset="19" Size="4" Format="7" PointUnit="" Description="PowerDown 5:hour-minute" />
+  </Table>
+  <Table Name="EXV_CTRL">
+    <Variable Name="ov_exv_a" Offset="1" Block6Offset="1" Size="2" Format="2" PointUnit="" Description="EXV Override Circuit A" />
+    <Variable Name="EXV_A" Offset="3" Block6Offset="2" Size="4" Format="7" PointUnit="%" Description="EXV Position (Pct) A" />
+    <Variable Name="EXV_STPA" Offset="7" Block6Offset="3" Size="2" Format="2" PointUnit="" Description="EXV Position (Steps) A" />
+    <Variable Name="DSH_A" Offset="9" Block6Offset="4" Size="4" Format="7" PointUnit="^F" Description="Discharge Superheat A" />
+    <Variable Name="dsh_spa" Offset="13" Block6Offset="5" Size="4" Format="7" PointUnit="^F" Description="Dis. Superheat Setpnt A" />
+    <Variable Name="SH_A" Offset="17" Block6Offset="6" Size="4" Format="7" PointUnit="^F" Description="Suction Superheat A" />
+    <Variable Name="sh_sp_a" Offset="21" Block6Offset="7" Size="4" Format="7" PointUnit="^F" Description="Suct. Superheat Setpnt A" />
+    <Variable Name="pinch_a" Offset="25" Block6Offset="8" Size="4" Format="7" PointUnit="^F" Description="Evap ExchangeDT Cir A" />
+    <Variable Name="subcoola" Offset="29" Block6Offset="9" Size="4" Format="7" PointUnit="^F" Description="Subcooling Circuit A" />
+    <Variable Name="subc_spa" Offset="33" Block6Offset="10" Size="4" Format="7" PointUnit="^F" Description="Subcooling Setpoint A" />
+    <Variable Name="exv_sta" Offset="37" Block6Offset="11" Size="2" Format="10" PointUnit="" Description="EXV State A" />
+    <Variable Name="exv_lsta" Offset="39" Block6Offset="12" Size="2" Format="10" PointUnit="" Description="EXV Previous State A" />
+    <Variable Name="exvwposa" Offset="41" Block6Offset="13" Size="4" Format="7" PointUnit="" Description="EXV Wished Position A" />
+    <Variable Name="exv_moda" Offset="45" Block6Offset="14" Size="8" Format="16" PointUnit="" Description="EXV Mode A" />
+    <Variable Name="exv_txta" Offset="53" Block6Offset="15" Size="24" Format="34" PointUnit="" Description="EXV Mode Text A" />
+    <Variable Name="ov_exv_b" Offset="78" Block6Offset="17" Size="2" Format="2" PointUnit="" Description="EXV Override Circuit B" />
+    <Variable Name="EXV_B" Offset="80" Block6Offset="18" Size="4" Format="7" PointUnit="%" Description="EXV Position (Pct) B" />
+    <Variable Name="EXV_STPB" Offset="84" Block6Offset="19" Size="2" Format="2" PointUnit="" Description="EXV Position (Steps) B" />
+    <Variable Name="DSH_B" Offset="86" Block6Offset="20" Size="4" Format="7" PointUnit="^F" Description="Discharge Superheat B" />
+    <Variable Name="dsh_spb" Offset="90" Block6Offset="21" Size="4" Format="7" PointUnit="^F" Description="Dis. Superheat Setpnt B" />
+    <Variable Name="SH_B" Offset="94" Block6Offset="22" Size="4" Format="7" PointUnit="^F" Description="Suction Superheat B" />
+    <Variable Name="sh_sp_b" Offset="98" Block6Offset="23" Size="4" Format="7" PointUnit="^F" Description="Suct. Superheat Setpnt B" />
+    <Variable Name="pinch_b" Offset="102" Block6Offset="24" Size="4" Format="7" PointUnit="^F" Description="Evap ExchangeDT Cir B" />
+    <Variable Name="subcoolb" Offset="106" Block6Offset="25" Size="4" Format="7" PointUnit="^F" Description="Subcooling Circuit B" />
+    <Variable Name="subc_spb" Offset="110" Block6Offset="26" Size="4" Format="7" PointUnit="" Description="Subcooling Setpoint B" />
+    <Variable Name="exv_stb" Offset="114" Block6Offset="27" Size="2" Format="10" PointUnit="" Description="EXV State B" />
+    <Variable Name="exv_lstb" Offset="116" Block6Offset="28" Size="2" Format="10" PointUnit="" Description="EXV Previous State B" />
+    <Variable Name="exvwposb" Offset="118" Block6Offset="29" Size="4" Format="7" PointUnit="" Description="EXV Wished Position B" />
+    <Variable Name="exv_modb" Offset="122" Block6Offset="30" Size="8" Format="16" PointUnit="" Description="EXV Mode B" />
+    <Variable Name="exv_txtb" Offset="130" Block6Offset="31" Size="24" Format="34" PointUnit="" Description="EXV Mode Text B" />
+  </Table>
+  <Table Name="QCK_TEST">
+    <Variable Name="QCK_TEST" Offset="1" Block6Offset="1" Size="2" Format="2" PointUnit="" Description="Quick Test Enable" />
+    <Variable Name="Q_EXVA" Offset="3" Block6Offset="2" Size="1" Format="1" PointUnit="%" Description="Circuit A EXV Position" />
+    <Variable Name="Q_OILS_A" Offset="4" Block6Offset="3" Size="1" Format="1" PointUnit="" Description="Circuit A Oil Solenoid" />
+    <Variable Name="Q_ECO_A" Offset="5" Block6Offset="4" Size="1" Format="1" PointUnit="%" Description="EXV Eco Position Cir A" />
+    <Variable Name="Q_OILHTA" Offset="6" Block6Offset="5" Size="1" Format="1" PointUnit="" Description="Oil Heater Circuit A" />
+    <Variable Name="Q_010_A" Offset="7" Block6Offset="6" Size="4" Format="7" PointUnit="%" Description="Capacity Cir A Output" />
+    <Variable Name="Q_COMPA" Offset="11" Block6Offset="7" Size="4" Format="7" PointUnit="" Description="Comp A Running Output" />
+    <Variable Name="Q_ISOP_A" Offset="15" Block6Offset="8" Size="2" Format="2" PointUnit="" Description="Isolation Valve State A" />
+    <Variable Name="Q_VI_A" Offset="17" Block6Offset="9" Size="2" Format="2" PointUnit="" Description="Circuit A VI" />
+    <Variable Name="Q_VFAN_A" Offset="19" Block6Offset="10" Size="4" Format="7" PointUnit="%" Description="VariFan Speed A" />
+    <Variable Name="Q_EXVB" Offset="23" Block6Offset="11" Size="1" Format="1" PointUnit="%" Description="Circuit B EXV Position" />
+    <Variable Name="Q_OILS_B" Offset="24" Block6Offset="12" Size="1" Format="1" PointUnit="" Description="Circuit B Oil Solenoid" />
+    <Variable Name="Q_ECO_B" Offset="25" Block6Offset="13" Size="1" Format="1" PointUnit="%" Description="EXV Eco Position Cir B" />
+    <Variable Name="Q_OILHTB" Offset="26" Block6Offset="14" Size="1" Format="1" PointUnit="" Description="Oil Heater Circuit B" />
+    <Variable Name="Q_010_B" Offset="27" Block6Offset="15" Size="4" Format="7" PointUnit="%" Description="Capacity Cir B Output" />
+    <Variable Name="Q_COMPB" Offset="31" Block6Offset="16" Size="4" Format="7" PointUnit="" Description="Comp B Running Output" />
+    <Variable Name="Q_ISOP_B" Offset="35" Block6Offset="17" Size="2" Format="2" PointUnit="" Description="Isolation Valve State B" />
+    <Variable Name="Q_VI_B" Offset="37" Block6Offset="18" Size="2" Format="2" PointUnit="" Description="Circuit B VI" />
+    <Variable Name="Q_VFAN_B" Offset="39" Block6Offset="19" Size="4" Format="7" PointUnit="%" Description="VariFan Speed B" />
+    <Variable Name="Q_CL_HTR" Offset="43" Block6Offset="20" Size="2" Format="2" PointUnit="" Description="Evaporator Heater" />
+    <Variable Name="Q_CPMP1" Offset="45" Block6Offset="21" Size="1" Format="1" PointUnit="" Description="Evaporator Pump 1" />
+    <Variable Name="Q_CPMP2" Offset="46" Block6Offset="22" Size="1" Format="1" PointUnit="" Description="Evaporator Pump 2" />
+    <Variable Name="Q_ALARM" Offset="47" Block6Offset="23" Size="1" Format="1" PointUnit="" Description="Alarm Relay Status" />
+    <Variable Name="Q_SHUTD" Offset="48" Block6Offset="24" Size="1" Format="1" PointUnit="" Description="Shutdown Relay Status" />
+    <Variable Name="Q_RUN" Offset="49" Block6Offset="25" Size="1" Format="1" PointUnit="" Description="Running Relay Status" />
+    <Variable Name="Q_ALERT" Offset="50" Block6Offset="26" Size="1" Format="1" PointUnit="" Description="Alert Relay Switch" />
+    <Variable Name="Q_CAP010" Offset="51" Block6Offset="27" Size="1" Format="1" PointUnit="%" Description="Capacity Total Output" />
+    <Variable Name="Q_DRVHTA" Offset="52" Block6Offset="28" Size="1" Format="1" PointUnit="" Description="Comp drive heater A" />
+    <Variable Name="Q_DRVHTB" Offset="53" Block6Offset="29" Size="1" Format="1" PointUnit="" Description="Comp drive heater B" />
+    <Variable Name="Q_FCA1" Offset="54" Block6Offset="30" Size="1" Format="1" PointUnit="" Description="Fan Contactor 1A" />
+    <Variable Name="Q_FCA2" Offset="55" Block6Offset="31" Size="1" Format="1" PointUnit="" Description="Fan Contactor 2A" />
+    <Variable Name="Q_FCA3" Offset="56" Block6Offset="32" Size="1" Format="1" PointUnit="" Description="Fan Contactor 3A" />
+    <Variable Name="Q_FCA4" Offset="57" Block6Offset="33" Size="1" Format="1" PointUnit="" Description="Fan Contactor 4A" />
+    <Variable Name="Q_FCA5" Offset="58" Block6Offset="34" Size="1" Format="1" PointUnit="" Description="Fan Contactor 5A" />
+    <Variable Name="Q_FCA6" Offset="59" Block6Offset="35" Size="1" Format="1" PointUnit="" Description="Fan Contactor 6A" />
+    <Variable Name="Q_FCA7" Offset="60" Block6Offset="36" Size="1" Format="1" PointUnit="" Description="Fan Contactor 7A" />
+    <Variable Name="Q_FCA8" Offset="61" Block6Offset="37" Size="1" Format="1" PointUnit="" Description="Fan Contactor 8A" />
+    <Variable Name="Q_FCB1" Offset="62" Block6Offset="38" Size="1" Format="1" PointUnit="" Description="Fan Contactor 1B" />
+    <Variable Name="Q_FCB2" Offset="63" Block6Offset="39" Size="1" Format="1" PointUnit="" Description="Fan Contactor 2B" />
+    <Variable Name="Q_FCB3" Offset="64" Block6Offset="40" Size="1" Format="1" PointUnit="" Description="Fan Contactor 3B" />
+    <Variable Name="Q_FCB4" Offset="65" Block6Offset="41" Size="1" Format="1" PointUnit="" Description="Fan Contactor 4B" />
+    <Variable Name="Q_FCB5" Offset="66" Block6Offset="42" Size="1" Format="1" PointUnit="" Description="Fan Contactor 5B" />
+    <Variable Name="Q_FCB6" Offset="67" Block6Offset="43" Size="1" Format="1" PointUnit="" Description="Fan Contactor 6B" />
+    <Variable Name="Q_FCB7" Offset="68" Block6Offset="44" Size="1" Format="1" PointUnit="" Description="Fan Contactor 7B" />
+    <Variable Name="Q_FCB8" Offset="69" Block6Offset="45" Size="1" Format="1" PointUnit="" Description="Fan Contactor 8B" />
+    <Variable Name="Q_VF_ENA" Offset="70" Block6Offset="46" Size="1" Format="1" PointUnit="" Description="Comp. HW Enable A" />
+    <Variable Name="Q_VF_ENB" Offset="71" Block6Offset="47" Size="1" Format="1" PointUnit="" Description="Comp. HW Enable B" />
+    <Variable Name="Q_BOX_HT" Offset="72" Block6Offset="48" Size="1" Format="1" PointUnit="" Description="Control Box Heater" />
+  </Table>
+  <Table Name="M_MSTSLV">
+    <Variable Name="mstslv" Offset="1" Block6Offset="1" Size="8" Format="34" PointUnit="" Description="Unit is Master or Slave" />
+    <Variable Name="ms_ctrl" Offset="9" Block6Offset="2" Size="8" Format="34" PointUnit="" Description="Master Control Type" />
+    <Variable Name="ms_activ" Offset="17" Block6Offset="3" Size="1" Format="1" PointUnit="" Description="Master/Slave Ctrl Active" />
+    <Variable Name="lead_sel" Offset="18" Block6Offset="4" Size="1" Format="1" PointUnit="" Description="Lead Unit is the:" />
+    <Variable Name="slv_stat" Offset="19" Block6Offset="5" Size="1" Format="1" PointUnit="" Description="Slave Chiller State" />
+    <Variable Name="slv_capt" Offset="20" Block6Offset="6" Size="1" Format="1" PointUnit="%" Description="Slave Chiller Total Cap" />
+    <Variable Name="l_strt_d" Offset="21" Block6Offset="7" Size="2" Format="2" PointUnit="Min" Description="Lag Start Delay" />
+    <Variable Name="ll_hr_d" Offset="23" Block6Offset="8" Size="2" Format="10" PointUnit="Hours" Description="Lead/lag Hours Delta" />
+    <Variable Name="ll_chang" Offset="25" Block6Offset="9" Size="1" Format="1" PointUnit="" Description="Lead/lag Changeover?" />
+    <Variable Name="ll_pull" Offset="26" Block6Offset="10" Size="1" Format="1" PointUnit="" Description="Lead Pulldown ?" />
+    <Variable Name="ms_error" Offset="27" Block6Offset="11" Size="1" Format="1" PointUnit="" Description="Master/Slave Error" />
+    <Variable Name="cap_max" Offset="28" Block6Offset="12" Size="1" Format="1" PointUnit="" Description="Max Available Capacity ?" />
+    <Variable Name="lagstat" Offset="29" Block6Offset="13" Size="4" Format="7" PointUnit="" Description="Slave lagstat" />
+    <Variable Name="slav_hr" Offset="33" Block6Offset="14" Size="4" Format="7" PointUnit="Hours" Description="Slave Operating Hours" />
+    <Variable Name="slav_ewt" Offset="37" Block6Offset="15" Size="4" Format="7" PointUnit="dF" Description="Slave Evap Ent. Fluid" />
+    <Variable Name="slav_lwt" Offset="41" Block6Offset="16" Size="4" Format="7" PointUnit="dF" Description="Slave Evap Leav. Fluid" />
+  </Table>
+  <Table Name="CAPACTRL">
+    <Variable Name="ctrl_wt" Offset="0" Block6Offset="0" Size="4" Format="7" PointUnit="dF" Description="Controled Water Temp" />
+    <Variable Name="cwt_rate" Offset="4" Block6Offset="1" Size="4" Format="7" PointUnit="^F" Description="Ctrl Water Temp, Deg/Min" />
+    <Variable Name="cap_lim" Offset="8" Block6Offset="2" Size="4" Format="7" PointUnit="%" Description="Current Capacity Limit" />
+    <Variable Name="drvcmda" Offset="12" Block6Offset="3" Size="4" Format="7" PointUnit="Hz" Description="Wished Comp. Frequency A" />
+    <Variable Name="capstata" Offset="16" Block6Offset="4" Size="8" Format="16" PointUnit="" Description="Capa Ctrl State A" />
+    <Variable Name="captxta" Offset="24" Block6Offset="5" Size="24" Format="34" PointUnit="" Description="Capa Ctrl State Text A" />
+    <Variable Name="ovrstata" Offset="48" Block6Offset="6" Size="8" Format="16" PointUnit="" Description="Override State A" />
+    <Variable Name="ovrtxta" Offset="56" Block6Offset="7" Size="24" Format="34" PointUnit="" Description="Override State Text A" />
+    <Variable Name="capmoda" Offset="80" Block6Offset="8" Size="2" Format="10" PointUnit="" Description="Capa Ctrl Stat Nb A" />
+    <Variable Name="lcapmoda" Offset="82" Block6Offset="9" Size="2" Format="10" PointUnit="" Description="Last Capa Ctrl Stat Nb A" />
+    <Variable Name="overrida" Offset="84" Block6Offset="10" Size="2" Format="2" PointUnit="" Description="Override Capacity Nb A" />
+    <Variable Name="cap_pc_a" Offset="86" Block6Offset="11" Size="2" Format="2" PointUnit="%" Description="Estimated Capacity  A" />
+    <Variable Name="drvcmdb" Offset="88" Block6Offset="12" Size="4" Format="7" PointUnit="Hz" Description="Wished Comp. Frequency B" />
+    <Variable Name="capstatb" Offset="92" Block6Offset="13" Size="8" Format="16" PointUnit="" Description="Capa Ctrl State B" />
+    <Variable Name="captxtb" Offset="100" Block6Offset="14" Size="24" Format="34" PointUnit="" Description="Capa Ctrl State Text B" />
+    <Variable Name="ovrstatb" Offset="124" Block6Offset="15" Size="8" Format="16" PointUnit="" Description="Override State B" />
+    <Variable Name="ovrtxtb" Offset="132" Block6Offset="16" Size="24" Format="34" PointUnit="" Description="Override State Text B" />
+    <Variable Name="capmodb" Offset="156" Block6Offset="17" Size="2" Format="10" PointUnit="" Description="Capacity Ctrl Stat Nb B" />
+    <Variable Name="lcapmodb" Offset="158" Block6Offset="18" Size="2" Format="10" PointUnit="" Description="Last Capa Ctrl Stat Nb B" />
+    <Variable Name="overridb" Offset="160" Block6Offset="19" Size="2" Format="2" PointUnit="" Description="Override Capacity Nb B" />
+    <Variable Name="cap_pc_b" Offset="162" Block6Offset="20" Size="2" Format="2" PointUnit="%" Description="Estimated Capacity  B" />
+    <Variable Name="cMaxFrqA" Offset="164" Block6Offset="21" Size="4" Format="7" PointUnit="Hz" Description="Max Comp. Frequency A" />
+    <Variable Name="cMaxFrqB" Offset="168" Block6Offset="22" Size="4" Format="7" PointUnit="Hz" Description="Max Comp. Frequency B" />
+    <Variable Name="viCmdA" Offset="172" Block6Offset="23" Size="4" Format="7" PointUnit="" Description="Comp. VI Cmd A" />
+    <Variable Name="viCmdB" Offset="176" Block6Offset="24" Size="4" Format="7" PointUnit="" Description="Comp. VI Cmd B" />
+    <Variable Name="reset" Offset="180" Block6Offset="25" Size="4" Format="7" PointUnit="^F" Description="Reset Amount" />
+    <Variable Name="CirRunNb" Offset="184" Block6Offset="26" Size="2" Format="2" PointUnit="" Description="Circuit Running Number" />
+    <Variable Name="StatCirA" Offset="186" Block6Offset="27" Size="2" Format="2" PointUnit="" Description="State of Circuit A" />
+    <Variable Name="StatCirB" Offset="188" Block6Offset="28" Size="2" Format="2" PointUnit="" Description="State of Circuit B" />
+    <Variable Name="DualMast" Offset="190" Block6Offset="29" Size="2" Format="2" PointUnit="" Description="Dual Circuit Master" />
+    <Variable Name="xSpdHigh" Offset="192" Block6Offset="30" Size="4" Format="7" PointUnit="Hz" Description="Transfer Spd, add cir" />
+    <Variable Name="xSpdLow" Offset="196" Block6Offset="31" Size="4" Format="7" PointUnit="Hz" Description="Transfer Spd, remove cir" />
+    <Variable Name="cStrtFrq" Offset="200" Block6Offset="32" Size="4" Format="7" PointUnit="Hz" Description="Compressor Start Freq" />
+    <Variable Name="cMinFrq" Offset="204" Block6Offset="33" Size="4" Format="7" PointUnit="Hz" Description="Compressor Min Frequency" />
+  </Table>
+  <Table Name="LIMITS">
+    <Variable Name="dshacta" Offset="0" Block6Offset="0" Size="4" Format="7" PointUnit="^F" Description="EXV_dsh_act A" />
+    <Variable Name="dshstpa" Offset="4" Block6Offset="1" Size="4" Format="7" PointUnit="^F" Description="EXV_dsh_stp A" />
+    <Variable Name="elspacta" Offset="8" Block6Offset="2" Size="4" Format="7" PointUnit="PSI" Description="EXV_lsp_act A" />
+    <Variable Name="elspstpa" Offset="12" Block6Offset="3" Size="4" Format="7" PointUnit="PSI" Description="EXV_lsp_stp A" />
+    <Variable Name="chdpacta" Offset="16" Block6Offset="4" Size="4" Format="7" PointUnit="PSI" Description="ENV comp high dp act A" />
+    <Variable Name="chdpstpa" Offset="20" Block6Offset="5" Size="4" Format="7" PointUnit="PSI" Description="ENV comp high dp stp A" />
+    <Variable Name="fhdpacta" Offset="24" Block6Offset="6" Size="4" Format="7" PointUnit="PSI" Description="ENV fan high dp act A" />
+    <Variable Name="fhdpstpa" Offset="28" Block6Offset="7" Size="4" Format="7" PointUnit="PSI" Description="ENV fan high dp stp A" />
+    <Variable Name="ldpacta" Offset="32" Block6Offset="8" Size="4" Format="7" PointUnit="PSI" Description="ENV low dp act A" />
+    <Variable Name="ldpstpa" Offset="36" Block6Offset="9" Size="4" Format="7" PointUnit="PSI" Description="ENV low dp stp A" />
+    <Variable Name="hspacta" Offset="40" Block6Offset="10" Size="4" Format="7" PointUnit="PSI" Description="ENV high sp act A" />
+    <Variable Name="hspstpa" Offset="44" Block6Offset="11" Size="4" Format="7" PointUnit="PSI" Description="ENV high sp stp A" />
+    <Variable Name="lspacta" Offset="48" Block6Offset="12" Size="4" Format="7" PointUnit="PSI" Description="ENV low sp act A" />
+    <Variable Name="lspstpa" Offset="52" Block6Offset="13" Size="4" Format="7" PointUnit="PSI" Description="ENV low sp stp A" />
+    <Variable Name="dgtacta" Offset="56" Block6Offset="14" Size="4" Format="7" PointUnit="dF" Description="dgt act A" />
+    <Variable Name="dgtstpa" Offset="60" Block6Offset="15" Size="4" Format="7" PointUnit="dF" Description="dgt stp A" />
+    <Variable Name="dshactb" Offset="64" Block6Offset="16" Size="4" Format="7" PointUnit="^F" Description="EXV_dsh_act B" />
+    <Variable Name="dshstpb" Offset="68" Block6Offset="17" Size="4" Format="7" PointUnit="^F" Description="EXV_dsh_stp B" />
+    <Variable Name="elspactb" Offset="72" Block6Offset="18" Size="4" Format="7" PointUnit="PSI" Description="EXV_lsp_act B" />
+    <Variable Name="elspstpb" Offset="76" Block6Offset="19" Size="4" Format="7" PointUnit="PSI" Description="EXV_lsp_stp B" />
+    <Variable Name="chdpactb" Offset="80" Block6Offset="20" Size="4" Format="7" PointUnit="PSI" Description="ENV comp high dp act B" />
+    <Variable Name="chdpstpb" Offset="84" Block6Offset="21" Size="4" Format="7" PointUnit="PSI" Description="ENV comp high dp stp B" />
+    <Variable Name="fhdpactb" Offset="88" Block6Offset="22" Size="4" Format="7" PointUnit="PSI" Description="ENV fan high dp act B" />
+    <Variable Name="fhdpstpb" Offset="92" Block6Offset="23" Size="4" Format="7" PointUnit="PSI" Description="ENV fan high dp stp B" />
+    <Variable Name="ldpactb" Offset="96" Block6Offset="24" Size="4" Format="7" PointUnit="PSI" Description="ENV low dp act B" />
+    <Variable Name="ldpstpb" Offset="100" Block6Offset="25" Size="4" Format="7" PointUnit="PSI" Description="ENV low dp stp B" />
+    <Variable Name="hspactb" Offset="104" Block6Offset="26" Size="4" Format="7" PointUnit="PSI" Description="ENV high sp act B" />
+    <Variable Name="hspstpb" Offset="108" Block6Offset="27" Size="4" Format="7" PointUnit="PSI" Description="ENV high sp stp B" />
+    <Variable Name="lspactb" Offset="112" Block6Offset="28" Size="4" Format="7" PointUnit="PSI" Description="ENV low sp act B" />
+    <Variable Name="lspstpb" Offset="116" Block6Offset="29" Size="4" Format="7" PointUnit="PSI" Description="ENV low sp stp B" />
+    <Variable Name="dgtactb" Offset="120" Block6Offset="30" Size="4" Format="7" PointUnit="dF" Description="dgt_act B" />
+    <Variable Name="dgtstpb" Offset="124" Block6Offset="31" Size="4" Format="7" PointUnit="dF" Description="dgt_stp B" />
+    <Variable Name="sstMinA" Offset="128" Block6Offset="32" Size="4" Format="7" PointUnit="dF" Description="Cmp Env Min SST A" />
+    <Variable Name="sstMaxA" Offset="132" Block6Offset="33" Size="4" Format="7" PointUnit="dF" Description="Cmp Env Max SST A" />
+    <Variable Name="sdtMinA" Offset="136" Block6Offset="34" Size="4" Format="7" PointUnit="dF" Description="Cmp Env Min SDT A" />
+    <Variable Name="sdtMaxA" Offset="140" Block6Offset="35" Size="4" Format="7" PointUnit="dF" Description="Cmp Env Max SDT A" />
+    <Variable Name="sstMinB" Offset="144" Block6Offset="36" Size="4" Format="7" PointUnit="dF" Description="Cmp Env Min SST B" />
+    <Variable Name="sstMaxB" Offset="148" Block6Offset="37" Size="4" Format="7" PointUnit="dF" Description="Cmp Env Max SST B" />
+    <Variable Name="sdtMinB" Offset="152" Block6Offset="38" Size="4" Format="7" PointUnit="dF" Description="Cmp Env Min SDT B" />
+    <Variable Name="sdtMaxB" Offset="156" Block6Offset="39" Size="4" Format="7" PointUnit="dF" Description="Cmp Env Max SDT B" />
+    <Variable Name="maxinc" Offset="160" Block6Offset="40" Size="4" Format="7" PointUnit="" Description="Max  Compressor Rate" />
+  </Table>
+  <Table Name="ECO_CTRL">
+    <Variable Name="eco_a" Offset="0" Block6Offset="0" Size="4" Format="7" PointUnit="%" Description="EXV Eco Pos. (Pct) A" />
+    <Variable Name="eco_stpa" Offset="4" Block6Offset="1" Size="2" Format="2" PointUnit="" Description="EXV Eco Pos. (Steps) A" />
+    <Variable Name="eco_sh_a" Offset="6" Block6Offset="2" Size="4" Format="7" PointUnit="^F" Description="Eco Suction Superheat A" />
+    <Variable Name="esh_sp_a" Offset="10" Block6Offset="3" Size="4" Format="7" PointUnit="^F" Description="Eco Suction SH Setpt A" />
+    <Variable Name="eco_sta" Offset="14" Block6Offset="4" Size="2" Format="10" PointUnit="" Description="EXV Eco State A" />
+    <Variable Name="eco_lsta" Offset="16" Block6Offset="5" Size="2" Format="10" PointUnit="" Description="EXV Eco Previous State A" />
+    <Variable Name="ecowposa" Offset="18" Block6Offset="6" Size="4" Format="7" PointUnit="" Description="EXV Eco Wished Pos A" />
+    <Variable Name="eco_moda" Offset="22" Block6Offset="7" Size="8" Format="16" PointUnit="" Description="EXV Eco Mode A" />
+    <Variable Name="eco_txta" Offset="30" Block6Offset="8" Size="24" Format="34" PointUnit="" Description="EXV Eco Mode Txt A" />
+    <Variable Name="eco_b" Offset="54" Block6Offset="9" Size="4" Format="7" PointUnit="%" Description="EXV Eco Pos. (Pct) B" />
+    <Variable Name="eco_stpb" Offset="58" Block6Offset="10" Size="2" Format="2" PointUnit="" Description="EXV Eco Pos. (Steps) B" />
+    <Variable Name="eco_sh_b" Offset="60" Block6Offset="11" Size="4" Format="7" PointUnit="^F" Description="Eco Suction Superheat B" />
+    <Variable Name="esh_sp_b" Offset="64" Block6Offset="12" Size="4" Format="7" PointUnit="^F" Description="Eco Suction SH Setpt B" />
+    <Variable Name="eco_stb" Offset="68" Block6Offset="13" Size="2" Format="10" PointUnit="" Description="EXV Eco State B" />
+    <Variable Name="eco_lstb" Offset="70" Block6Offset="14" Size="2" Format="10" PointUnit="" Description="EXV Eco Previous State B" />
+    <Variable Name="ecowposb" Offset="72" Block6Offset="15" Size="4" Format="7" PointUnit="" Description="EXV Eco Wished Pos B" />
+    <Variable Name="eco_modb" Offset="76" Block6Offset="16" Size="8" Format="16" PointUnit="" Description="EXV Eco Mode B" />
+    <Variable Name="eco_txtb" Offset="84" Block6Offset="17" Size="24" Format="34" PointUnit="" Description="EXV Eco Mode Txt B" />
+  </Table>
+  <Table Name="FAN_CTRL">
+    <Variable Name="fan_f_a" Offset="0" Block6Offset="0" Size="4" Format="7" PointUnit="Hz" Description="Fan Freq Cir A" />
+    <Variable Name="fan_sta" Offset="4" Block6Offset="1" Size="2" Format="10" PointUnit="" Description="Fan State A" />
+    <Variable Name="fan_lsta" Offset="6" Block6Offset="2" Size="2" Format="10" PointUnit="" Description="Fan Previous State A" />
+    <Variable Name="wfan_f_a" Offset="8" Block6Offset="3" Size="4" Format="7" PointUnit="Hz" Description="Fan Wished Freq A" />
+    <Variable Name="fan_moda" Offset="12" Block6Offset="4" Size="8" Format="16" PointUnit="" Description="Fan Mode A" />
+    <Variable Name="fan_txta" Offset="20" Block6Offset="5" Size="24" Format="34" PointUnit="" Description="Fan Mode Text A" />
+    <Variable Name="ftotpowa" Offset="44" Block6Offset="6" Size="4" Format="7" PointUnit="KW" Description="Fan Tot Pwr Filtered A" />
+    <Variable Name="fcont_a" Offset="48" Block6Offset="7" Size="4" Format="7" PointUnit="" Description="Fan Contactors On A" />
+    <Variable Name="fan_f_b" Offset="52" Block6Offset="8" Size="4" Format="7" PointUnit="Hz" Description="Fan Freq Cir B" />
+    <Variable Name="fan_stb" Offset="56" Block6Offset="9" Size="2" Format="10" PointUnit="" Description="Fan State B" />
+    <Variable Name="fan_lstb" Offset="58" Block6Offset="10" Size="2" Format="10" PointUnit="" Description="Fan Previous State B" />
+    <Variable Name="wfan_f_b" Offset="60" Block6Offset="11" Size="4" Format="7" PointUnit="Hz" Description="Fan Wished Freq B" />
+    <Variable Name="fan_modb" Offset="64" Block6Offset="12" Size="8" Format="16" PointUnit="" Description="Fan Mode B" />
+    <Variable Name="fan_txtb" Offset="72" Block6Offset="13" Size="24" Format="34" PointUnit="" Description="Fan Mode Text B" />
+    <Variable Name="ftotpowb" Offset="96" Block6Offset="14" Size="4" Format="7" PointUnit="KW" Description="Fan Tot Pwr Filtered B" />
+    <Variable Name="fcont_b" Offset="100" Block6Offset="15" Size="4" Format="7" PointUnit="" Description="Fan Contactors On B" />
+  </Table>
+  <Table Name="FAN_DRV">
+    <Variable Name="fd_pwra1" Offset="0" Block6Offset="0" Size="4" Format="7" PointUnit="KW" Description="Fan Drive Power A1" />
+    <Variable Name="fd_Ia1" Offset="4" Block6Offset="1" Size="4" Format="7" PointUnit="%AMPS" Description="Fan Drive Amps A1" />
+    <Variable Name="fd_Va1" Offset="8" Block6Offset="2" Size="4" Format="7" PointUnit="Volts" Description="Fan Drive Voltage A1" />
+    <Variable Name="fd_Sa1" Offset="12" Block6Offset="3" Size="4" Format="7" PointUnit="RPM" Description="Fan Drive Speed A1" />
+    <Variable Name="fd_Fa1" Offset="16" Block6Offset="4" Size="4" Format="7" PointUnit="Hz" Description="Fan Drive Frequency A1" />
+    <Variable Name="fd_Ta1" Offset="20" Block6Offset="5" Size="4" Format="7" PointUnit="" Description="Fan Drive Torque A1" />
+    <Variable Name="fd_DCVa1" Offset="24" Block6Offset="6" Size="4" Format="7" PointUnit="Volts" Description="Fan Drv DC Link Volt A1" />
+    <Variable Name="fd_HSTa1" Offset="28" Block6Offset="7" Size="4" Format="7" PointUnit="dF" Description="Fan Drive Heat Sink T A1" />
+    <Variable Name="fd_CCTa1" Offset="32" Block6Offset="8" Size="4" Format="7" PointUnit="dF" Description="Fan Drive Ctrl Card T A1" />
+    <Variable Name="fd_pwra2" Offset="36" Block6Offset="9" Size="4" Format="7" PointUnit="KW" Description="Fan Drive Power A2" />
+    <Variable Name="fd_Ia2" Offset="40" Block6Offset="10" Size="4" Format="7" PointUnit="%AMPS" Description="Fan Drive Amps A2" />
+    <Variable Name="fd_Va2" Offset="44" Block6Offset="11" Size="4" Format="7" PointUnit="Volts" Description="Fan Drive Voltage A2" />
+    <Variable Name="fd_Sa2" Offset="48" Block6Offset="12" Size="4" Format="7" PointUnit="RPM" Description="Fan Drive Speed A2" />
+    <Variable Name="fd_Fa2" Offset="52" Block6Offset="13" Size="4" Format="7" PointUnit="Hz" Description="Fan Drive Frequency A2" />
+    <Variable Name="fd_Ta2" Offset="56" Block6Offset="14" Size="4" Format="7" PointUnit="" Description="Fan Drive Torque A2" />
+    <Variable Name="fd_DCVa2" Offset="60" Block6Offset="15" Size="4" Format="7" PointUnit="Volts" Description="Fan Drv DC Link Volt A2" />
+    <Variable Name="fd_HSTa2" Offset="64" Block6Offset="16" Size="4" Format="7" PointUnit="dF" Description="Fan Drive Heat Sink T A2" />
+    <Variable Name="fd_CCTa2" Offset="68" Block6Offset="17" Size="4" Format="7" PointUnit="dF" Description="Fan Drive Ctrl Card T A2" />
+    <Variable Name="fd_pwra3" Offset="72" Block6Offset="18" Size="4" Format="7" PointUnit="KW" Description="Fan Drive Power A3" />
+    <Variable Name="fd_Ia3" Offset="76" Block6Offset="19" Size="4" Format="7" PointUnit="%AMPS" Description="Fan Drive Amps A3" />
+    <Variable Name="fd_Va3" Offset="80" Block6Offset="20" Size="4" Format="7" PointUnit="Volts" Description="Fan Drive Voltage A3" />
+    <Variable Name="fd_Sa3" Offset="84" Block6Offset="21" Size="4" Format="7" PointUnit="RPM" Description="Fan Drive Speed A3" />
+    <Variable Name="fd_Fa3" Offset="88" Block6Offset="22" Size="4" Format="7" PointUnit="Hz" Description="Fan Drive Frequency A3" />
+    <Variable Name="fd_Ta3" Offset="92" Block6Offset="23" Size="4" Format="7" PointUnit="" Description="Fan Drive Torque A3" />
+    <Variable Name="fd_DCVa3" Offset="96" Block6Offset="24" Size="4" Format="7" PointUnit="Volts" Description="Fan Drv DC Link Volt A3" />
+    <Variable Name="fd_HSTa3" Offset="100" Block6Offset="25" Size="4" Format="7" PointUnit="dF" Description="Fan Drive Heat Sink T A3" />
+    <Variable Name="fd_CCTa3" Offset="104" Block6Offset="26" Size="4" Format="7" PointUnit="dF" Description="Fan Drive Ctrl Card T A3" />
+    <Variable Name="fd_pwrb1" Offset="108" Block6Offset="27" Size="4" Format="7" PointUnit="KW" Description="Fan Drive Power B1" />
+    <Variable Name="fd_Ib1" Offset="112" Block6Offset="28" Size="4" Format="7" PointUnit="%AMPS" Description="Fan Drive Amps B1" />
+    <Variable Name="fd_Vb1" Offset="116" Block6Offset="29" Size="4" Format="7" PointUnit="Volts" Description="Fan Drive Voltage B1" />
+    <Variable Name="fd_Sb1" Offset="120" Block6Offset="30" Size="4" Format="7" PointUnit="RPM" Description="Fan Drive Speed B1" />
+    <Variable Name="fd_Fb1" Offset="124" Block6Offset="31" Size="4" Format="7" PointUnit="Hz" Description="Fan Drive Frequency B1" />
+    <Variable Name="fd_Tb1" Offset="128" Block6Offset="32" Size="4" Format="7" PointUnit="" Description="Fan Drive Torque B1" />
+    <Variable Name="fd_DCVb1" Offset="132" Block6Offset="33" Size="4" Format="7" PointUnit="Volts" Description="Fan Drv DC Link Volt B1" />
+    <Variable Name="fd_HSTb1" Offset="136" Block6Offset="34" Size="4" Format="7" PointUnit="dF" Description="Fan Drive Heat Sink T B1" />
+    <Variable Name="fd_CCTb1" Offset="140" Block6Offset="35" Size="4" Format="7" PointUnit="dF" Description="Fan Drive Ctrl Card T B1" />
+    <Variable Name="fd_pwrb2" Offset="144" Block6Offset="36" Size="4" Format="7" PointUnit="KW" Description="Fan Drive Power B2" />
+    <Variable Name="fd_Ib2" Offset="148" Block6Offset="37" Size="4" Format="7" PointUnit="%AMPS" Description="Fan Drive Amps B2" />
+    <Variable Name="fd_Vb2" Offset="152" Block6Offset="38" Size="4" Format="7" PointUnit="Volts" Description="Fan Drive Voltage B2" />
+    <Variable Name="fd_Sb2" Offset="156" Block6Offset="39" Size="4" Format="7" PointUnit="RPM" Description="Fan Drive Speed B2" />
+    <Variable Name="fd_Fb2" Offset="160" Block6Offset="40" Size="4" Format="7" PointUnit="Hz" Description="Fan Drive Frequency B2" />
+    <Variable Name="fd_Tb2" Offset="164" Block6Offset="41" Size="4" Format="7" PointUnit="" Description="Fan Drive Torque B2" />
+    <Variable Name="fd_DCVb2" Offset="168" Block6Offset="42" Size="4" Format="7" PointUnit="Volts" Description="Fan Drv DC Link Volt B2" />
+    <Variable Name="fd_HSTb2" Offset="172" Block6Offset="43" Size="4" Format="7" PointUnit="dF" Description="Fan Drive Heat Sink T B2" />
+    <Variable Name="fd_CCTb2" Offset="176" Block6Offset="44" Size="4" Format="7" PointUnit="dF" Description="Fan Drive Ctrl Card T B2" />
+    <Variable Name="fd_pwrb3" Offset="180" Block6Offset="45" Size="4" Format="7" PointUnit="KW" Description="Fan Drive Power B3" />
+    <Variable Name="fd_Ib3" Offset="184" Block6Offset="46" Size="4" Format="7" PointUnit="%AMPS" Description="Fan Drive Amps B3" />
+    <Variable Name="fd_Vb3" Offset="188" Block6Offset="47" Size="4" Format="7" PointUnit="Volts" Description="Fan Drive Voltage B3" />
+    <Variable Name="fd_Sb3" Offset="192" Block6Offset="48" Size="4" Format="7" PointUnit="RPM" Description="Fan Drive Speed B3" />
+    <Variable Name="fd_Fb3" Offset="196" Block6Offset="49" Size="4" Format="7" PointUnit="Hz" Description="Fan Drive Frequency B3" />
+    <Variable Name="fd_Tb3" Offset="200" Block6Offset="50" Size="4" Format="7" PointUnit="" Description="Fan Drive Torque B3" />
+    <Variable Name="fd_DCVb3" Offset="204" Block6Offset="51" Size="4" Format="7" PointUnit="Volts" Description="Fan Drv DC Link Volt B3" />
+    <Variable Name="fd_HSTb3" Offset="208" Block6Offset="52" Size="4" Format="7" PointUnit="dF" Description="Fan Drive Heat Sink T B3" />
+    <Variable Name="fd_CCTb3" Offset="212" Block6Offset="53" Size="4" Format="7" PointUnit="dF" Description="Fan Drive Ctrl Card T B3" />
+  </Table>
+  <Table Name="FAN_DRV2">
+    <Variable Name="SET_FDA1" Offset="0" Block6Offset="0" Size="1" Format="1" PointUnit="" Description="Fan Drive A1 Attach" />
+    <Variable Name="SET_FDA2" Offset="1" Block6Offset="1" Size="1" Format="1" PointUnit="" Description="Fan Drive A2 Attach" />
+    <Variable Name="SET_FDA3" Offset="2" Block6Offset="2" Size="1" Format="1" PointUnit="" Description="Fan Drive A3 Attach" />
+    <Variable Name="SET_FDB1" Offset="3" Block6Offset="3" Size="1" Format="1" PointUnit="" Description="Fan Drive B1 Attach" />
+    <Variable Name="SET_FDB2" Offset="4" Block6Offset="4" Size="1" Format="1" PointUnit="" Description="Fan Drive B2 Attach" />
+    <Variable Name="SET_FDB3" Offset="5" Block6Offset="5" Size="1" Format="1" PointUnit="" Description="Fan Drive B3 Attach" />
+    <Variable Name="FD_COMA1" Offset="6" Block6Offset="6" Size="1" Format="1" PointUnit="" Description="Comm Fan Drive A1 Ok" />
+    <Variable Name="FD_COMA2" Offset="7" Block6Offset="7" Size="1" Format="1" PointUnit="" Description="Comm Fan Drive A2 Ok" />
+    <Variable Name="FD_COMA3" Offset="8" Block6Offset="8" Size="1" Format="1" PointUnit="" Description="Comm Fan Drive A3 Ok" />
+    <Variable Name="FD_COMB1" Offset="9" Block6Offset="9" Size="1" Format="1" PointUnit="" Description="Comm Fan Drive B1 Ok" />
+    <Variable Name="FD_COMB2" Offset="10" Block6Offset="10" Size="1" Format="1" PointUnit="" Description="Comm Fan Drive B2 Ok" />
+    <Variable Name="FD_COMB3" Offset="11" Block6Offset="11" Size="1" Format="1" PointUnit="" Description="Comm Fan Drive B3 Ok" />
+    <Variable Name="stopfana" Offset="12" Block6Offset="12" Size="1" Format="1" PointUnit="" Description="Stop Cir A Fan Drive" />
+    <Variable Name="stopfanb" Offset="13" Block6Offset="13" Size="1" Format="1" PointUnit="" Description="Stop Cir B Fan Drive" />
+    <Variable Name="CnfgFDA1" Offset="14" Block6Offset="14" Size="1" Format="1" PointUnit="" Description="Force Fan Drv A1 Config" />
+    <Variable Name="CnfgFDA2" Offset="15" Block6Offset="15" Size="1" Format="1" PointUnit="" Description="Force Fan Drv A2 Config" />
+    <Variable Name="CnfgFDA3" Offset="16" Block6Offset="16" Size="1" Format="1" PointUnit="" Description="Force Fan Drv A3 Config" />
+    <Variable Name="CnfgFDB1" Offset="17" Block6Offset="17" Size="1" Format="1" PointUnit="" Description="Force Fan Drv B1 Config" />
+    <Variable Name="CnfgFDB2" Offset="18" Block6Offset="18" Size="1" Format="1" PointUnit="" Description="Force Fan Drv B2 Config" />
+    <Variable Name="CnfgFDB3" Offset="19" Block6Offset="19" Size="1" Format="1" PointUnit="" Description="Force Fan Drv B3 Config" />
+  </Table>
+  <Table Name="TBLSHT">
+    <Variable Name="COOL_EWT" Offset="0" Block6Offset="0" Size="4" Format="7" PointUnit="dF" Description="Evap Entering Fluid" />
+    <Variable Name="COOL_LWT" Offset="4" Block6Offset="1" Size="4" Format="7" PointUnit="dF" Description="Evap Leaving Fluid" />
+    <Variable Name="CAPT010A" Offset="8" Block6Offset="2" Size="4" Format="7" PointUnit="Volts" Description="Capacity Signal Cir A" />
+    <Variable Name="drv_Ia" Offset="12" Block6Offset="3" Size="4" Format="7" PointUnit="%AMPS" Description="Cir A Drive Amps" />
+    <Variable Name="drv_Sa" Offset="16" Block6Offset="4" Size="4" Format="7" PointUnit="RPM" Description="Cir A Drive Speed" />
+    <Variable Name="SCT_A" Offset="20" Block6Offset="5" Size="4" Format="7" PointUnit="dF" Description="Saturated Cond Tmp Cir A" />
+    <Variable Name="SST_A" Offset="24" Block6Offset="6" Size="4" Format="7" PointUnit="dF" Description="Saturated Suction Temp A" />
+    <Variable Name="SLT_A" Offset="28" Block6Offset="7" Size="4" Format="7" PointUnit="dF" Description="Saturated Liquid Temp A" />
+    <Variable Name="SUCT_A" Offset="32" Block6Offset="8" Size="4" Format="7" PointUnit="dF" Description="Compressor Suction Tmp A" />
+    <Variable Name="DGT_A" Offset="36" Block6Offset="9" Size="4" Format="7" PointUnit="dF" Description="Discharge Gas Temp Cir A" />
+    <Variable Name="CP_TMP_A" Offset="40" Block6Offset="10" Size="4" Format="7" PointUnit="dF" Description="Motor Temperature Cir A" />
+    <Variable Name="ECO_T_A" Offset="44" Block6Offset="11" Size="4" Format="7" PointUnit="dF" Description="EXV Eco. Tmp Cir A" />
+    <Variable Name="DSH_A" Offset="48" Block6Offset="12" Size="4" Format="7" PointUnit="^F" Description="Discharge Superheat A" />
+    <Variable Name="SH_A" Offset="52" Block6Offset="13" Size="4" Format="7" PointUnit="^F" Description="Suction Superheat A" />
+    <Variable Name="LIQ_T_A" Offset="56" Block6Offset="14" Size="4" Format="7" PointUnit="dF" Description="Liquid Temperature A" />
+    <Variable Name="DP_A" Offset="60" Block6Offset="15" Size="4" Format="7" PointUnit="PSI" Description="Discharge Pressure A" />
+    <Variable Name="SP_A" Offset="64" Block6Offset="16" Size="4" Format="7" PointUnit="PSI" Description="Main Suction Pressure A" />
+    <Variable Name="OP_A" Offset="68" Block6Offset="17" Size="4" Format="7" PointUnit="PSI" Description="Oil Pressure A" />
+    <Variable Name="DOP_A" Offset="72" Block6Offset="18" Size="4" Format="7" PointUnit="PSI" Description="Oil Pressure DifferenceA" />
+    <Variable Name="OIL_L_A" Offset="76" Block6Offset="19" Size="2" Format="2" PointUnit="" Description="Oil Level Input A" />
+    <Variable Name="OIL_SL_A" Offset="78" Block6Offset="20" Size="2" Format="2" PointUnit="" Description="Oil Solenoid Output A" />
+    <Variable Name="ECO_P_A" Offset="80" Block6Offset="21" Size="4" Format="7" PointUnit="PSI" Description="Economizer Pressure A" />
+    <Variable Name="LIQ_P_A" Offset="84" Block6Offset="22" Size="4" Format="7" PointUnit="PSI" Description="Liquid Pressure A" />
+    <Variable Name="CAPT010B" Offset="89" Block6Offset="24" Size="4" Format="7" PointUnit="Volts" Description="Capacity Signal Cir B" />
+    <Variable Name="drv_Ib" Offset="93" Block6Offset="25" Size="4" Format="7" PointUnit="%AMPS" Description="Cir B Drive Amps" />
+    <Variable Name="drv_Sb" Offset="97" Block6Offset="26" Size="4" Format="7" PointUnit="RPM" Description="Cir B Drive Speed" />
+    <Variable Name="SCT_B" Offset="101" Block6Offset="27" Size="4" Format="7" PointUnit="dF" Description="Saturated Cond Tmp Cir B" />
+    <Variable Name="SST_B" Offset="105" Block6Offset="28" Size="4" Format="7" PointUnit="dF" Description="Saturated Suction Temp B" />
+    <Variable Name="SLT_B" Offset="109" Block6Offset="29" Size="4" Format="7" PointUnit="dF" Description="Saturated Liquid Temp B" />
+    <Variable Name="SUCT_B" Offset="113" Block6Offset="30" Size="4" Format="7" PointUnit="dF" Description="Compressor Suction Tmp B" />
+    <Variable Name="DGT_B" Offset="117" Block6Offset="31" Size="4" Format="7" PointUnit="dF" Description="Discharge Gas Temp Cir B" />
+    <Variable Name="CP_TMP_B" Offset="121" Block6Offset="32" Size="4" Format="7" PointUnit="dF" Description="Motor Temperature Cir B" />
+    <Variable Name="ECO_T_B" Offset="125" Block6Offset="33" Size="4" Format="7" PointUnit="dF" Description="EXV Eco. Tmp Cir B" />
+    <Variable Name="DSH_B" Offset="129" Block6Offset="34" Size="4" Format="7" PointUnit="^F" Description="Discharge Superheat B" />
+    <Variable Name="SH_B" Offset="133" Block6Offset="35" Size="4" Format="7" PointUnit="^F" Description="Suction Superheat B" />
+    <Variable Name="LIQ_T_B" Offset="137" Block6Offset="36" Size="4" Format="7" PointUnit="dF" Description="Liquid Temperature B" />
+    <Variable Name="DP_B" Offset="141" Block6Offset="37" Size="4" Format="7" PointUnit="PSI" Description="Discharge Pressure B" />
+    <Variable Name="SP_B" Offset="145" Block6Offset="38" Size="4" Format="7" PointUnit="PSI" Description="Main Suction Pressure B" />
+    <Variable Name="OP_B" Offset="149" Block6Offset="39" Size="4" Format="7" PointUnit="PSI" Description="Oil Pressure B" />
+    <Variable Name="DOP_B" Offset="153" Block6Offset="40" Size="4" Format="7" PointUnit="PSI" Description="Oil Pressure DifferenceB" />
+    <Variable Name="OIL_L_B" Offset="157" Block6Offset="41" Size="2" Format="2" PointUnit="" Description="Oil Level Input B" />
+    <Variable Name="OIL_SL_B" Offset="159" Block6Offset="42" Size="2" Format="2" PointUnit="" Description="Oil Solenoid Output B" />
+    <Variable Name="ECO_P_B" Offset="161" Block6Offset="43" Size="4" Format="7" PointUnit="PSI" Description="Economizer Pressure B" />
+    <Variable Name="LIQ_P_B" Offset="165" Block6Offset="44" Size="4" Format="7" PointUnit="PSI" Description="Liquid Pressure B" />
+  </Table>
+  <Table Name="FACTORY">
+    <Variable Name="unitsize" Offset="0" Block6Offset="0" Size="2" Format="2" PointUnit="" Description="Unit Capacity" />
+    <Variable Name="voltage" Offset="2" Block6Offset="1" Size="2" Format="2" PointUnit="" Description="Power Supply Voltage" />
+    <Variable Name="freq_60H" Offset="4" Block6Offset="2" Size="1" Format="1" PointUnit="" Description="60Hz Sel (No=50, Yes=60)" />
+    <Variable Name="mfg_tier" Offset="5" Block6Offset="3" Size="1" Format="1" PointUnit="" Description="Tier 0=STD, 1=MID, 2=HI" />
+    <Variable Name="dxcooler" Offset="6" Block6Offset="4" Size="2" Format="2" PointUnit="" Description="DX Evaporator Installed" />
+    <Variable Name="cpass_nb" Offset="8" Block6Offset="5" Size="2" Format="2" PointUnit="" Description="Evap Pass Number" />
+    <Variable Name="heat_sel" Offset="10" Block6Offset="6" Size="2" Format="2" PointUnit="" Description="Evap Heater Installed" />
+    <Variable Name="mst_slv" Offset="12" Block6Offset="7" Size="1" Format="1" PointUnit="" Description="Master Slave Setup" />
+    <Variable Name="emm_nrcp" Offset="13" Block6Offset="8" Size="1" Format="1" PointUnit="" Description="Energy Management Module" />
+    <Variable Name="loambopt" Offset="14" Block6Offset="9" Size="1" Format="1" PointUnit="" Description="Low Ambient Option (STD)" />
+    <Variable Name="leak_chk" Offset="15" Block6Offset="10" Size="1" Format="1" PointUnit="" Description="Leakage Charge Detection" />
+    <Variable Name="fac_pass" Offset="16" Block6Offset="11" Size="2" Format="2" PointUnit="" Description="Factory Password" />
+    <Variable Name="fMaxEnA" Offset="18" Block6Offset="12" Size="1" Format="1" PointUnit="" Description="Enable Max Frequency A" />
+    <Variable Name="fMaxEnB" Offset="19" Block6Offset="13" Size="1" Format="1" PointUnit="" Description="Enable Max Frequency B" />
+    <Variable Name="fMaxOvrA" Offset="20" Block6Offset="14" Size="4" Format="7" PointUnit="Hz" Description="Max Frequency Override A" />
+    <Variable Name="fMaxOvrB" Offset="24" Block6Offset="15" Size="4" Format="7" PointUnit="Hz" Description="Max Frequency Override B" />
+    <Variable Name="fan_fact" Offset="28" Block6Offset="16" Size="4" Format="7" PointUnit="" Description="Fan Freq Factor(0.7-1.1)" />
+    <Variable Name="fMinOvr" Offset="32" Block6Offset="17" Size="4" Format="7" PointUnit="Hz" Description="Min Frequency Override" />
+    <Variable Name="lastspda" Offset="36" Block6Offset="18" Size="4" Format="7" PointUnit="Hz" Description="Low Amb. Start Spd A" />
+    <Variable Name="lastspdb" Offset="40" Block6Offset="19" Size="4" Format="7" PointUnit="Hz" Description="Low Amb. Start Spd B" />
+  </Table>
+  <Table Name="FACTORY2">
+    <Variable Name="exvmax_a" Offset="0" Block6Offset="0" Size="2" Format="2" PointUnit="" Description="EXV A Maximum Steps Numb" />
+    <Variable Name="exvmax_b" Offset="2" Block6Offset="1" Size="2" Format="2" PointUnit="" Description="EXV B Maximum Steps Numb" />
+    <Variable Name="eco_cnfa" Offset="4" Block6Offset="2" Size="2" Format="2" PointUnit="" Description="Economizer A Steps Numb" />
+    <Variable Name="eco_cnfb" Offset="6" Block6Offset="3" Size="2" Format="2" PointUnit="" Description="Economizer B Steps Numb" />
+    <Variable Name="vfd_cmp" Offset="8" Block6Offset="4" Size="2" Format="2" PointUnit="" Description="Nb VFD Compressor" />
+    <Variable Name="vfd_fana" Offset="10" Block6Offset="5" Size="2" Format="2" PointUnit="" Description="Nb Fan Drive Cir A" />
+    <Variable Name="vfd_fanb" Offset="12" Block6Offset="6" Size="2" Format="2" PointUnit="" Description="Nb Fan Drive Cir B" />
+  </Table>
+  <Table Name="SERVICE1">
+    <Variable Name="flui_typ" Offset="0" Block6Offset="0" Size="1" Format="1" PointUnit="" Description="Evaporator Fluid Type" />
+    <Variable Name="ewt_opt" Offset="3" Block6Offset="3" Size="1" Format="1" PointUnit="" Description="Entering Fluid Control" />
+    <Variable Name="freezesp" Offset="4" Block6Offset="4" Size="4" Format="7" PointUnit="dF" Description="Brine Freeze Setpoint" />
+    <Variable Name="mini_lwt" Offset="8" Block6Offset="5" Size="4" Format="7" PointUnit="dF" Description="Brine Minimum Fluid Temp" />
+    <Variable Name="fastcapr" Offset="12" Block6Offset="6" Size="1" Format="1" PointUnit="" Description="Fast Capacity Recovery" />
+    <Variable Name="ewt_cirA" Offset="13" Block6Offset="7" Size="1" Format="1" PointUnit="" Description="EWT Probe on Cir A Side" />
+    <Variable Name="ser_pass" Offset="14" Block6Offset="8" Size="2" Format="2" PointUnit="" Description="Service Password" />
+    <Variable Name="leak_thr" Offset="16" Block6Offset="9" Size="4" Format="7" PointUnit="Volts" Description="Leakage Charge Threshold" />
+    <Variable Name="leak_tmr" Offset="20" Block6Offset="10" Size="4" Format="7" PointUnit="Min" Description="Leakage Charge Timer" />
+    <Variable Name="RFI_conf" Offset="24" Block6Offset="11" Size="1" Format="1" PointUnit="" Description="Compressor RFI Filter En" />
+    <Variable Name="metric" Offset="25" Block6Offset="12" Size="1" Format="1" PointUnit="" Description="Metric Units? (Blackbox)" />
+    <Variable Name="fdrv_cfg" Offset="26" Block6Offset="13" Size="1" Format="1" PointUnit="" Description="Send fan drive config?" />
+    <Variable Name="cdrv_cfg" Offset="27" Block6Offset="14" Size="1" Format="1" PointUnit="" Description="Send comp. drive config?" />
+    <Variable Name="heatersp" Offset="28" Block6Offset="15" Size="4" Format="7" PointUnit="" Description="Evap Heater Delta Spt" />
+    <Variable Name="freez_ov" Offset="32" Block6Offset="16" Size="4" Format="7" PointUnit="^F" Description="Freeze Override Offset" />
+    <Variable Name="auto_sm" Offset="36" Block6Offset="17" Size="4" Format="7" PointUnit="" Description="Auto Start When SM Lost" />
+    <Variable Name="ViPwrChk" Offset="40" Block6Offset="18" Size="4" Format="7" PointUnit="KW" Description="VI Self-Test Threshold" />
+    <Variable Name="ViChkEn" Offset="44" Block6Offset="19" Size="2" Format="2" PointUnit="" Description="VI Self-Test Enable" />
+    <Variable Name="AntiFrz" Offset="46" Block6Offset="20" Size="2" Format="2" PointUnit="" Description="Pump Rot. AntiFrz Protec" />
+    <Variable Name="http_en" Offset="48" Block6Offset="21" Size="2" Format="2" PointUnit="" Description="HTTP Server" />
+    <Variable Name="ftp_en" Offset="50" Block6Offset="22" Size="2" Format="2" PointUnit="" Description="FTP Server" />
+    <Variable Name="odtrspd" Offset="52" Block6Offset="23" Size="4" Format="7" PointUnit="Hz" Description="Oil Delta Trigger Speed" />
+    <Variable Name="otrigtim" Offset="56" Block6Offset="24" Size="4" Format="7" PointUnit="Sec" Description="Oil Trigger Time" />
+    <Variable Name="odrecspd" Offset="60" Block6Offset="25" Size="4" Format="7" PointUnit="Hz" Description="Oil Delta Recover Speed" />
+    <Variable Name="orectim" Offset="64" Block6Offset="26" Size="4" Format="7" PointUnit="Sec" Description="Oil Recover Time" />
+    <Variable Name="wateesys" Offset="68" Block6Offset="27" Size="4" Format="7" PointUnit="Volts" Description="Water Temp Hysteresis" />
+    <Variable Name="vistrtdt" Offset="72" Block6Offset="28" Size="4" Format="7" PointUnit="TONS/H" Description="High VI Time at Start" />
+    <Variable Name="vistrten" Offset="76" Block6Offset="29" Size="2" Format="2" PointUnit="TONS/H" Description="Enable High VI at Start" />
+    <Variable Name="apr_en" Offset="78" Block6Offset="30" Size="2" Format="2" PointUnit="%AMPS" Description="Approach Ctrl at Start?" />
+  </Table>
+  <Table Name="UPDTHOUR">
+    <Variable Name="hr_mach" Offset="0" Block6Offset="0" Size="4" Format="7" PointUnit="Hours" Description="Machine Operating Hours" />
+    <Variable Name="st_mach" Offset="4" Block6Offset="1" Size="4" Format="7" PointUnit="" Description="Machine Starts Number" />
+    <Variable Name="hr_cp_a" Offset="8" Block6Offset="2" Size="4" Format="7" PointUnit="Hours" Description="Compressor A Hours" />
+    <Variable Name="st_cp_a" Offset="12" Block6Offset="3" Size="4" Format="7" PointUnit="" Description="Compressor A Starts" />
+    <Variable Name="hr_cp_b" Offset="16" Block6Offset="4" Size="4" Format="7" PointUnit="Hours" Description="Compressor B Hours" />
+    <Variable Name="st_cp_b" Offset="20" Block6Offset="5" Size="4" Format="7" PointUnit="" Description="Compressor B Starts" />
+    <Variable Name="hr_cpum1" Offset="24" Block6Offset="6" Size="4" Format="7" PointUnit="Hours" Description="Evap Pump #1 Hours" />
+    <Variable Name="hr_cpum2" Offset="28" Block6Offset="7" Size="4" Format="7" PointUnit="Hours" Description="Evap Pump #2 Hours" />
+    <Variable Name="VIctA" Offset="32" Block6Offset="8" Size="4" Format="7" PointUnit="Cycles" Description="VI Cycle Count A" />
+    <Variable Name="VIctB" Offset="36" Block6Offset="9" Size="4" Format="7" PointUnit="Cycles" Description="VI Cycle Count B" />
+    <Variable Name="hrfana01" Offset="40" Block6Offset="10" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #1 Hours" />
+    <Variable Name="hrfana02" Offset="44" Block6Offset="11" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #2 Hours" />
+    <Variable Name="hrfana03" Offset="48" Block6Offset="12" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #3 Hours" />
+    <Variable Name="hrfana04" Offset="52" Block6Offset="13" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #4 Hours" />
+    <Variable Name="hrfana05" Offset="56" Block6Offset="14" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #5 Hours" />
+    <Variable Name="hrfana06" Offset="60" Block6Offset="15" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #6 Hours" />
+    <Variable Name="hrfana07" Offset="64" Block6Offset="16" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #7 Hours" />
+    <Variable Name="hrfana08" Offset="68" Block6Offset="17" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #8 Hours" />
+    <Variable Name="hrfana09" Offset="72" Block6Offset="18" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #9 Hours" />
+    <Variable Name="hrfana10" Offset="76" Block6Offset="19" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #10 Hours" />
+    <Variable Name="hrfana11" Offset="80" Block6Offset="20" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #11 Hours" />
+    <Variable Name="hrfana12" Offset="84" Block6Offset="21" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #12 Hours" />
+    <Variable Name="hrfana13" Offset="88" Block6Offset="22" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #13 Hours" />
+    <Variable Name="hrfana14" Offset="92" Block6Offset="23" Size="4" Format="7" PointUnit="Hours" Description="Circuit A Fan #14 Hours" />
+    <Variable Name="hrfanb01" Offset="96" Block6Offset="24" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #1 Hours" />
+    <Variable Name="hrfanb02" Offset="100" Block6Offset="25" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #2 Hours" />
+    <Variable Name="hrfanb03" Offset="104" Block6Offset="26" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #3 Hours" />
+    <Variable Name="hrfanb04" Offset="108" Block6Offset="27" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #4 Hours" />
+    <Variable Name="hrfanb05" Offset="112" Block6Offset="28" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #5 Hours" />
+    <Variable Name="hrfanb06" Offset="116" Block6Offset="29" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #6 Hours" />
+    <Variable Name="hrfanb07" Offset="120" Block6Offset="30" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #7 Hours" />
+    <Variable Name="hrfanb08" Offset="124" Block6Offset="31" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #8 Hours" />
+    <Variable Name="hrfanb09" Offset="128" Block6Offset="32" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #9 Hours" />
+    <Variable Name="hrfanb10" Offset="132" Block6Offset="33" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #10 Hours" />
+    <Variable Name="hrfanb11" Offset="136" Block6Offset="34" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #11 Hours" />
+    <Variable Name="hrfanb12" Offset="140" Block6Offset="35" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #12 Hours" />
+    <Variable Name="hrfanb13" Offset="144" Block6Offset="36" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #13 Hours" />
+    <Variable Name="hrfanb14" Offset="148" Block6Offset="37" Size="4" Format="7" PointUnit="Hours" Description="Circuit B Fan #14 Hours" />
+  </Table>
+  <Table Name="MST_SLV">
+    <Variable Name="ms_sel" Offset="1" Block6Offset="1" Size="1" Format="1" PointUnit="" Description="Master/Slave Select" />
+    <Variable Name="ms_ctrl" Offset="5" Block6Offset="5" Size="1" Format="1" PointUnit="" Description="Master Control Type" />
+    <Variable Name="slv_addr" Offset="9" Block6Offset="9" Size="1" Format="1" PointUnit="" Description="Slave Address" />
+    <Variable Name="lead_sel" Offset="10" Block6Offset="10" Size="1" Format="1" PointUnit="" Description="Lead Lag Select" />
+    <Variable Name="ll_bal_d" Offset="14" Block6Offset="14" Size="2" Format="2" PointUnit="Hours" Description="Lead/Lag Balance Delta" />
+    <Variable Name="lstr_tim" Offset="16" Block6Offset="15" Size="2" Format="2" PointUnit="Min" Description="Lead/Lag Start Timer" />
+    <Variable Name="lead_pul" Offset="18" Block6Offset="16" Size="2" Format="2" PointUnit="Min" Description="Lead Pulldown Time" />
+    <Variable Name="start_dt" Offset="20" Block6Offset="17" Size="4" Format="7" PointUnit="^F" Description="Start If Error Higher" />
+    <Variable Name="lag_mini" Offset="24" Block6Offset="18" Size="2" Format="2" PointUnit="Min" Description="Lag Minimum Running Time" />
+    <Variable Name="lag_pump" Offset="26" Block6Offset="19" Size="1" Format="1" PointUnit="" Description="Lag Unit Pump Control" />
+    <Variable Name="ll_serie" Offset="29" Block6Offset="22" Size="1" Format="1" PointUnit="" Description="Chiller In Series" />
+  </Table>
+  <Table Name="CMP_PI">
+    <Variable Name="wt_kp_a" Offset="0" Block6Offset="0" Size="4" Format="7" PointUnit="" Description="Water Temp PI, Kp, Cir A" />
+    <Variable Name="wt_ti_a" Offset="4" Block6Offset="1" Size="4" Format="7" PointUnit="Sec" Description="Water Temp PI, Ti Cir A" />
+    <Variable Name="wt_ni_a" Offset="8" Block6Offset="2" Size="4" Format="7" PointUnit="" Description="Water Temp PI, NI Cir A" />
+    <Variable Name="dgt_kp_a" Offset="12" Block6Offset="3" Size="4" Format="7" PointUnit="" Description="DGT PI Kp, Cir A" />
+    <Variable Name="dgt_ti_a" Offset="16" Block6Offset="4" Size="4" Format="7" PointUnit="Sec" Description="DGT PI, Ti Cir A" />
+    <Variable Name="dgt_ni_a" Offset="20" Block6Offset="5" Size="4" Format="7" PointUnit="" Description="DGT PI, NI Cir A" />
+    <Variable Name="cpt_kp_a" Offset="24" Block6Offset="6" Size="4" Format="7" PointUnit="" Description="Comp Temp PI, Kp Cir A" />
+    <Variable Name="cpt_ti_a" Offset="28" Block6Offset="7" Size="4" Format="7" PointUnit="Sec" Description="Comp Temp PI, Ti Cir A" />
+    <Variable Name="cpt_ni_a" Offset="32" Block6Offset="8" Size="4" Format="7" PointUnit="" Description="Comp Temp PI, NI Cir A" />
+    <Variable Name="dp_kp_a" Offset="36" Block6Offset="9" Size="4" Format="7" PointUnit="" Description="Disch Press PI, Kp Cir A" />
+    <Variable Name="dp_ti_a" Offset="40" Block6Offset="10" Size="4" Format="7" PointUnit="Sec" Description="Disch Press PI, Ti Cir A" />
+    <Variable Name="dp_ni_a" Offset="44" Block6Offset="11" Size="4" Format="7" PointUnit="" Description="Disch Press PI, NI Cir A" />
+    <Variable Name="lsp_kp_a" Offset="48" Block6Offset="12" Size="4" Format="7" PointUnit="" Description="Low SP PI, Kp Cir A" />
+    <Variable Name="lsp_ti_a" Offset="52" Block6Offset="13" Size="4" Format="7" PointUnit="Sec" Description="Low SP PI, Ti Cir A" />
+    <Variable Name="lsp_ni_a" Offset="56" Block6Offset="14" Size="4" Format="7" PointUnit="" Description="Low SP PI, NI Cir A" />
+    <Variable Name="wt_kp_b" Offset="60" Block6Offset="15" Size="4" Format="7" PointUnit="" Description="Water Temp PI, Kp, Cir B" />
+    <Variable Name="wt_ti_b" Offset="64" Block6Offset="16" Size="4" Format="7" PointUnit="Sec" Description="Water Temp PI, Ti Cir B" />
+    <Variable Name="wt_ni_b" Offset="68" Block6Offset="17" Size="4" Format="7" PointUnit="" Description="Water Temp PI, NI Cir B" />
+    <Variable Name="dgt_kp_b" Offset="72" Block6Offset="18" Size="4" Format="7" PointUnit="" Description="DGT PI Kp, Cir B" />
+    <Variable Name="dgt_ti_b" Offset="76" Block6Offset="19" Size="4" Format="7" PointUnit="Sec" Description="DGT PI, Ti Cir B" />
+    <Variable Name="dgt_ni_b" Offset="80" Block6Offset="20" Size="4" Format="7" PointUnit="" Description="DGT PI, NI Cir B" />
+    <Variable Name="cpt_kp_b" Offset="84" Block6Offset="21" Size="4" Format="7" PointUnit="" Description="Comp Temp PI, Kp Cir B" />
+    <Variable Name="cpt_ti_b" Offset="88" Block6Offset="22" Size="4" Format="7" PointUnit="Sec" Description="Comp Temp PI, Ti Cir B" />
+    <Variable Name="cpt_ni_b" Offset="92" Block6Offset="23" Size="4" Format="7" PointUnit="" Description="Comp Temp PI, NI Cir B" />
+    <Variable Name="dp_kp_b" Offset="96" Block6Offset="24" Size="4" Format="7" PointUnit="" Description="Disch Press PI, Kp Cir B" />
+    <Variable Name="dp_ti_b" Offset="100" Block6Offset="25" Size="4" Format="7" PointUnit="Sec" Description="Disch Press PI, Ti Cir B" />
+    <Variable Name="dp_ni_b" Offset="104" Block6Offset="26" Size="4" Format="7" PointUnit="" Description="Disch Press PI, NI Cir B" />
+    <Variable Name="lsp_kp_b" Offset="108" Block6Offset="27" Size="4" Format="7" PointUnit="" Description="Low SP PI, Kp Cir B" />
+    <Variable Name="lsp_ti_b" Offset="112" Block6Offset="28" Size="4" Format="7" PointUnit="Sec" Description="Low SP PI, Ti Cir B" />
+    <Variable Name="lsp_ni_b" Offset="116" Block6Offset="29" Size="4" Format="7" PointUnit="" Description="Low SP PI, NI Cir B" />
+  </Table>
+  <Table Name="SPARE">
+    <Variable Name="SPARE_P" Offset="0" Block6Offset="0" Size="4" Format="7" PointUnit="" Description="Spare Point" />
+  </Table>
+  <Table Name="EXV_CFG">
+    <Variable Name="fixeddsh" Offset="0" Block6Offset="0" Size="4" Format="7" PointUnit="^F" Description="Fixed DSH Setpoint" />
+    <Variable Name="scsp_max" Offset="4" Block6Offset="1" Size="4" Format="7" PointUnit="^F" Description="Subcooling Setpoint Max" />
+    <Variable Name="scsp_min" Offset="8" Block6Offset="2" Size="4" Format="7" PointUnit="^F" Description="Subcooling Setpoint Min" />
+    <Variable Name="sh_sp_a" Offset="12" Block6Offset="3" Size="4" Format="7" PointUnit="" Description="Superheat Setpoint A" />
+    <Variable Name="sh_sp_b" Offset="16" Block6Offset="4" Size="4" Format="7" PointUnit="" Description="Superheat Setpoint B" />
+    <Variable Name="apr_stp" Offset="20" Block6Offset="5" Size="4" Format="7" PointUnit="^F" Description="Approach Setpoint" />
+    <Variable Name="sbc_kp_a" Offset="24" Block6Offset="6" Size="4" Format="7" PointUnit="" Description="Subcool PI, Kp Cir A" />
+    <Variable Name="sbc_ti_a" Offset="28" Block6Offset="7" Size="4" Format="7" PointUnit="Sec" Description="Subcool PI, Ti Cir A" />
+    <Variable Name="sbc_ni_a" Offset="32" Block6Offset="8" Size="4" Format="7" PointUnit="" Description="Subcool PI, NI Cir A" />
+    <Variable Name="dsh_kp_a" Offset="36" Block6Offset="9" Size="4" Format="7" PointUnit="" Description="DSH PI, Kp Cir A" />
+    <Variable Name="dsh_ti_a" Offset="40" Block6Offset="10" Size="4" Format="7" PointUnit="Sec" Description="DSH PI, Ti Cir A" />
+    <Variable Name="dsh_ni_a" Offset="44" Block6Offset="11" Size="4" Format="7" PointUnit="" Description="DSH PI, NI Cir A" />
+    <Variable Name="hsp_kp_a" Offset="48" Block6Offset="12" Size="4" Format="7" PointUnit="" Description="High SP PI, Kp Cir A" />
+    <Variable Name="hsp_ti_a" Offset="52" Block6Offset="13" Size="4" Format="7" PointUnit="Sec" Description="High SP PI, Ti Cir A" />
+    <Variable Name="hsp_ni_a" Offset="56" Block6Offset="14" Size="4" Format="7" PointUnit="" Description="High SP PI, NI Cir A" />
+    <Variable Name="lsp_kp_a" Offset="60" Block6Offset="15" Size="4" Format="7" PointUnit="" Description="Low SP PI, Kp Cir A" />
+    <Variable Name="lsp_ti_a" Offset="64" Block6Offset="16" Size="4" Format="7" PointUnit="Sec" Description="Low SP PI, Ti Cir A" />
+    <Variable Name="lsp_ni_a" Offset="68" Block6Offset="17" Size="4" Format="7" PointUnit="" Description="Low SP PI, NI Cir A" />
+    <Variable Name="dop_kp_a" Offset="72" Block6Offset="18" Size="4" Format="7" PointUnit="" Description="Dop PI, Kp Cir A" />
+    <Variable Name="dop_ti_a" Offset="76" Block6Offset="19" Size="4" Format="7" PointUnit="Sec" Description="Dop PI, Ti Cir A" />
+    <Variable Name="dop_ni_a" Offset="80" Block6Offset="20" Size="4" Format="7" PointUnit="" Description="Dop PI, NI Cir A" />
+    <Variable Name="ssh_kp_a" Offset="84" Block6Offset="21" Size="4" Format="7" PointUnit="" Description="Suction SH PI, Kp Cir A" />
+    <Variable Name="ssh_ti_a" Offset="88" Block6Offset="22" Size="4" Format="7" PointUnit="Sec" Description="Suction SH PI, Ti Cir A" />
+    <Variable Name="ssh_ni_a" Offset="92" Block6Offset="23" Size="4" Format="7" PointUnit="" Description="Suction SH PI, NI Cir A" />
+    <Variable Name="sbc_kp_b" Offset="96" Block6Offset="24" Size="4" Format="7" PointUnit="" Description="Subcool PI, Kp Cir B" />
+    <Variable Name="sbc_ti_b" Offset="100" Block6Offset="25" Size="4" Format="7" PointUnit="Sec" Description="Subcool PI, Ti Cir B" />
+    <Variable Name="sbc_ni_b" Offset="104" Block6Offset="26" Size="4" Format="7" PointUnit="" Description="Subcool PI, NI Cir B" />
+    <Variable Name="dsh_kp_b" Offset="108" Block6Offset="27" Size="4" Format="7" PointUnit="" Description="DSH PI, Kp Cir B" />
+    <Variable Name="dsh_ti_b" Offset="112" Block6Offset="28" Size="4" Format="7" PointUnit="Sec" Description="DSH PI, Ti Cir B" />
+    <Variable Name="dsh_ni_b" Offset="116" Block6Offset="29" Size="4" Format="7" PointUnit="" Description="DSH PI, NI Cir B" />
+    <Variable Name="hsp_kp_b" Offset="120" Block6Offset="30" Size="4" Format="7" PointUnit="" Description="High SP PI, Kp Cir B" />
+    <Variable Name="hsp_ti_b" Offset="124" Block6Offset="31" Size="4" Format="7" PointUnit="Sec" Description="High SP PI, Ti Cir B" />
+    <Variable Name="hsp_ni_b" Offset="128" Block6Offset="32" Size="4" Format="7" PointUnit="" Description="High SP PI, NI Cir B" />
+    <Variable Name="lsp_kp_b" Offset="132" Block6Offset="33" Size="4" Format="7" PointUnit="" Description="Low SP PI, Kp Cir B" />
+    <Variable Name="lsp_ti_b" Offset="136" Block6Offset="34" Size="4" Format="7" PointUnit="Sec" Description="Low SP PI, Ti Cir B" />
+    <Variable Name="lsp_ni_b" Offset="140" Block6Offset="35" Size="4" Format="7" PointUnit="" Description="Low SP PI, NI Cir B" />
+    <Variable Name="dop_kp_b" Offset="144" Block6Offset="36" Size="4" Format="7" PointUnit="" Description="Dop PI, Kp Cir B" />
+    <Variable Name="dop_ti_b" Offset="148" Block6Offset="37" Size="4" Format="7" PointUnit="Sec" Description="Dop PI, Ti Cir B" />
+    <Variable Name="dop_ni_b" Offset="152" Block6Offset="38" Size="4" Format="7" PointUnit="" Description="Dop PI, NI Cir B" />
+    <Variable Name="ssh_kp_b" Offset="156" Block6Offset="39" Size="4" Format="7" PointUnit="" Description="Suction SH PI, Kp Cir B" />
+    <Variable Name="ssh_ti_b" Offset="160" Block6Offset="40" Size="4" Format="7" PointUnit="Sec" Description="Suction SH PI, Ti Cir B" />
+    <Variable Name="ssh_ni_b" Offset="164" Block6Offset="41" Size="4" Format="7" PointUnit="" Description="Suction SH PI, NI Cir B" />
+    <Variable Name="apr_kp_a" Offset="168" Block6Offset="42" Size="4" Format="7" PointUnit="" Description="Appr. PI, Kp Cir A" />
+    <Variable Name="apr_ti_a" Offset="172" Block6Offset="43" Size="4" Format="7" PointUnit="Sec" Description="Appr. PI, Ti Cir A" />
+    <Variable Name="apr_ni_a" Offset="176" Block6Offset="44" Size="4" Format="7" PointUnit="" Description="Appr. PI, NI Cir A" />
+    <Variable Name="apr_kp_b" Offset="180" Block6Offset="45" Size="4" Format="7" PointUnit="" Description="Appr. PI, Kp Cir B" />
+    <Variable Name="apr_ti_b" Offset="184" Block6Offset="46" Size="4" Format="7" PointUnit="Sec" Description="Appr. PI, Ti Cir B" />
+    <Variable Name="apr_ni_b" Offset="188" Block6Offset="47" Size="4" Format="7" PointUnit="" Description="Appr. PI, NI Cir B" />
+  </Table>
+  <Table Name="DELTA">
+    <Variable Name="wateesys" Offset="0" Block6Offset="0" Size="4" Format="7" PointUnit="^F" Description="water_t_hysteresys" />
+    <Variable Name="chdp_hys" Offset="5" Block6Offset="2" Size="4" Format="7" PointUnit="PSI" Description="cmp high dp hysteresys" />
+    <Variable Name="chdtdact" Offset="9" Block6Offset="3" Size="4" Format="7" PointUnit="^F" Description="cmp high dt act offset" />
+    <Variable Name="chdtdspt" Offset="13" Block6Offset="4" Size="4" Format="7" PointUnit="^F" Description="cmp high dt stp offset" />
+    <Variable Name="fhdp_hys" Offset="17" Block6Offset="5" Size="4" Format="7" PointUnit="PSI" Description="fan high dp hysteresys" />
+    <Variable Name="fhdtdact" Offset="21" Block6Offset="6" Size="4" Format="7" PointUnit="^F" Description="fan high dt act offset" />
+    <Variable Name="fhdtdstp" Offset="25" Block6Offset="7" Size="4" Format="7" PointUnit="^F" Description="fan high dt stp offset" />
+    <Variable Name="ldp_hys" Offset="30" Block6Offset="9" Size="4" Format="7" PointUnit="PSI" Description="low dp hysteresys" />
+    <Variable Name="ldtdact" Offset="34" Block6Offset="10" Size="4" Format="7" PointUnit="^F" Description="low dt act offset" />
+    <Variable Name="ldtdspt" Offset="38" Block6Offset="11" Size="4" Format="7" PointUnit="^F" Description="low dt stp offset" />
+    <Variable Name="hsp_hyst" Offset="43" Block6Offset="13" Size="4" Format="7" PointUnit="PSI" Description="high sp hysteresys" />
+    <Variable Name="hstdact" Offset="47" Block6Offset="14" Size="4" Format="7" PointUnit="^F" Description="high st act offset" />
+    <Variable Name="hstdspt" Offset="51" Block6Offset="15" Size="4" Format="7" PointUnit="^F" Description="high st stp offset" />
+    <Variable Name="lsp_hyst" Offset="56" Block6Offset="17" Size="4" Format="7" PointUnit="PSI" Description="low sp hysteresys" />
+    <Variable Name="lstdact" Offset="60" Block6Offset="18" Size="4" Format="7" PointUnit="^F" Description="low st act offset" />
+    <Variable Name="lstdspt" Offset="64" Block6Offset="19" Size="4" Format="7" PointUnit="^F" Description="low st stp offset" />
+    <Variable Name="lstdcpa" Offset="68" Block6Offset="20" Size="4" Format="7" PointUnit="^F" Description="deltat lstEXV vs lstCAPA" />
+    <Variable Name="mt_hyst" Offset="73" Block6Offset="22" Size="4" Format="7" PointUnit="^F" Description="motor temp hysteresys" />
+    <Variable Name="mt_dact" Offset="77" Block6Offset="23" Size="4" Format="7" PointUnit="^F" Description="motor temp act offset" />
+    <Variable Name="mt_dspt" Offset="81" Block6Offset="24" Size="4" Format="7" PointUnit="^F" Description="motor temp stp offset" />
+    <Variable Name="dgt_hyst" Offset="86" Block6Offset="26" Size="4" Format="7" PointUnit="^F" Description="dgt hysteresys" />
+    <Variable Name="dgt_act" Offset="90" Block6Offset="27" Size="4" Format="7" PointUnit="^F" Description="dgt limit act offset" />
+    <Variable Name="dgt_spt" Offset="94" Block6Offset="28" Size="4" Format="7" PointUnit="^F" Description="dgt limit spt offset" />
+    <Variable Name="dsh_hyst" Offset="99" Block6Offset="30" Size="4" Format="7" PointUnit="^F" Description="dsh hysteresys" />
+    <Variable Name="dsh_act" Offset="103" Block6Offset="31" Size="4" Format="7" PointUnit="^F" Description="dsh act offset" />
+    <Variable Name="dshdelay" Offset="107" Block6Offset="32" Size="4" Format="7" PointUnit="Sec" Description="exv_no_dsh_delay" />
+    <Variable Name="mopdelay" Offset="111" Block6Offset="33" Size="4" Format="7" PointUnit="Sec" Description="exv_no_mop_delay" />
+    <Variable Name="sbc_hys" Offset="116" Block6Offset="35" Size="4" Format="7" PointUnit="^F" Description="subcool hysteresys" />
+    <Variable Name="sbc_act" Offset="120" Block6Offset="36" Size="4" Format="7" PointUnit="^F" Description="subcool act offset" />
+    <Variable Name="sbc_spt" Offset="124" Block6Offset="37" Size="4" Format="7" PointUnit="dF" Description="Subcooling Setpoint" />
+    <Variable Name="cramprt" Offset="128" Block6Offset="38" Size="4" Format="7" PointUnit="Hz" Description="Compressor Ramp Rate" />
+  </Table>
+  <Table Name="LABOONLY">
+    <Variable Name="f_EXVA" Offset="0" Block6Offset="0" Size="4" Format="7" PointUnit="" Description="Force EXV A" />
+    <Variable Name="EXVval_A" Offset="4" Block6Offset="1" Size="4" Format="7" PointUnit="%" Description="EXV Force Value A" />
+    <Variable Name="f_ECOA" Offset="8" Block6Offset="2" Size="4" Format="7" PointUnit="" Description="Force EXV ECO A" />
+    <Variable Name="ECOval_A" Offset="12" Block6Offset="3" Size="4" Format="7" PointUnit="%" Description="EXV ECO Force Value A" />
+    <Variable Name="f_Hz_A" Offset="16" Block6Offset="4" Size="4" Format="7" PointUnit="" Description="Force Speed A" />
+    <Variable Name="Hzval_A" Offset="20" Block6Offset="5" Size="4" Format="7" PointUnit="Hz" Description="Speed Force Value A" />
+    <Variable Name="f_vfan_A" Offset="24" Block6Offset="6" Size="4" Format="7" PointUnit="" Description="Force Varifan A" />
+    <Variable Name="vf_val_A" Offset="28" Block6Offset="7" Size="4" Format="7" PointUnit="Hz" Description="Varifan Value A" />
+    <Variable Name="f_VI_A" Offset="32" Block6Offset="8" Size="4" Format="7" PointUnit="" Description="Force VI A" />
+    <Variable Name="VIval_A" Offset="36" Block6Offset="9" Size="4" Format="7" PointUnit="" Description="VI  Force Value A" />
+    <Variable Name="f_EXVB" Offset="40" Block6Offset="10" Size="4" Format="7" PointUnit="" Description="Force EXV B" />
+    <Variable Name="EXVval_B" Offset="44" Block6Offset="11" Size="4" Format="7" PointUnit="%" Description="EXV Force Value B" />
+    <Variable Name="f_ECOB" Offset="48" Block6Offset="12" Size="4" Format="7" PointUnit="" Description="Force EXV ECO B" />
+    <Variable Name="ECOval_B" Offset="52" Block6Offset="13" Size="4" Format="7" PointUnit="%" Description="EXV ECO Force Value B" />
+    <Variable Name="f_Hz_B" Offset="56" Block6Offset="14" Size="4" Format="7" PointUnit="" Description="Force Speed B" />
+    <Variable Name="Hzval_B" Offset="60" Block6Offset="15" Size="4" Format="7" PointUnit="Hz" Description="Speed Force Value B" />
+    <Variable Name="f_vfan_B" Offset="64" Block6Offset="16" Size="4" Format="7" PointUnit="" Description="Force Varifan B" />
+    <Variable Name="vf_val_B" Offset="68" Block6Offset="17" Size="4" Format="7" PointUnit="" Description="Varifan Value B" />
+    <Variable Name="f_VI_B" Offset="72" Block6Offset="18" Size="4" Format="7" PointUnit="" Description="ForceVI B" />
+    <Variable Name="VIval_B" Offset="76" Block6Offset="19" Size="4" Format="7" PointUnit="" Description="VI  Force Value B" />
+    <Variable Name="Fmax_A" Offset="81" Block6Offset="21" Size="4" Format="7" PointUnit="Hz" Description="Maximum Frequency A" />
+    <Variable Name="Fmax_B" Offset="85" Block6Offset="22" Size="4" Format="7" PointUnit="Hz" Description="Maximum Frequency B" />
+    <Variable Name="SweepTst" Offset="89" Block6Offset="23" Size="4" Format="7" PointUnit="" Description="Sweep test activation" />
+    <Variable Name="steptime" Offset="93" Block6Offset="24" Size="4" Format="7" PointUnit="Sec" Description="Sweep Step duration" />
+    <Variable Name="f_oilhta" Offset="97" Block6Offset="25" Size="1" Format="1" PointUnit="" Description="Force Oil Heater A" />
+    <Variable Name="f_oilhtb" Offset="98" Block6Offset="26" Size="1" Format="1" PointUnit="" Description="Force Oil Heater B" />
+    <Variable Name="v_oilhta" Offset="99" Block6Offset="27" Size="1" Format="1" PointUnit="" Description="Oil Heater Output A" />
+    <Variable Name="v_oilhtb" Offset="100" Block6Offset="28" Size="1" Format="1" PointUnit="" Description="Oil Heater Output B" />
+    <Variable Name="sw_max_f" Offset="101" Block6Offset="29" Size="4" Format="7" PointUnit="Hz" Description="Sweep  Max Freq" />
+    <Variable Name="sw_min_f" Offset="105" Block6Offset="30" Size="4" Format="7" PointUnit="Hz" Description="Sweep  Min Freq" />
+    <Variable Name="stepfreq" Offset="109" Block6Offset="31" Size="4" Format="7" PointUnit="Hz" Description="Sweep Freq Step" />
+    <Variable Name="VI_Diag" Offset="113" Block6Offset="32" Size="1" Format="1" PointUnit="" Description="Enable VI Diagnostics" />
+  </Table>
+  <Table Name="BACNET">
+    <Variable Name="bacena" Offset="0" Block6Offset="0" Size="1" Format="1" PointUnit="" Description="BACnet Enable" />
+    <Variable Name="bacunit" Offset="1" Block6Offset="1" Size="1" Format="1" PointUnit="" Description="Metric Unit" />
+    <Variable Name="network" Offset="2" Block6Offset="2" Size="2" Format="2" PointUnit="" Description="Network" />
+    <Variable Name="ident" Offset="4" Block6Offset="3" Size="4" Format="7" PointUnit="" Description="Identifier" />
+    <Variable Name="bbmd" Offset="8" Block6Offset="4" Size="1" Format="1" PointUnit="" Description="BACnet Management Device" />
+  </Table>
+  <Table Name="FAN_CFG">
+    <Variable Name="fldp_kpa" Offset="0" Block6Offset="0" Size="4" Format="7" PointUnit="" Description="Fan Low DP PI, Kp, Cir A" />
+    <Variable Name="fldp_tia" Offset="4" Block6Offset="1" Size="4" Format="7" PointUnit="Sec" Description="Fan Low DP PI, Ti Cir A" />
+    <Variable Name="fldp_nia" Offset="8" Block6Offset="2" Size="4" Format="7" PointUnit="" Description="Fan Low DP PI, NI Cir A" />
+    <Variable Name="fldp_kpb" Offset="12" Block6Offset="3" Size="4" Format="7" PointUnit="" Description="Fan Low DP PI, Kp, Cir B" />
+    <Variable Name="fldp_tib" Offset="16" Block6Offset="4" Size="4" Format="7" PointUnit="Sec" Description="Fan Low DP PI, Ti Cir B" />
+    <Variable Name="fldp_nib" Offset="20" Block6Offset="5" Size="4" Format="7" PointUnit="" Description="Fan Low DP PI, NI Cir B" />
+    <Variable Name="fan_hlim" Offset="24" Block6Offset="6" Size="4" Format="7" PointUnit="Hz" Description="Fan Max Frequency" />
+    <Variable Name="fan_llim" Offset="28" Block6Offset="7" Size="4" Format="7" PointUnit="Hz" Description="Fan Min Frequency" />
+    <Variable Name="sync_Kp" Offset="32" Block6Offset="8" Size="4" Format="7" PointUnit="" Description="Sychronizing Output Kp" />
+    <Variable Name="n_coilsA" Offset="36" Block6Offset="9" Size="2" Format="2" PointUnit="" Description="Cir Cond Coil Number A" />
+    <Variable Name="n_coilsB" Offset="38" Block6Offset="10" Size="2" Format="2" PointUnit="" Description="Cir Cond Coil Number B" />
+    <Variable Name="cp_factA" Offset="40" Block6Offset="11" Size="4" Format="7" PointUnit="" Description="Compressor Factor A" />
+    <Variable Name="cp_factB" Offset="44" Block6Offset="12" Size="4" Format="7" PointUnit="" Description="Compressor Factor B" />
+    <Variable Name="fldtfact" Offset="48" Block6Offset="13" Size="4" Format="7" PointUnit="" Description="Fan Low Dis.  Factor" />
+    <Variable Name="fan_ctrl" Offset="52" Block6Offset="14" Size="2" Format="2" PointUnit="" Description="Fan Ctrl Type (Vari,Fix)" />
+    <Variable Name="xt_enabl" Offset="55" Block6Offset="16" Size="2" Format="2" PointUnit="" Description="Optimization Enable" />
+    <Variable Name="xt_s_smp" Offset="57" Block6Offset="17" Size="2" Format="2" PointUnit="" Description="Stablility Sample Nb" />
+    <Variable Name="xt_in_tl" Offset="59" Block6Offset="18" Size="4" Format="7" PointUnit="%" Description="Opt. Deviation Tolerance" />
+    <Variable Name="os_d_amp" Offset="63" Block6Offset="19" Size="4" Format="7" PointUnit="Hz" Description="Opt. Disturbance Ampl." />
+    <Variable Name="os_d_per" Offset="67" Block6Offset="20" Size="4" Format="7" PointUnit="Sec" Description="Opt. Disturbance Period" />
+    <Variable Name="os_f_pow" Offset="71" Block6Offset="21" Size="4" Format="7" PointUnit="%" Description="Opt. Freeze Power Tol." />
+    <Variable Name="xtos_flt" Offset="75" Block6Offset="22" Size="4" Format="7" PointUnit="Sec" Description="Opt. Filter Time" />
+    <Variable Name="sct_bias" Offset="79" Block6Offset="23" Size="4" Format="7" PointUnit="^F" Description="SCT bias at start" />
+    <Variable Name="sct_tim" Offset="83" Block6Offset="24" Size="4" Format="7" PointUnit="Sec" Description="Total SCT bias time" />
+    <Variable Name="sct_decr" Offset="87" Block6Offset="25" Size="4" Format="7" PointUnit="Sec" Description="Decrement SCT bias time" />
+  </Table>
+  <Table Name="ECO_PI">
+    <Variable Name="ecsh_kpa" Offset="0" Block6Offset="0" Size="4" Format="7" PointUnit="" Description="EXV Eco. SH Kp, Cir A" />
+    <Variable Name="ecsh_tia" Offset="4" Block6Offset="1" Size="4" Format="7" PointUnit="Sec" Description="EXV Eco. SH Ti Cir A" />
+    <Variable Name="ecsh_nia" Offset="8" Block6Offset="2" Size="4" Format="7" PointUnit="" Description="EXV Eco. SH NI Cir A" />
+    <Variable Name="ecsh_kpb" Offset="12" Block6Offset="3" Size="4" Format="7" PointUnit="" Description="EXV Eco. SH Kp, Cir B" />
+    <Variable Name="ecsh_tib" Offset="16" Block6Offset="4" Size="4" Format="7" PointUnit="Sec" Description="EXV Eco. SH Ti Cir B" />
+    <Variable Name="ecsh_nib" Offset="20" Block6Offset="5" Size="4" Format="7" PointUnit="" Description="EXV Eco. SH NI Cir B" />
+    <Variable Name="eco_min" Offset="24" Block6Offset="6" Size="4" Format="7" PointUnit="%" Description="EXV Eco. Min Position" />
+    <Variable Name="eco_max" Offset="28" Block6Offset="7" Size="4" Format="7" PointUnit="%" Description="EXV Eco. Max Position" />
+    <Variable Name="capa_lim" Offset="32" Block6Offset="8" Size="4" Format="7" PointUnit="%" Description="Capacity Lim Disable Eco" />
+    <Variable Name="ecoshspa" Offset="36" Block6Offset="9" Size="4" Format="7" PointUnit="dF" Description="Eco Superheat Setpoint A" />
+    <Variable Name="ecoshspb" Offset="40" Block6Offset="10" Size="4" Format="7" PointUnit="dF" Description="Eco Superheat Setpoint B" />
+  </Table>
+  <Table Name="CP_ENABL">
+    <Variable Name="en_cp_a" Offset="1" Block6Offset="1" Size="1" Format="1" PointUnit="" Description="Compressor A Disable" />
+    <Variable Name="en_cp_b" Offset="2" Block6Offset="2" Size="1" Format="1" PointUnit="" Description="Compressor B Disable" />
+  </Table>
+  <Table Name="EMAILCFG">
+    <Variable Name="senderP1" Offset="0" Block6Offset="0" Size="24" Format="34" PointUnit="" Description="Sender Email Part1" />
+    <Variable Name="senderP2" Offset="25" Block6Offset="2" Size="24" Format="34" PointUnit="" Description="Sender Email Part2" />
+    <Variable Name="recip1P1" Offset="49" Block6Offset="3" Size="24" Format="34" PointUnit="" Description="Recip1 Email Part1" />
+    <Variable Name="recip1P2" Offset="74" Block6Offset="5" Size="24" Format="34" PointUnit="" Description="Recip1 Email Part2" />
+    <Variable Name="recip2P1" Offset="98" Block6Offset="6" Size="24" Format="34" PointUnit="" Description="Recip2 Email Part1" />
+    <Variable Name="recip2P2" Offset="123" Block6Offset="8" Size="24" Format="34" PointUnit="" Description="Recip2 Email Part2" />
+    <Variable Name="smtpP1" Offset="147" Block6Offset="9" Size="1" Format="1" PointUnit="" Description="SMTP IP Addr Part 1" />
+    <Variable Name="smtpP2" Offset="148" Block6Offset="10" Size="1" Format="1" PointUnit="" Description="SMTP IP Addr Part 2" />
+    <Variable Name="smtpP3" Offset="149" Block6Offset="11" Size="1" Format="1" PointUnit="" Description="SMTP IP Addr Part 3" />
+    <Variable Name="smtpP4" Offset="150" Block6Offset="12" Size="1" Format="1" PointUnit="" Description="SMTP IP Addr Part 4" />
+    <Variable Name="accP1" Offset="151" Block6Offset="13" Size="24" Format="34" PointUnit="" Description="Account Email Part1" />
+    <Variable Name="accP2" Offset="176" Block6Offset="15" Size="24" Format="34" PointUnit="" Description="Account Email Part2" />
+    <Variable Name="accPass" Offset="200" Block6Offset="16" Size="24" Format="34" PointUnit="" Description="Account Password" />
+    <Variable Name="portNbr" Offset="224" Block6Offset="17" Size="1" Format="1" PointUnit="" Description="Port Number" />
+    <Variable Name="srvTim" Offset="225" Block6Offset="18" Size="1" Format="1" PointUnit="Sec" Description="Server Timeout" />
+    <Variable Name="srvAut" Offset="226" Block6Offset="19" Size="1" Format="1" PointUnit="" Description="Server Authentification" />
+  </Table>
+  <Table Name="BROCASTS">
+    <Variable Name="ccnbroad" Offset="0" Block6Offset="0" Size="1" Format="1" PointUnit="" Description="Activate" />
+    <Variable Name="oatbusnm" Offset="3" Block6Offset="3" Size="1" Format="1" PointUnit="" Description="Bus #" />
+    <Variable Name="oatlocad" Offset="4" Block6Offset="4" Size="1" Format="1" PointUnit="" Description="Element #" />
+    <Variable Name="dayl_sel" Offset="6" Block6Offset="6" Size="1" Format="1" PointUnit="" Description="DAYLIGHT SAVINGS SELECT" />
+    <Variable Name="startmon" Offset="8" Block6Offset="8" Size="1" Format="1" PointUnit="" Description="Month" />
+    <Variable Name="startdow" Offset="9" Block6Offset="9" Size="1" Format="1" PointUnit="" Description="Day of Week (1=Monday)" />
+    <Variable Name="startwom" Offset="10" Block6Offset="10" Size="1" Format="1" PointUnit="" Description="Week Number of Month" />
+    <Variable Name="stopmon" Offset="12" Block6Offset="12" Size="1" Format="1" PointUnit="" Description="Month" />
+    <Variable Name="stopdow" Offset="13" Block6Offset="13" Size="1" Format="1" PointUnit="" Description="Day of Week (1=Monday)" />
+    <Variable Name="stopwom" Offset="14" Block6Offset="14" Size="1" Format="1" PointUnit="" Description="Week Number of Month" />
+  </Table>
+  <Table Name="OCCPC01S">
+    <Variable Name="OVR-EXT" Offset="0" Block6Offset="0" Size="1" Format="1" PointUnit="" Description="Timed Override Hours" />
+    <Variable Name="DOW1" Offset="1" Block6Offset="1" Size="1" Format="0" PointUnit="" Description="Period 1 DOW (MTWTFSSH)" />
+    <Variable Name="OCCTOD1" Offset="2" Block6Offset="2" Size="2" Format="12" PointUnit="" Description="Occupied from" />
+    <Variable Name="UNOCTOD1" Offset="4" Block6Offset="3" Size="2" Format="12" PointUnit="" Description="Occupied to" />
+    <Variable Name="DOW2" Offset="6" Block6Offset="4" Size="1" Format="0" PointUnit="" Description="Period 2 DOW (MTWTFSSH)" />
+    <Variable Name="OCCTOD2" Offset="7" Block6Offset="5" Size="2" Format="12" PointUnit="" Description="Occupied from" />
+    <Variable Name="UNOCTOD2" Offset="9" Block6Offset="6" Size="2" Format="12" PointUnit="" Description="Occupied to" />
+    <Variable Name="DOW3" Offset="11" Block6Offset="7" Size="1" Format="0" PointUnit="" Description="Period 3 DOW (MTWTFSSH)" />
+    <Variable Name="OCCTOD3" Offset="12" Block6Offset="8" Size="2" Format="12" PointUnit="" Description="Occupied from" />
+    <Variable Name="UNOCTOD3" Offset="14" Block6Offset="9" Size="2" Format="12" PointUnit="" Description="Occupied to" />
+    <Variable Name="DOW4" Offset="16" Block6Offset="10" Size="1" Format="0" PointUnit="" Description="Period 4 DOW (MTWTFSSH)" />
+    <Variable Name="OCCTOD4" Offset="17" Block6Offset="11" Size="2" Format="12" PointUnit="" Description="Occupied from" />
+    <Variable Name="UNOCTOD4" Offset="19" Block6Offset="12" Size="2" Format="12" PointUnit="" Description="Occupied to" />
+    <Variable Name="DOW5" Offset="21" Block6Offset="13" Size="1" Format="0" PointUnit="" Description="Period 5 DOW (MTWTFSSH)" />
+    <Variable Name="OCCTOD5" Offset="22" Block6Offset="14" Size="2" Format="12" PointUnit="" Description="Occupied from" />
+    <Variable Name="UNOCTOD5" Offset="24" Block6Offset="15" Size="2" Format="12" PointUnit="" Description="Occupied to" />
+    <Variable Name="DOW6" Offset="26" Block6Offset="16" Size="1" Format="0" PointUnit="" Description="Period 6 DOW (MTWTFSSH)" />
+    <Variable Name="OCCTOD6" Offset="27" Block6Offset="17" Size="2" Format="12" PointUnit="" Description="Occupied from" />
+    <Variable Name="UNOCTOD6" Offset="29" Block6Offset="18" Size="2" Format="12" PointUnit="" Description="Occupied to" />
+    <Variable Name="DOW7" Offset="31" Block6Offset="19" Size="1" Format="0" PointUnit="" Description="Period 7 DOW (MTWTFSSH)" />
+    <Variable Name="OCCTOD7" Offset="32" Block6Offset="20" Size="2" Format="12" PointUnit="" Description="Occupied from" />
+    <Variable Name="UNOCTOD7" Offset="34" Block6Offset="21" Size="2" Format="12" PointUnit="" Description="Occupied to" />
+    <Variable Name="DOW8" Offset="36" Block6Offset="22" Size="1" Format="0" PointUnit="" Description="Period 8 DOW (MTWTFSSH)" />
+    <Variable Name="OCCTOD8" Offset="37" Block6Offset="23" Size="2" Format="12" PointUnit="" Description="Occupied from" />
+    <Variable Name="UNOCTOD8" Offset="39" Block6Offset="24" Size="2" Format="12" PointUnit="" Description="Occupied to" />
+  </Table>
+  <Table Name="OCCPC02S">
+    <Variable Name="OVR-EXT" Offset="0" Block6Offset="0" Size="1" Format="1" PointUnit="" Description="Timed Override Hours" />
+    <Variable Name="DOW1" Offset="1" Block6Offset="1" Size="1" Format="0" PointUnit="" Description="Period 1 DOW (MTWTFSSH)" />
+    <Variable Name="OCCTOD1" Offset="2" Block6Offset="2" Size="2" Format="12" PointUnit="" Description="Occupied from" />
+    <Variable Name="UNOCTOD1" Offset="4" Block6Offset="3" Size="2" Format="12" PointUnit="" Description="Occupied to" />
+    <Variable Name="DOW2" Offset="6" Block6Offset="4" Size="1" Format="0" PointUnit="" Description="Period 2 DOW (MTWTFSSH)" />
+    <Variable Name="OCCTOD2" Offset="7" Block6Offset="5" Size="2" Format="12" PointUnit="" Description="Occupied from" />
+    <Variable Name="UNOCTOD2" Offset="9" Block6Offset="6" Size="2" Format="12" PointUnit="" Description="Occupied to" />
+    <Variable Name="DOW3" Offset="11" Block6Offset="7" Size="1" Format="0" PointUnit="" Description="Period 3 DOW (MTWTFSSH)" />
+    <Variable Name="OCCTOD3" Offset="12" Block6Offset="8" Size="2" Format="12" PointUnit="" Description="Occupied from" />
+    <Variable Name="UNOCTOD3" Offset="14" Block6Offset="9" Size="2" Format="12" PointUnit="" Description="Occupied to" />
+    <Variable Name="DOW4" Offset="16" Block6Offset="10" Size="1" Format="0" PointUnit="" Description="Period 4 DOW (MTWTFSSH)" />
+    <Variable Name="OCCTOD4" Offset="17" Block6Offset="11" Size="2" Format="12" PointUnit="" Description="Occupied from" />
+    <Variable Name="UNOCTOD4" Offset="19" Block6Offset="12" Size="2" Format="12" PointUnit="" Description="Occupied to" />
+    <Variable Name="DOW5" Offset="21" Block6Offset="13" Size="1" Format="0" PointUnit="" Description="Period 5 DOW (MTWTFSSH)" />
+    <Variable Name="OCCTOD5" Offset="22" Block6Offset="14" Size="2" Format="12" PointUnit="" Description="Occupied from" />
+    <Variable Name="UNOCTOD5" Offset="24" Block6Offset="15" Size="2" Format="12" PointUnit="" Description="Occupied to" />
+    <Variable Name="DOW6" Offset="26" Block6Offset="16" Size="1" Format="0" PointUnit="" Description="Period 6 DOW (MTWTFSSH)" />
+    <Variable Name="OCCTOD6" Offset="27" Block6Offset="17" Size="2" Format="12" PointUnit="" Description="Occupied from" />
+    <Variable Name="UNOCTOD6" Offset="29" Block6Offset="18" Size="2" Format="12" PointUnit="" Description="Occupied to" />
+    <Variable Name="DOW7" Offset="31" Block6Offset="19" Size="1" Format="0" PointUnit="" Description="Period 7 DOW (MTWTFSSH)" />
+    <Variable Name="OCCTOD7" Offset="32" Block6Offset="20" Size="2" Format="12" PointUnit="" Description="Occupied from" />
+    <Variable Name="UNOCTOD7" Offset="34" Block6Offset="21" Size="2" Format="12" PointUnit="" Description="Occupied to" />
+    <Variable Name="DOW8" Offset="36" Block6Offset="22" Size="1" Format="0" PointUnit="" Description="Period 8 DOW (MTWTFSSH)" />
+    <Variable Name="OCCTOD8" Offset="37" Block6Offset="23" Size="2" Format="12" PointUnit="" Description="Occupied from" />
+    <Variable Name="UNOCTOD8" Offset="39" Block6Offset="24" Size="2" Format="12" PointUnit="" Description="Occupied to" />
+  </Table>
+  <Table Name="HOLDY_01" />
+  <Table Name="HOLDY_02" />
+  <Table Name="HOLDY_03" />
+  <Table Name="HOLDY_04" />
+  <Table Name="HOLDY_05" />
+  <Table Name="HOLDY_06" />
+  <Table Name="HOLDY_07" />
+  <Table Name="HOLDY_08" />
+  <Table Name="HOLDY_09" />
+  <Table Name="HOLDY_10" />
+  <Table Name="HOLDY_11" />
+  <Table Name="HOLDY_12" />
+  <Table Name="HOLDY_13" />
+  <Table Name="HOLDY_14" />
+  <Table Name="HOLDY_15" />
+  <Table Name="HOLDY_16" />
+  <Table Name="ALARMS01" />
+  <Table Name="OCCPC01S" />
+  <Table Name="OCCPC02S" />
+  <Table Name="SETPOINT" />
+</DCAT>

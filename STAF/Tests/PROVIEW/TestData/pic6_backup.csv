@@ -1,0 +1,10 @@
+Controller,ip_addr,usr_name,Pass_wd,Update/file_xfer,file_path,file_type,keep_cfg,operation,Lang,reboot,xfer_file,upload_path
+PIC 6,169.254.1.1,factory,113,upload,,all files upload,,,,,,C:\E2E_HVAC_Testing\STAF\TestData\PIC6_data
+PIC 6,169.254.1.1,factory,113,upload,,Retrieve Trends,,,,,,C:\E2E_HVAC_Testing\STAF\TestData\PIC6_data
+PIC 6,169.254.1.1,factory,113,upload,,Retrieve Configuration Data Backup,,,,,,C:\E2E_HVAC_Testing\STAF\TestData\PIC6_data
+PIC 6,169.254.1.1,factory,113,upload,,Retrieve Application Logs,,,,,,C:\E2E_HVAC_Testing\STAF\TestData\PIC6_data
+PIC 6,169.254.1.1,factory,113,upload,,Retrieve Platform Log Files,,,,,,C:\E2E_HVAC_Testing\STAF\TestData\PIC6_data
+PIC 6,169.254.1.1,factory,113,upload,,Retrieve IOT Log Files,,,,,,C:\E2E_HVAC_Testing\STAF\TestData\PIC6_data
+PIC 6,169.254.1.1,factory,113,upload,,Retrieve Equipment Data Recorder,,upload,,,,C:\E2E_HVAC_Testing\STAF\TestData\PIC6_data
+PIC 6,169.254.1.1,factory,113,upload,,Retrieve Equipment Data Recorder,,delete,,,,C:\E2E_HVAC_Testing\STAF\TestData\PIC6_data
+

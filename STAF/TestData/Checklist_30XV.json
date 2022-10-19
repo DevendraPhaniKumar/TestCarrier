@@ -1,0 +1,114 @@
+{
+  "TestCases1": {
+    "Data": {
+      "Address": "HRDC",
+      "Checklist index": "",
+      "CustomerName": "test30XV",
+      "FormType": "Startup Checklist",
+      "JobName": "Startup30XV",
+      "JobNumber": "1ABC",
+      "Model": "30XV",
+      "Password": "Uday@1234",
+      "SerialNo": "123",
+      "SubMenu Index": "",
+      "UserID": "challabaskar1981@gmail.com",
+      "testdata": "1A2B@3457"
+    }
+  },
+  "TestCases2": {
+    "Data": {
+      "Address": "HRDC",
+      "Checklist index": "4",
+      "CustomerName": "test30XV",
+      "FormType": "Startup Checklist",
+      "JobName": "Startup30XV",
+      "JobNumber": "1ABC",
+      "Model": "30XV",
+      "Password": "Uday@1235",
+      "SerialNo": "123",
+      "SubMenu Index": "",
+      "UserID": "challabaskar1981@gmail.com",
+      "testdata": "1A2B@3456*xyz78gh910X"
+    }
+  },
+  "TestCases3": {
+    "Data": {
+      "Address": "HRDC",
+      "Checklist index": "5",
+      "CustomerName": "test30XV",
+      "FormType": "Startup Checklist",
+      "JobName": "Startup30XV",
+      "JobNumber": "1231",
+      "Model": "initial",
+      "Password": "Uday@1234",
+      "SerialNo": "123",
+      "SubMenu Index": "10",
+      "UserID": "challabaskar1981@gmail.com",
+      "testdata": "1A2B@3456*xyz78gh910X"
+    }
+  },
+  "TestCases4": {
+    "Data": {
+      "Address": "HRDC",
+      "Checklist index": "5",
+      "CustomerName": "test30XV",
+      "FormType": "Startup Checklist",
+      "JobName": "Startup30XV",
+      "JobNumber": "1231",
+      "Model": "component",
+      "Password": "Uday@1234",
+      "SerialNo": "123",
+      "SubMenu Index": "13",
+      "UserID": "challabaskar1981@gmail.com",
+      "testdata": "1A2B@3456*xyz78gh910X"
+    }
+  },
+  "TestCases5": {
+    "Data": {
+      "Address": "HRDC",
+      "Checklist index": "5",
+      "CustomerName": "test30XV",
+      "FormType": "Startup Checklist",
+      "JobName": "Startup30XV",
+      "JobNumber": "1231",
+      "Model": "start",
+      "Password": "Uday@1234",
+      "SerialNo": "123",
+      "SubMenu Index": "11",
+      "UserID": "challabaskar1981@gmail.com",
+      "testdata": "1A2B@3456*xyz78gh910X"
+    }
+  },
+  "TestCases6": {
+    "Data": {
+      "Address": "HRDC",
+      "Checklist index": "5",
+      "CustomerName": "test30XV",
+      "FormType": "Startup Checklist",
+      "JobName": "Startup30XV",
+      "JobNumber": "1231",
+      "Model": "operating",
+      "Password": "Uday@1234",
+      "SerialNo": "123",
+      "SubMenu Index": "14",
+      "UserID": "challabaskar1981@gmail.com",
+      "testdata": "1A2B@3456*xyz78gh910X"
+    }
+  },
+  "TestCases7": {
+    "Data": {
+      "Address": "HRDC",
+      "Checklist index": "5",
+      "CustomerName": "test30XV",
+      "FormType": "Startup Checklist",
+      "JobName": "Startup30XV",
+      "JobNumber": "1231",
+      "Model": "record1",
+      "Password": "Uday@1234",
+      "SerialNo": "123",
+      "SubMenu Index": "12",
+      "UserID": "challabaskar1981@gmail.com",
+      "testdata": "1A2B@3456*xyz78gh910X"
+    }
+  }
+}

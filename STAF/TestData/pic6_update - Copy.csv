@@ -1,0 +1,7 @@
+Controller,ip_addr,usr_name,Pass_wd,Update/file_xfer,file_path,file_type,keep_cfg,operation,Lang,reboot,xfer_file,upload_path,update_erasecfg
+PIC 6,169.254.1.1,factory,113,update,C:\PIC6_data\,,yes,continue, English,yes,BACKUP.nvmcfg,D:\Selenium_POM\Test_Cases\TestData\PIC6_data,no
+PIC 6,169.254.1.1,factory,113,update,C:\PIC6_data\,,yes,cancel, English,yes,001-ST-20W4D100-43,D:\Selenium_POM\Test_Cases\TestData\PIC6_data,no
+PIC 6,169.254.1.1,factory,113,update,C:\PIC6_data\,,yes,continue, English,yes,001-ST-20W4D100-43,D:\Selenium_POM\Test_Cases\TestData\PIC6_data,no
+PIC 6,169.254.1.1,factory,113,update,C:\PIC6_data\,,no,continue,,yes,001-ST-20W4D100-43,D:\Selenium_POM\Test_Cases\TestData\PIC6_data,yes
+PIC 6,169.254.1.1,factory,113,update,C:\PIC6_data\,,no,continue,,yes,001-ST-20W4D100-43,D:\Selenium_POM\Test_Cases\TestData\PIC6_data,no
+PIC 6,169.254.1.1,factory,113,update,C:\PIC6_data\,,yes,continue,,yes,004-ST-10D2AA070_0134.pic6fw,D:\Selenium_POM\Test_Cases\TestData\PIC6_data,no

@@ -1,0 +1,2 @@
+Controller,ip_addr,usr_name,Pass_wd,Update/file_xfer,file_path,file_type,keep_cfg,operation,Lang,reboot,xfer_file,upload_path,update_erasecfg
+PIC 6,169.254.1.1,factory,113,update,C:\E2E_HVAC_Testing\STAF\TestData\PIC6_data\,,yes,continue, English,yes,065-ST-10D2AA073_0138,C:\Uploaddata,no

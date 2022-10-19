@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unittest Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Unittest Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2022-09-26 18:05:41</p>
+                <p class='attribute'><strong>Duration: </strong>22.09 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.TestCases</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_2_application</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Setup Function - Start
+********************************************************************************
+DCT.xml file already exists
+It is................c:\E2E_HVAC_Testing\STAF
+Connection Status :  1
+XML Loading Status : True
+It is........c:\E2E_HVAC_Testing\STAF
+</p><p style="color:maroon;">WebDriverException: Message: unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=105.0.5195.127)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00AEDF13+2219795]
+	Ordinal0 [0x00A82841+1779777]
+	Ordinal0 [0x0099423D+803389]
+	Ordinal0 [0x00980021+720929]
+	Ordinal0 [0x0097EE74+716404]
+	Ordinal0 [0x0097DCF9+711929]
+	Ordinal0 [0x009FFBAF+1244079]
+	Ordinal0 [0x009DE7FC+1107964]
+	Ordinal0 [0x009EF192+1175954]
+	Ordinal0 [0x009DE616+1107478]
+	Ordinal0 [0x009B7F89+950153]
+	Ordinal0 [0x009B8F56+954198]
+	GetHandleVerifier [0x00DE2CB2+3040210]
+	GetHandleVerifier [0x00DD2BB4+2974420]
+	GetHandleVerifier [0x00B86A0A+565546]
+	GetHandleVerifier [0x00B85680+560544]
+	Ordinal0 [0x00A89A5C+1808988]
+	Ordinal0 [0x00A8E3A8+1827752]
+	Ordinal0 [0x00A8E495+1827989]
+	Ordinal0 [0x00A980A4+1867940]
+	BaseThreadInitThunk [0x76740419+25]
+	RtlGetAppContainerNamedObjectPath [0x773674ED+237]
+	RtlGetAppContainerNamedObjectPath [0x773674BD+189]
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "c:/E2E_HVAC_Testing/STAF/Tests/INTEGRATION/Integration.py", line 124, in test_2_application
+    obj = pic6_api_link.PIC_6()
+  File "c:/E2E_HVAC_Testing/STAF\Lib_space\PIC6_API\pic6_api_link.py", line 17, in __init__
+    fx30_instance = Fx30()
+  File "c:/E2E_HVAC_Testing/STAF\Lib_space\Connectivity\Sierra_Router\Sierra_Router.py", line 36, in __init__
+    self.driver.maximize_window()
+  File "C:\Users\Test\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 990, in maximize_window
+    self.execute(command, params)
+  File "C:\Users\Test\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Test\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=105.0.5195.127)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00AEDF13+2219795]
+	Ordinal0 [0x00A82841+1779777]
+	Ordinal0 [0x0099423D+803389]
+	Ordinal0 [0x00980021+720929]
+	Ordinal0 [0x0097EE74+716404]
+	Ordinal0 [0x0097DCF9+711929]
+	Ordinal0 [0x009FFBAF+1244079]
+	Ordinal0 [0x009DE7FC+1107964]
+	Ordinal0 [0x009EF192+1175954]
+	Ordinal0 [0x009DE616+1107478]
+	Ordinal0 [0x009B7F89+950153]
+	Ordinal0 [0x009B8F56+954198]
+	GetHandleVerifier [0x00DE2CB2+3040210]
+	GetHandleVerifier [0x00DD2BB4+2974420]
+	GetHandleVerifier [0x00B86A0A+565546]
+	GetHandleVerifier [0x00B85680+560544]
+	Ordinal0 [0x00A89A5C+1808988]
+	Ordinal0 [0x00A8E3A8+1827752]
+	Ordinal0 [0x00A8E495+1827989]
+	Ordinal0 [0x00A980A4+1867940]
+	BaseThreadInitThunk [0x76740419+25]
+	RtlGetAppContainerNamedObjectPath [0x773674ED+237]
+	RtlGetAppContainerNamedObjectPath [0x773674BD+189]
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 22.09 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unittest Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Unittest Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2022-09-26 10:18:29</p>
+                <p class='attribute'><strong>Duration: </strong>66.30 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 4, Pass: 4</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.TestCases</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_07_read_write_AV_BACnet_Points_Functionality</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Setup Function - Start
+********************************************************************************
+BACNet - Connected
+c:\E2E_HVAC_Testing\STAF\Lib_space\BACNET\Adpater_setting.ini
+--------------------START-------------------------------
+<----Write Cooling stpt 2_Writ Value--->
+property: writeAccessDenied
+
+None
+<----Read Cooling stpt 2_Rd Value--->
+0.0
+<----Read GENUNIT_SP_SEL_rd Value--->
+0.0
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_08_read_write_BV_BACnet_Points_Functionality</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Setup Function - Start
+********************************************************************************
+BACNet - Connected
+c:\E2E_HVAC_Testing\STAF\Lib_space\BACNET\Adpater_setting.ini
+--------------------START-------------------------------
+<----Write Chiller Command_Write Value to Active--->
+property: writeAccessDenied
+
+None
+<----Read Chiller Command_Rd Value--->
+inactive
+inactive
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_09_BACnet_AnalogValue_BinaryValue_Obj_ReadAllProp_func</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Setup Function - Start
+********************************************************************************
+BACNet - Connected
+c:\E2E_HVAC_Testing\STAF\Lib_space\BACNET\Adpater_setting.ini
+[['75', 'objectIdentifier', 'ObjectIdentifier', 'R'], ['77', 'objectName', 'CharacterString', 'R'], ['79', 'objectType', 'ObjectType', 'R'], ['85', 'presentValue', 'Real', 'O'], ['28', 'description', 'CharacterString', 'O'], ['111', 'statusFlags', 'StatusFlags', 'R'], ['36', 'eventState', 'EventState', 'R'], ['81', 'outOfService', 'Boolean', 'O']]
+75
+Read Property of Object Name: analogValue  PropertyValue: objectIdentifier is: ('analogValue', 554)
+
+77
+Read Property of Object Name: analogValue  PropertyValue: objectName is: GENUNIT_SP_SEL_wr
+
+79
+Read Property of Object Name: analogValue  PropertyValue: objectType is: analogValue
+
+85
+Read Property of Object Name: analogValue  PropertyValue: presentValue is: 0.0
+
+28
+Read Property of Object Name: analogValue  PropertyValue: description is: Setpoint Select
+
+111
+Read Property of Object Name: analogValue  PropertyValue: statusFlags is: [0, 0, 0, 0]
+
+36
+Read Property of Object Name: analogValue  PropertyValue: eventState is: normal
+
+81
+Read Property of Object Name: analogValue  PropertyValue: outOfService is: False
+
+[['75', 'objectIdentifier', 'ObjectIdentifier', 'R'], ['77', 'objectName', 'CharacterString', 'R'], ['79', 'objectType', 'ObjectType', 'R'], ['85', 'presentValue', 'Real', 'O'], ['28', 'description', 'CharacterString', 'O'], ['111', 'statusFlags', 'StatusFlags', 'R'], ['36', 'eventState', 'EventState', 'R'], ['81', 'outOfService', 'Boolean', 'O']]
+75
+Read Property of Object Name: analogValue  PropertyValue: objectIdentifier is: ('analogValue', 546)
+
+77
+Read Property of Object Name: analogValue  PropertyValue: objectName is: SETPOINT_csp2
+
+79
+Read Property of Object Name: analogValue  PropertyValue: objectType is: analogValue
+
+85
+Read Property of Object Name: analogValue  PropertyValue: presentValue is: 44.0
+
+28
+Read Property of Object Name: analogValue  PropertyValue: description is: Cooling Setpoint 2
+
+111
+Read Property of Object Name: analogValue  PropertyValue: statusFlags is: [0, 0, 0, 0]
+
+36
+Read Property of Object Name: analogValue  PropertyValue: eventState is: normal
+
+81
+Read Property of Object Name: analogValue  PropertyValue: outOfService is: False
+
+Object Name:binaryValue :BV:123
+
+75
+Read Property of Object Name: binaryValue  PropertyValue: objectIdentifier is: ('binaryValue', 123)
+
+77
+Read Property of Object Name: binaryValue  PropertyValue: objectName is: GENUNIT_CHIL_S_S_wr
+
+79
+Read Property of Object Name: binaryValue  PropertyValue: objectType is: binaryValue
+
+85
+Read Property of Object Name: binaryValue  PropertyValue: presentValue is: inactive
+
+28
+Read Property of Object Name: binaryValue  PropertyValue: description is: Chiller Start/Stop
+
+111
+Read Property of Object Name: binaryValue  PropertyValue: statusFlags is: [0, 0, 0, 0]
+
+36
+Read Property of Object Name: binaryValue  PropertyValue: eventState is: normal
+
+81
+Read Property of Object Name: binaryValue  PropertyValue: outOfService is: False
+
+Object Name:binaryValue :BV:128
+
+75
+Read Property of Object Name: binaryValue  PropertyValue: objectIdentifier is: ('binaryValue', 128)
+
+77
+Read Property of Object Name: binaryValue  PropertyValue: objectName is: GENUNIT_SP_OCC_wr
+
+79
+Read Property of Object Name: binaryValue  PropertyValue: objectType is: binaryValue
+
+85
+Read Property of Object Name: binaryValue  PropertyValue: presentValue is: active
+
+28
+Read Property of Object Name: binaryValue  PropertyValue: description is: Setpoint Occupied?
+
+111
+Read Property of Object Name: binaryValue  PropertyValue: statusFlags is: [0, 0, 0, 0]
+
+36
+Read Property of Object Name: binaryValue  PropertyValue: eventState is: normal
+
+81
+Read Property of Object Name: binaryValue  PropertyValue: outOfService is: False
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_10_BACnet_AnalogValue_Obj_ReadMul_func</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Setup Function - Start
+********************************************************************************
+BACNet - Connected
+c:\E2E_HVAC_Testing\STAF\Lib_space\BACNET\Adpater_setting.ini
+--------------------START-------------------------------
+<----Read Analog Value of Instance :[{'2': ('554', 'presentValue')}, {'2': ('554', 'description')}]--->
+presentValue
+[0.0]
+description
+['Setpoint Select']
+I am printing op_list
+[0.0, 'Setpoint Select']
+I am priniting analog_value_obj_multiple_output_list
+[0.0, 'Setpoint Select']
+Read Value is showing correctly
+--------------------STOP--------------------------------
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 4, Pass: 4 -- Duration: 66.30 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html

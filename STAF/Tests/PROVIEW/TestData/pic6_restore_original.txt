@@ -1,0 +1,17 @@
+Controller,ip_addr,usr_name,Pass_wd,Update/file_xfer,file_path,file_type,keep_cfg,operation,Lang,reboot,xfer_file,upload_path
+PIC 6, 169.254.1.1,factory,113,download,D:\Selenium_POM\Test_Cases\TestData\PIC6_data\,language_download, yes, continue, English,yes,simplifiedChinese.csv,D:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.1,factory,113,download,D:\Selenium_POM\Test_Cases\TestData\PIC6_data\,soft_key download, yes, continue, English,yes,softprotect_options.txt,D:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.1,factory,113,download,D:\Selenium_POM\Test_Cases\TestData\PIC6_data\,ssl_download, yes, continue, English,yes,server-169.254.1.1.pem,D:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.1,factory,113,download,D:\Selenium_POM\Test_Cases\TestData\PIC6_data\,nvm_restore, yes, continue, English,yes,BACKUP.nvmcfg,D:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.1,factory,113,download,D:\Selenium_POM\Test_Cases\TestData\PIC6_data\,soft_key download, yes, continue, English,yes,softprotect_options.txt,D:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.1,factory,113,download,D:\Selenium_POM\Test_Cases\TestData\PIC6_data\,language_download, yes, continue, English,yes,simplifiedChinese.csv,D:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.1,factory,113,download,D:\Selenium_POM\Test_Cases\TestData\PIC6_data\,soft_key download, yes, continue, English,yes,softprotect_options.txt,D:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.1,factory,113,download,D:\Selenium_POM\Test_Cases\TestData\PIC6_data\,ssl_download, yes, continue, English,yes,server-169.254.1.1.pem,D:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.1,factory,113,download,D:\Selenium_POM\Test_Cases\TestData\PIC6_data\,soft_key download, yes, continue, English,yes,softprotect_options - Copy.txt,D:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.1,factory,113,download,D:\Selenium_POM\Test_Cases\TestData\PIC6_data\,ssl_download, yes, continue, English,yes,server-169.254.1.1 - Corrupted.pem,D:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.1,factory,113,download,D:\Selenium_POM\Test_Cases\TestData\PIC6_data\,nvm_restore, yes,cancel, English,no,BACKUP.nvmcfg,D:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.1,factory,113,download,D:\Selenium_POM\Test_Cases\TestData\PIC6_data\,language_download, yes,cancel, English,no,simplifiedChinese.csv,D:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.1,factory,113,download,D:\Selenium_POM\Test_Cases\TestData\PIC6_data\,soft_key download, yes,cancel, English,no,softprotect_options.txt,D:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.1,factory,113,download,D:\Selenium_POM\Test_Cases\TestData\PIC6_data\,ssl_download, yes,cancel, English,no,server-169.254.1.1.pem,D:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.1,factory,113,download,D:\Selenium_POM\Test_Cases\TestData\PIC6_data\,nvm_restore, yes,continue, English,no,simplifiedChinese.csv,D:\Selenium_POM\Test_Cases\TestData\PIC6_data
+PIC 6, 169.254.1.1,factory,113,download,D:\Selenium_POM\Test_Cases\TestData\PIC6_data\,nvm_restore, yes,continue, English,no,simplifiedChinese.csv,D:\Selenium_POM\Test_Cases\TestData

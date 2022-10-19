@@ -1,0 +1,682 @@
+{
+  "TestCases1": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "all files upload",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": "",
+      "operation": "",
+      "reboot": "",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": ""
+    }
+  },
+  "TestCases10": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": " update",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": "",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": "yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": "002-FT-10D2AA063"
+    }
+  },
+  "TestCases11": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "Retrieve Language file",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": "",
+      "operation": "",
+      "reboot": "",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": ""
+    }
+  },
+  "TestCases12": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "all files upload",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": "",
+      "operation": "",
+      "reboot": "",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": ""
+    }
+  },
+  "TestCases13": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "Retrieve Equipment Data Recorder",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": "",
+      "operation": "upload",
+      "reboot": "",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": ""
+    }
+  },
+  "TestCases14": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "Retrieve Equipment Data Recorder",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": "",
+      "operation": "delete",
+      "reboot": "",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": ""
+    }
+  },
+  "TestCases15": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "Retrieve License Information",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": "",
+      "operation": "",
+      "reboot": "",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": ""
+    }
+  },
+  "TestCases16": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "Retrieve Platform Configuration",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": "",
+      "operation": "",
+      "reboot": "",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": ""
+    }
+  },
+  "TestCases17": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "Retrieve Platform Log Files",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": "",
+      "operation": "",
+      "reboot": "",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": ""
+    }
+  },
+  "TestCases18": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "download",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": "language_download",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": "BACKUP.nvmcfg"
+    }
+  },
+  "TestCases19": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "download",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": "soft_key download",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": "english.csv"
+    }
+  },
+  "TestCases2": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "Retrieve Trends",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": "",
+      "operation": "",
+      "reboot": "",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": ""
+    }
+  },
+  "TestCases20": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "download",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": "ssl_download",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": "server-169.254.1.1.pem"
+    }
+  },
+  "TestCases21": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "download",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": "soft_key download",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": "softprotect_options.txt"
+    }
+  },
+  "TestCases22": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "download",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": "language_download",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": "english.csv"
+    }
+  },
+  "TestCases23": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "download",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": "soft_key download",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": "softprotect_options.txt"
+    }
+  },
+  "TestCases24": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "download",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": "ssl_download",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": "server-169.254.1.1.pem"
+    }
+  },
+  "TestCases25": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "download",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": "soft_key download",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": "softprotect_options - Copy.txt"
+    }
+  },
+  "TestCases26": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "download",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": "ssl_download",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": "server-169.254.1.1 - Corrupted.pem"
+    }
+  },
+  "TestCases27": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "download",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": "nvm_restore",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": "cancel",
+      "reboot": "no",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": "BACKUP.nvmcfg"
+    }
+  },
+  "TestCases28": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "download",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": "language_download",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": "cancel",
+      "reboot": "no",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": "english.csv"
+    }
+  },
+  "TestCases29": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "download",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": "soft_key download",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": "cancel",
+      "reboot": "no",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": "softprotect_options.txt"
+    }
+  },
+  "TestCases3": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "Retrieve Application Logs",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": "",
+      "operation": "",
+      "reboot": "",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": ""
+    }
+  },
+  "TestCases30": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "download",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": "ssl_download",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": "cancel",
+      "reboot": "no",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": "server-169.254.1.1.pem"
+    }
+  },
+  "TestCases31": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": " ",
+      "Update/file_xfer": "upload",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": " ssl_download",
+      "ip_addr": " ",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " ",
+      "xfer_file": " 001-ST-20W4D100-43"
+    }
+  },
+  "TestCases32": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": " ",
+      "Update/file_xfer": "upload",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": " ssl_download",
+      "ip_addr": "169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": "",
+      "xfer_file": " 001-ST-20W4D100-43"
+    }
+  },
+  "TestCases33": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": " ",
+      "Update/file_xfer": "upload",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": " ssl_download",
+      "ip_addr": "169.254",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": "",
+      "xfer_file": " 001-ST-20W4D100-43"
+    }
+  },
+  "TestCases34": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": " ",
+      "Update/file_xfer": "upload",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": " ssl_download",
+      "ip_addr": "169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": "servic2",
+      "xfer_file": " 001-ST-20W4D100-43"
+    }
+  },
+  "TestCases35": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": " ",
+      "Update/file_xfer": "upload",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": " ssl_download",
+      "ip_addr": "169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": "service",
+      "xfer_file": " 001-ST-20W4D100-43"
+    }
+  },
+  "TestCases36": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": " ",
+      "Update/file_xfer": "upload",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": " ssl_download",
+      "ip_addr": "169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": "factory",
+      "xfer_file": " 001-ST-20W4D100-43"
+    }
+  },
+  "TestCases37": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "2434",
+      "Update/file_xfer": "upload",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": " ssl_download",
+      "ip_addr": "169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": "service",
+      "xfer_file": " 001-ST-20W4D100-43"
+    }
+  },
+  "TestCases38": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "23424",
+      "Update/file_xfer": "upload",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": " ssl_download",
+      "ip_addr": "169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": "factory",
+      "xfer_file": " 001-ST-20W4D100-43"
+    }
+  },
+  "TestCases39": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "upload",
+      "file_path": "C:\\Users\\Documents\\Carrier\\UPload\\",
+      "file_type": " ssl_download",
+      "ip_addr": "169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": "service",
+      "xfer_file": " 001-ST-20W4D100-43"
+    }
+  },
+  "TestCases4": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "Retrieve Platform Log Files",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": "",
+      "operation": "",
+      "reboot": "",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": ""
+    }
+  },
+  "TestCases40": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "ee9vl65h",
+      "Update/file_xfer": "upload",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": " ssl_download",
+      "ip_addr": "169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": "factory",
+      "xfer_file": " 001-ST-20W4D100-43"
+    }
+  },
+  "TestCases5": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "Retrieve IOT Log Files",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": "",
+      "operation": "",
+      "reboot": "",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": ""
+    }
+  },
+  "TestCases6": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "upload",
+      "file_path": "",
+      "file_type": "Retrieve Configuration Data Backup",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": "",
+      "operation": "",
+      "reboot": "",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": ""
+    }
+  },
+  "TestCases7": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": "download",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": "nvm_restore",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": "BACKUP.nvmcfg"
+    }
+  },
+  "TestCases8": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": " update",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": " ssl_download",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": " 001-ST-20W4D100-43"
+    }
+  },
+  "TestCases9": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "3ja7brvr",
+      "Update/file_xfer": " update",
+      "file_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data\\",
+      "file_type": "",
+      "ip_addr": " 169.254.1.12",
+      "keep_cfg": "no",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": " service",
+      "xfer_file": "002-FT-10D2AA063"
+    }
+  }
+}

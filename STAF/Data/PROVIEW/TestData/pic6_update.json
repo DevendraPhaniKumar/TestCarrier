@@ -1,0 +1,110 @@
+{
+  "TestCases1": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "113",
+      "Update/file_xfer": "update",
+      "file_path": "C:\\PIC6_data\\",
+      "file_type": "",
+      "ip_addr": "169.254.1.1",
+      "keep_cfg": "yes",
+      "operation": "continue",
+      "reboot": "yes",
+      "update_erasecfg": "no",
+      "upload_path": "D:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": "factory",
+      "xfer_file": "BACKUP.nvmcfg"
+    }
+  },
+  "TestCases2": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "113",
+      "Update/file_xfer": "update",
+      "file_path": "C:\\PIC6_data\\",
+      "file_type": "",
+      "ip_addr": "169.254.1.1",
+      "keep_cfg": "yes",
+      "operation": "cancel",
+      "reboot": "yes",
+      "update_erasecfg": "no",
+      "upload_path": "D:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": "factory",
+      "xfer_file": "001-ST-20W4D100-43"
+    }
+  },
+  "TestCases3": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "113",
+      "Update/file_xfer": "update",
+      "file_path": "C:\\PIC6_data\\",
+      "file_type": "",
+      "ip_addr": "169.254.1.1",
+      "keep_cfg": "yes",
+      "operation": "continue",
+      "reboot": "yes",
+      "update_erasecfg": "no",
+      "upload_path": "D:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": "factory",
+      "xfer_file": "001-ST-20W4D100-43"
+    }
+  },
+  "TestCases4": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "113",
+      "Update/file_xfer": "update",
+      "file_path": "C:\\PIC6_data\\",
+      "file_type": "",
+      "ip_addr": "169.254.1.1",
+      "keep_cfg": "no",
+      "operation": "continue",
+      "reboot": "yes",
+      "update_erasecfg": "yes",
+      "upload_path": "D:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": "factory",
+      "xfer_file": "001-ST-20W4D100-43"
+    }
+  },
+  "TestCases5": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "113",
+      "Update/file_xfer": "update",
+      "file_path": "C:\\PIC6_data\\",
+      "file_type": "",
+      "ip_addr": "169.254.1.1",
+      "keep_cfg": "no",
+      "operation": "continue",
+      "reboot": "yes",
+      "update_erasecfg": "no",
+      "upload_path": "D:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": "factory",
+      "xfer_file": "001-ST-20W4D100-43"
+    }
+  },
+  "TestCases6": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": "",
+      "Pass_wd": "113",
+      "Update/file_xfer": "update",
+      "file_path": "C:\\PIC6_data\\",
+      "file_type": "",
+      "ip_addr": "169.254.1.1",
+      "keep_cfg": "yes",
+      "operation": "continue",
+      "reboot": "yes",
+      "update_erasecfg": "no",
+      "upload_path": "D:\\Selenium_POM\\Test_Cases\\TestData\\PIC6_data",
+      "usr_name": "factory",
+      "xfer_file": "004-ST-10D2AA070_0134.pic6fw"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "TestCases1": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "113",
+      "Update/file_xfer": "download",
+      "file_path": "C:\\End to End\\Python3_app\\TestCases-EtoE\\TestData\\PIC6_data\\",
+      "file_type": "nvm_restore",
+      "ip_addr": "169.254.1.1",
+      "keep_cfg": " yes",
+      "operation": " continue",
+      "reboot": "yes",
+      "upload_path": "C:\\End to End\\Python3_app\\TestCases-EtoE\\TestData\\PIC6_data",
+      "usr_name": "factory",
+      "xfer_file": "BACKUP.nvmcfg"
+    }
+  },
+  "TestCases2": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "113",
+      "Update/file_xfer": "download",
+      "file_path": "C:\\End to End\\Python3_app\\TestCases-EtoE\\TestData\\PIC6_data\\",
+      "file_type": "nvm_restore",
+      "ip_addr": "169.254.1.1",
+      "keep_cfg": " yes",
+      "operation": "cancel",
+      "reboot": "no",
+      "upload_path": "C:\\End to End\\Python3_app\\TestCases-EtoE\\TestData\\PIC6_data",
+      "usr_name": "factory",
+      "xfer_file": "BACKUP.nvmcfg"
+    }
+  },
+  "TestCases3": {
+    "Data": {
+      "Controller": "PIC 6",
+      "Lang": " English",
+      "Pass_wd": "113",
+      "Update/file_xfer": "download",
+      "file_path": "C:\\End to End\\Python3_app\\TestCases-EtoE\\TestData\\PIC6_data\\",
+      "file_type": "nvm_restore",
+      "ip_addr": "169.254.1.1",
+      "keep_cfg": " yes",
+      "operation": "continue",
+      "reboot": "no",
+      "upload_path": "C:\\End to End\\Python3_app\\TestCases-EtoE\\TestData\\PIC6_data",
+      "usr_name": "factory",
+      "xfer_file": "simplifiedChinese.csv"
+    }
+  }
+}
